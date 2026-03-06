@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="index.title">Patronat Carne</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="logo-companii/website-favicon/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="logo-companii/website-favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="logo-companii/website-favicon/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="logo-companii/website-favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="logo-companii/website-favicon/android-chrome-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="logo-companii/website-favicon/android-chrome-192x192.png"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <img
+            src="./logo-companii/logo-patronat.png"
+            alt="Logo Patronat"
+            style="width: 5vw; padding: 0"
+          />
+          <span class="logo-dot"></span>
+          <br />
+          <p style="letter-spacing: normal" data-i18n="nav.logoText">
+            Patronatul Întreprinderilor Industriei Prelucrătoare de Carne
+          </p>
+        </div>
+        <ul>
+          <li><a href="#hero" data-i18n="nav.home">Acasă</a></li>
+          <li><a href="aboutus.html" data-i18n="nav.about">Despre Noi</a></li>
+          <li><a href="members.html" data-i18n="nav.members">Membri</a></li>
+          <li><a href="news.html" data-i18n="nav.news">Noutăți</a></li>
+          <li><a href="#contacts" data-i18n="nav.contact">Contact</a></li>
+          <li class="language-switcher" data-no-translate>
+            <button type="button" data-language-switcher data-lang="ro">
+              RO
+            </button>
+            <button type="button" data-language-switcher data-lang="en">
+              EN
+            </button>
+            <button type="button" data-language-switcher data-lang="ru">
+              RU
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1 data-i18n="index.hero.title">Calitate. Tradiție. Siguranță.</h1>
+        <p class="hero-subtitle" data-i18n="index.hero.subtitle">
+          Din 2010 asigurăm cooperarea companiilor în soluționarea problemelor
+          din industrie și asigurăm respectarea celor mai înalte standarde de
+          siguranță alimentară pentru produsele de pe piața Republicii Moldova.
+        </p>
+        <div>
+          <button class="cta-button" data-i18n="index.hero.ctaMore">
+            Află mai mult
+          </button>
+          <button
+            class="cta-button secondary"
+            data-i18n="index.hero.ctaContact"
+          >
+            Contactează-ne
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 data-i18n="index.about.title">Despre noi</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <h3 data-i18n="index.about.activityTitle">Activitatea noastră</h3>
+            <p data-i18n="index.about.activityText">
+              Reprezentăm interesele întreprinderilor producătoare și
+              procesatoare de carne din Republica Moldova în relația cu
+              autoritățile publice și alte instituții relevante. Ne implicăm
+              activ în elaborarea și îmbunătățirea cadrului legislativ din
+              domeniu, susținem un mediu de afaceri echitabil și competitiv și
+              promovăm respectarea standardelor de calitate și siguranță
+              alimentară. Facilităm dialogul dintre angajatori, stat și
+              partenerii sociali, oferim suport informațional și consultativ
+              membrilor noștri și contribuim la dezvoltarea și modernizarea
+              sectorului cărnii la nivel național și internațional.
+            </p>
+
+            <h3 data-i18n="index.about.priorityTitle">
+              Prioritatea noastră - Consumatorul
+            </h3>
+            <p data-i18n="index.about.priorityText">
+              Patronatul are ca intenție dezvoltarea mai multor activități de
+              advocacy ce vor avea un impact direct asupra consumatorului final,
+              creșterea financiară pentru companii și extinderea relațiilor
+              comerciale cu alte țări: La rândul său excluderea barierelor
+              tarifare și netarifare va genera o creștere economică pentru
+              întreprinderile din domeniu alimentar indirect vor creste
+              salariile angajaților și taxele la buget.
+            </p>
+            <a href="#" class="read-more" data-i18n="index.about.readMore"
+              >Află mai mult</a
+            >
+          </div>
+          <div class="about-image">
+            <img src="./photos/482A0288.jpg" alt="PIIPC" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members" class="members">
+      <div class="container">
+        <h2 data-i18n="index.members.title">Membrii noștri</h2>
+        <div class="members-wrapper">
+          <div class="carousel-container">
+            <div class="members-grid" id="carousel">
+              <div class="member-card fade-in-on-scroll" data-team-page="true">
+                <div class="member-avatar">
+                  <img src="./logo-companii/mavita-gray.png" alt="Mavita" />
+                </div>
+                <h3>Mavita</h3>
+                <p class="member-role" data-i18n="index.member.mavita.role">
+                  or. Chișinău
+                </p>
+                <p data-i18n="index.member.mavita.desc">
+                  Activitatea Mavita se concentrează pe producerea unei game
+                  variate de mezeluri, semifabricate și delicatese din carne,
+                  realizate din carne locală atent selecționată, provenită de la
+                  furnizori verificați.
+                </p>
+              </div>
+              <div class="member-card fade-in-on-scroll" data-team-page="true">
+                <div class="member-avatar">
+                  <img src="./logo-companii/salamer-gray.png" alt="Salamer" />
+                </div>
+                <h3>Salamer</h3>
+                <p class="member-role" data-i18n="index.member.salamer.role">
+                  s. Mereni, r. Anenii Noi
+                </p>
+                <p data-i18n="index.member.salamer.desc">
+                  Întreprinderea este construită conform standardelor
+                  internaționale din domeniul procesării cărnii și producerii
+                  mezelurilor, dotată cu cele mai moderne și performante utilaje
+                  pentru atingerea standardelor sporite de siguranță alimentară.
+                </p>
+              </div>
+              <div class="member-card fade-in-on-scroll" data-team-page="true">
+                <div class="member-avatar">
+                  <img src="./logo-companii/carmez-gray.png" alt="Carmez" />
+                </div>
+                <h3>Carmez</h3>
+                <p class="member-role" data-i18n="index.member.carmez.role">
+                  or. Chișinău
+                </p>
+                <p data-i18n="index.member.carmez.desc">
+                  Compania cu o experiență de peste 18 ani a devenit unul dintre
+                  liderii de pe piața locală în prelucrarea, producerea și
+                  conservarea cărnii și produselor din carne, oferind
+                  consumătorilor săi produse mereu proaspete și sigure.
+                </p>
+              </div>
+              <div class="member-card fade-in-on-scroll" data-team-page="true">
+                <div class="member-avatar">
+                  <img src="./logo-companii/pegas-gray.png" alt="Pegas" />
+                </div>
+                <h3>Pegas</h3>
+                <p class="member-role" data-i18n="index.member.pegas.role">
+                  or. Chișinău
+                </p>
+                <p data-i18n="index.member.pegas.desc">
+                  Pegas este o afacere de familie fondată în anul 1992, un brand
+                  premium de produse din carne și delicatese, lanț de magazine
+                  și propria brutărie; cu accent pe cea mai înaltă calitate,
+                  dezvoltare durabilă și inovație în fabricarea delicateselor de
+                  calitate.
+                </p>
+              </div>
+              <div class="member-card fade-in-on-scroll" data-team-page="true">
+                <div class="member-avatar">
+                  <img src="./logo-companii/nivalli-gray.png" alt="Nivalli" />
+                </div>
+                <h3>Nivalli</h3>
+                <p class="member-role" data-i18n="index.member.nivalli.role">
+                  s. Dubăsarii Vechi, r. Criuleni
+                </p>
+                <p data-i18n="index.member.nivalli.desc">
+                  De la înființare, compania și-a propus să devină un producător
+                  de referință în industria cărnii din Republica Moldova,
+                  combinând rețetele tradiționale cu tehnologiile moderne de
+                  producție. Combinatul este construit în conformitate cu
+                  cerințele și rigorile din domeniul industriei alimentare,
+                  fiind dotat cu utilaje și echipamente moderne produse în
+                  Germania și Austria.
+                </p>
+              </div>
+              <div class="member-card fade-in-on-scroll" data-team-page="true">
+                <div class="member-avatar">
+                  <img
+                    src="./logo-companii/debutsor-gray.png"
+                    alt="Debut-Sor"
+                  />
+                </div>
+                <h3>Debut-Sor</h3>
+                <p class="member-role" data-i18n="index.member.debutsor.role">
+                  or. Soroca
+                </p>
+                <p data-i18n="index.member.debutsor.desc">
+                  Misiunea întreprinderii – atenția sporită la preferințele
+                  consumatorilor și tendința de perfecționare continuă, activînd
+                  într-o manieră legală, transparentă și eficientă, asigurînd
+                  astfel cumpărătorii cu produse de calitate.
+                </p>
+              </div>
+              <div class="member-card fade-in-on-scroll" data-team-page="true">
+                <div class="member-avatar">
+                  <img
+                    src="./logo-companii/mezellini-gray.png"
+                    alt="Mezellini"
+                  />
+                </div>
+                <h3>Mezellini</h3>
+                <p class="member-role" data-i18n="index.member.mezellini.role">
+                  s. Bulboaca, r. Anenii-Noi
+                </p>
+                <p data-i18n="index.member.mezellini.desc">
+                  Misiunea este de a hrăni familiile moldovenești cu produse de
+                  carne sănătoase, gustoase și accesibile, păstrând și
+                  modernizând tradițiile culinare locale.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <button class="carousel-btn" id="prev-btn" aria-label="Previous">
+              ❮
+            </button>
+            <button class="carousel-btn" id="next-btn" aria-label="Next">
+              ❯
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+      <div class="container">
+        <h2 data-i18n="index.news.title">Noutăți</h2>
+        <div class="news-grid">
+          <article class="news-card fade-in-on-scroll" data-news-page="true">
+            <div class="news-image">
+              <img src="photos/news_thumbnail1.jpg" alt="Știre 1" />
+            </div>
+            <div class="news-content">
+              <p class="news-date" data-i18n="index.news.card1.date">
+                Februarie 2026
+              </p>
+              <h3 data-i18n="index.news.card1.title">
+                Lansarea noului website
+              </h3>
+              <p data-i18n="index.news.card1.text">
+                Ne bucurăm să anunțăm lansarea noului website al patronatului.
+                Acum puteți găsi informații despre membrii patronatului,
+                ultimile știri, resurse și multe altele.
+              </p>
+              <a
+                href="news.html"
+                class="read-more"
+                data-i18n="index.news.readMore"
+                >Vezi mai mult</a
+              >
+            </div>
+          </article>
+          <article class="news-card fade-in-on-scroll" data-news-page="true">
+            <div class="news-image">
+              <img src="photos/news_thumbnail2.jpg" alt="Știre 2" />
+            </div>
+            <div class="news-content">
+              <p class="news-date" data-i18n="index.news.card2.date">
+                Februarie 2026
+              </p>
+              <h3 data-i18n="index.news.card2.title">
+                Lansarea noului website
+              </h3>
+              <p data-i18n="index.news.card2.text">
+                Ne bucurăm să anunțăm lansarea noului website al patronatului.
+                Acum puteți găsi informații despre membrii patronatului,
+                ultimile știri, resurse și multe altele.
+              </p>
+              <a
+                href="news.html"
+                class="read-more"
+                data-i18n="index.news.readMore"
+                >Vezi mai mult</a
+              >
+            </div>
+          </article>
+          <article class="news-card fade-in-on-scroll" data-news-page="true">
+            <div class="news-image">
+              <img src="photos/news_thumbnail3.jpg" alt="Știre 3" />
+            </div>
+            <div class="news-content">
+              <p class="news-date" data-i18n="index.news.card3.date">
+                Februarie 2026
+              </p>
+              <h3 data-i18n="index.news.card3.title">
+                Lansarea noului website
+              </h3>
+              <p data-i18n="index.news.card3.text">
+                Ne bucurăm să anunțăm lansarea noului website al patronatului.
+                Acum puteți găsi informații despre membrii patronatului,
+                ultimile știri, resurse și multe altele.
+              </p>
+              <a
+                href="news.html"
+                class="read-more"
+                data-i18n="index.news.readMore"
+                >Vezi mai mult</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources">
+      <div class="container">
+        <h2 data-i18n="index.resources.title">Resurse</h2>
+        <div class="resources-grid">
+          <div class="resource-card fade-in-on-scroll">
+            <div class="resource-icon">📄</div>
+            <h3 data-i18n="index.resources.card1.title">
+              Certificat de înregistrare
+            </h3>
+            <p data-i18n="index.resources.card1.text">
+              Extrasul de la Agenția Servicii Publice (ASP) care certifică
+              validitatea activității patronatului drept „Asociație Patronală”.
+            </p>
+            <a
+              href="resources/extras-patronat.pdf"
+              class="read-more"
+              target="_blank"
+              data-i18n="index.resources.open"
+              >Deschide</a
+            >
+          </div>
+          <div class="resource-card fade-in-on-scroll">
+            <div class="resource-icon">📈</div>
+            <h3 data-i18n="index.resources.card2.title">Studiul pieței 2025</h3>
+            <p data-i18n="index.resources.card2.text">
+              Un studiu de caz al Sectorului de Creștere Porci, producere
+              Mezeluri și carne proaspătă în Moldova, 2025. Proprietate
+              intelectuală a „maib”.
+            </p>
+            <a
+              href="resources/studiu-maib.pdf"
+              target="_blank"
+              class="read-more"
+              data-i18n="index.resources.open"
+              >Deschide</a
+            >
+          </div>
+          <div class="resource-card fade-in-on-scroll">
+            <div class="resource-icon">❓</div>
+            <h3 data-i18n="index.resources.card3.title">Alte documente</h3>
+            <p data-i18n="index.resources.card3.text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              repellendus quasi id ullam molestias quas.
+            </p>
+            <a href="#" class="read-more" data-i18n="index.resources.open"
+              >Deschide</a
+            >
+          </div>
+          <div class="resource-card fade-in-on-scroll">
+            <div class="resource-icon">❓</div>
+            <h3 data-i18n="index.resources.card4.title">Alte documente</h3>
+            <p data-i18n="index.resources.card4.text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus facere eius quos autem fugiat dolores inventore
+              blanditiis modi rerum ducimus.
+            </p>
+            <a href="#" class="read-more" data-i18n="index.resources.open"
+              >Deschide</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <h2 data-i18n="index.contacts.title">Contactează-ne</h2>
+        <div class="contacts-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <h3 data-i18n="index.contacts.officeTitle">Sediul nostru</h3>
+              <p>
+                <span data-i18n="index.contacts.officeLine1"
+                  >str. Muncești 121 A</span
+                ><br />
+                <span data-i18n="index.contacts.officeLine2"
+                  >Chișinău, MD-2002 Republica Moldova</span
+                >
+              </p>
+            </div>
+            <div class="contact-item">
+              <h3 data-i18n="index.contacts.detailsTitle">Date de Contact</h3>
+              <p>
+                <strong data-i18n="index.contacts.phoneLabel">Phone:</strong>
+                <a href="tel:+37368090046">+373 61 246 424</a><br />
+                <strong data-i18n="index.contacts.emailLabel">Email:</strong>
+                <a href="mailto:patronatcarne016@gmail.com"
+                  >patronatcarne016@gmail.com</a
+                >
+              </p>
+            </div>
+            <div class="contact-item">
+              <h3 data-i18n="index.contacts.hoursTitle">Ore de lucru</h3>
+              <p>
+                <span data-i18n="index.contacts.hoursLine1"
+                  >Luni – Vineri: 9:00 – 17:00</span
+                ><br />
+                <span data-i18n="index.contacts.hoursLine2"
+                  >Sâmbătă: Închis</span
+                ><br />
+                <span data-i18n="index.contacts.hoursLine3"
+                  >Duminică: Închis</span
+                >
+              </p>
+            </div>
+          </div>
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name" data-i18n="index.form.name"
+                >Nume, Prenume</label
+              >
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email" data-i18n="index.form.email"
+                >Adresă E-mail</label
+              >
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="subject" data-i18n="index.form.subject"
+                >Subiect</label
+              >
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="form-group">
+              <label for="message" data-i18n="index.form.message">Mesaj</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button
+              type="submit"
+              class="submit-btn"
+              data-i18n-text="index.form.submit"
+            >
+              Trimite mesajul
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <img
+            src="./logo-companii/logo-patronat.png"
+            alt="PIIPC"
+            style="width: 13vw"
+          />
+        </div>
+        <div class="footer-section">
+          <h4 data-i18n="footer.about">Despre noi</h4>
+          <ul>
+            <li>
+              <a href="#" data-i18n="footer.aboutPatronat">Despre Patronat</a>
+            </li>
+            <li><a href="#" data-i18n="nav.members">Membri</a></li>
+            <li><a href="#" data-i18n="nav.news">Noutăți</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 data-i18n="footer.resources">Resurse</h4>
+          <ul>
+            <li>
+              <a
+                href="resources/extras-patronat.pdf"
+                target="_blank"
+                data-i18n="index.footer.extras"
+                >Extras înregistrare</a
+              >
+            </li>
+            <li>
+              <a
+                href="resources/studiu-maib.pdf"
+                target="_blank"
+                data-i18n="index.footer.caseStudy"
+                >Studiu de caz 2025</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 data-i18n="footer.follow">Urmărește-ne</h4>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/PatronatCarne"
+                data-i18n="index.footer.facebook"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a href="#" data-i18n="footer.otherPlatforms">Alte platforme</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">
+          &copy; 2026 Patronatul Întreprinderilor Industriei Prelucrătoare de
+          Carne
+        </p>
+      </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="i18n.js"></script>
+    <script>
+      // Navigation scroll effect
+      const navbar = document.getElementById("navbar");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+
+      // Smooth scroll for navigation links
+      document.querySelectorAll("nav a[href^='#']").forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const targetId = link.getAttribute("href");
+          const targetSection = document.querySelector(targetId);
+          if (targetSection) {
+            targetSection.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+
+      // CTA buttons interaction
+      document.querySelectorAll(".cta-button").forEach((button) => {
+        button.addEventListener("click", () => {
+          const targetId = button.textContent.includes("Start")
+            ? "#contacts"
+            : "#about";
+          const targetSection = document.querySelector(targetId);
+          if (targetSection) {
+            targetSection.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+
+      // Carousel functionality
+      const carousel = document.getElementById("carousel");
+      const prevBtn = document.getElementById("prev-btn");
+      const nextBtn = document.getElementById("next-btn");
+      const memberCards = document.querySelectorAll(".member-card");
+      const cardsPerView = 3;
+      let currentIndex = 0;
+      let autoScrollTimer = null;
+      let cardWidth = 0; // Will be calculated after DOM loads
+
+      function calculateCardWidth() {
+        if (memberCards.length > 0) {
+          const firstCard = memberCards[0];
+          const computedStyle = window.getComputedStyle(carousel);
+          const gap = parseFloat(computedStyle.gap || 0);
+          const containerWidth = carousel.parentElement.offsetWidth;
+
+          // Calculate actual card width: (container - 2*gap) / 3
+          cardWidth =
+            (containerWidth - (cardsPerView - 1) * gap) / cardsPerView;
+        }
+      }
+
+      function updateCarousel() {
+        const gap = parseFloat(window.getComputedStyle(carousel).gap || 0);
+        const distance = (cardWidth + gap) * currentIndex;
+        carousel.style.transform = `translateX(-${distance}px)`;
+      }
+
+      function nextSlide() {
+        if (currentIndex < memberCards.length - cardsPerView) {
+          currentIndex++;
+        } else {
+          currentIndex = 0;
+        }
+        updateCarousel();
+        resetAutoScroll();
+      }
+
+      function prevSlide() {
+        if (currentIndex > 0) {
+          currentIndex--;
+        } else {
+          currentIndex = memberCards.length - cardsPerView;
+        }
+        updateCarousel();
+        resetAutoScroll();
+      }
+
+      function autoScroll() {
+        nextSlide();
+      }
+
+      function resetAutoScroll() {
+        clearInterval(autoScrollTimer);
+        autoScrollTimer = setInterval(autoScroll, 10000);
+      }
+
+      // Event listeners for carousel navigation
+      prevBtn.addEventListener("click", prevSlide);
+      nextBtn.addEventListener("click", nextSlide);
+
+      // Calculate card width after page loads
+      window.addEventListener("load", () => {
+        calculateCardWidth();
+        updateCarousel();
+      });
+
+      // Team page navigation
+      document
+        .querySelectorAll(".member-card[data-team-page]")
+        .forEach((card) => {
+          card.addEventListener("click", () => {
+            // Navigate to members page
+            window.location.href = "members.html";
+          });
+        });
+
+      // News page navigation
+      document
+        .querySelectorAll(".news-card[data-news-page]")
+        .forEach((card) => {
+          card.addEventListener("click", () => {
+            window.location.href = "news.html";
+          });
+        });
+
+      // Start auto-scroll
+      resetAutoScroll();
+
+      // Observe elements for scroll animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("fade-in-on-scroll");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      // Observe all member and resource cards
+      document
+        .querySelectorAll(".member-card, .news-card, .resource-card")
+        .forEach((card) => {
+          observer.observe(card);
+        });
+
+      // Form submission
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", (e) => {
+          e.preventDefault();
+          const formData = new FormData(e.target);
+          const data = Object.fromEntries(formData);
+
+          // Actually send to Formspree
+          fetch("https://formspree.io/f/mlgpenqy", {
+            method: "POST",
+            body: formData,
+            headers: {
+              Accept: "application/json",
+            },
+          })
+            .then((response) => {
+              if (response.ok) {
+                // Show success message
+                const btn = e.target.querySelector(".submit-btn");
+                const originalText = btn.textContent;
+                btn.textContent = "✓ Message Sent!";
+                btn.style.backgroundColor = "var(--color-blue)";
+
+                setTimeout(() => {
+                  btn.textContent = originalText;
+                  btn.style.backgroundColor = "";
+                  e.target.reset();
+                }, 3000);
+              } else {
+                alert("Error sending message. Please try again.");
+              }
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+              alert("Error sending message. Please try again.");
+            });
+        });
+
+      // Parallax effect on hero section
+      const hero = document.querySelector(".hero");
+      window.addEventListener("scroll", () => {
+        const scrollPosition = window.scrollY;
+        if (scrollPosition < window.innerHeight) {
+          hero.style.backgroundPosition = `center ${scrollPosition * 0.5}px`;
+        }
+      });
+    </script>
+  </body>
+</html>

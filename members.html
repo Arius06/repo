@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="members.metaTitle">Membrii Patronatului</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="logo-companii/website-favicon/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="logo-companii/website-favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="logo-companii/website-favicon/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="logo-companii/website-favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="logo-companii/website-favicon/android-chrome-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="logo-companii/website-favicon/android-chrome-192x192.png"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <img
+            src="./logo-companii/logo-patronat.png"
+            alt="Logo Patronat"
+            style="width: 5vw; padding: 0"
+          />
+          <span class="logo-dot"></span>
+          <br />
+          <p style="letter-spacing: normal" data-i18n="nav.logoText">
+            Patronatul Întreprinderilor Industriei Prelucrătoare de Carne
+          </p>
+        </div>
+        <ul>
+          <li><a href="index.html#hero" data-i18n="nav.home">Acasă</a></li>
+          <li><a href="aboutus.html" data-i18n="nav.about">Despre Noi</a></li>
+          <li><a href="members.html" data-i18n="nav.members">Membri</a></li>
+          <li><a href="news.html" data-i18n="nav.news">Noutăți</a></li>
+          <li>
+            <a href="index.html#contacts" data-i18n="nav.contact">Contact</a>
+          </li>
+          <li class="language-switcher" data-no-translate>
+            <button type="button" data-language-switcher data-lang="ro">
+              RO
+            </button>
+            <button type="button" data-language-switcher data-lang="en">
+              EN
+            </button>
+            <button type="button" data-language-switcher data-lang="ru">
+              RU
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Members Section -->
+    <section class="members-page">
+      <div class="container">
+        <h1 class="members-page-title" data-i18n="members.title">
+          Membrii Patronatului
+        </h1>
+        <p class="members-page-subtitle" data-i18n="members.subtitle">
+          Descoperă partenerii noștri și află mai mult despre companiile care
+          formează industria prelucrării de carne în Republica Moldova.
+        </p>
+
+        <div class="members-grid-container">
+          <div class="member-grid-item" data-member-id="org-1">
+            <div class="member-grid-logo">
+              <img src="./logo-companii/mavita-gray.png" alt="Mavita" />
+            </div>
+            <h3>Mavita</h3>
+            <button class="find-more-btn" data-i18n="members.findMore">
+              Află mai mult
+            </button>
+          </div>
+
+          <div class="member-grid-item" data-member-id="org-2">
+            <div class="member-grid-logo">
+              <img src="./logo-companii/salamer-gray.png" alt="Salamer" />
+            </div>
+            <h3>Salamer</h3>
+            <button class="find-more-btn" data-i18n="members.findMore">
+              Află mai mult
+            </button>
+          </div>
+
+          <div class="member-grid-item" data-member-id="org-3">
+            <div class="member-grid-logo">
+              <img src="./logo-companii/carmez-gray.png" alt="Carmez" />
+            </div>
+            <h3>Carmez</h3>
+            <button class="find-more-btn" data-i18n="members.findMore">
+              Află mai mult
+            </button>
+          </div>
+
+          <div class="member-grid-item" data-member-id="org-4">
+            <div class="member-grid-logo">
+              <img src="./logo-companii/pegas-gray.png" alt="Pegas" />
+            </div>
+            <h3>Pegas</h3>
+            <button class="find-more-btn" data-i18n="members.findMore">
+              Află mai mult
+            </button>
+          </div>
+
+          <div class="member-grid-item" data-member-id="org-5">
+            <div class="member-grid-logo">
+              <img src="./logo-companii/nivalli-gray.png" alt="Nivalli" />
+            </div>
+            <h3>Nivalli</h3>
+            <button class="find-more-btn" data-i18n="members.findMore">
+              Află mai mult
+            </button>
+          </div>
+
+          <div class="member-grid-item" data-member-id="org-6">
+            <div class="member-grid-logo">
+              <img src="./logo-companii/debutsor-gray.png" alt="Debut-Sor" />
+            </div>
+            <h3>Debut-Sor</h3>
+            <button class="find-more-btn" data-i18n="members.findMore">
+              Află mai mult
+            </button>
+          </div>
+
+          <div class="member-grid-item" data-member-id="org-7">
+            <div class="member-grid-logo">
+              <img
+                src="./logo-companii/mezellini-gray.png"
+                alt="Aviselect (Mezellini)"
+              />
+            </div>
+            <h3>Mezellini</h3>
+            <button class="find-more-btn" data-i18n="members.findMore">
+              Află mai mult
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Member Info Modal -->
+    <div id="memberModal" class="member-modal">
+      <div class="member-modal-overlay"></div>
+      <div class="member-modal-content">
+        <button class="modal-close-btn">✕</button>
+
+        <!-- Header Section -->
+        <div class="modal-header">
+          <div class="modal-logo">
+            <img id="modalLogo" src="" alt="Company Logo" />
+            <span class="logo-placeholder" id="modalLogoPlaceholder"></span>
+          </div>
+          <h2 id="modalCompanyName"></h2>
+          <p id="modalRole" class="modal-role-tag"></p>
+        </div>
+
+        <!-- Description Section -->
+        <div class="modal-description-section">
+          <p id="modalDescription" class="modal-description-text"></p>
+        </div>
+
+        <!-- Quick Info Grid -->
+        <div class="modal-quick-info-grid">
+          <div class="modal-info-item">
+            <span class="modal-info-label" data-i18n="members.modal.founded"
+              >Fondată:</span
+            >
+            <span id="modalFoundingDate"></span>
+          </div>
+          <div class="modal-info-item">
+            <span class="modal-info-label" data-i18n="members.modal.location"
+              >Locație:</span
+            >
+            <span id="modalLocation"></span>
+          </div>
+          <div class="modal-info-item">
+            <span class="modal-info-label" data-i18n="members.modal.employees"
+              >Angajați:</span
+            >
+            <span id="modalEmployees"></span>
+          </div>
+        </div>
+
+        <!-- Detailed Sections -->
+        <div class="modal-details">
+          <div class="modal-section">
+            <h3 data-i18n="members.modal.contactTitle">
+              Informații de contact
+            </h3>
+            <div class="modal-contact-item">
+              <span class="modal-contact-label" data-i18n="members.modal.phone"
+                >Telefon:</span
+              >
+              <a id="modalPhone" href="tel:"></a>
+            </div>
+            <div class="modal-contact-item">
+              <span class="modal-contact-label" data-i18n="members.modal.email"
+                >Email:</span
+              >
+              <a id="modalEmail" href="mailto:"></a>
+            </div>
+            <div class="modal-contact-item">
+              <span
+                class="modal-contact-label"
+                data-i18n="members.modal.website"
+                >Website:</span
+              >
+              <a id="modalWebsite" href="" target="_blank"></a>
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <h3 data-i18n="members.modal.certifications">Certificări</h3>
+            <ul id="modalCertifications" class="modal-list"></ul>
+          </div>
+
+          <div class="modal-section">
+            <h3 data-i18n="members.modal.prizes">Premii și Recunoașteri</h3>
+            <ul id="modalPrizes" class="modal-list"></ul>
+          </div>
+
+          <div class="modal-section">
+            <h3 data-i18n="members.modal.follow">Urmărește-ne</h3>
+            <div class="modal-social-links">
+              <a
+                id="modalFacebook"
+                href=""
+                target="_blank"
+                class="social-link"
+                title="Facebook"
+              >
+                <span>f</span>
+              </a>
+              <a
+                id="modalInstagram"
+                href=""
+                target="_blank"
+                class="social-link"
+                title="Instagram"
+              >
+                <span>📷</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <img
+            src="./logo-companii/logo-patronat.png"
+            alt="PIIPC"
+            style="width: 13vw"
+          />
+        </div>
+        <div class="footer-section">
+          <h4 data-i18n="footer.about">Despre noi</h4>
+          <ul>
+            <li>
+              <a href="#" data-i18n="footer.aboutPatronat">Despre Patronat</a>
+            </li>
+            <li><a href="#" data-i18n="nav.members">Membri</a></li>
+            <li><a href="#" data-i18n="nav.news">Noutăți</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 data-i18n="footer.resources">Resurse</h4>
+          <ul>
+            <li>
+              <a
+                href="resources/extras-patronat.pdf"
+                target="_blank"
+                data-i18n="members.footer.extras"
+                >Extras înregistrare</a
+              >
+            </li>
+            <li>
+              <a
+                href="resources/studiu-maib.pdf"
+                target="_blank"
+                data-i18n="members.footer.caseStudy"
+                >Studiu de caz 2025</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 data-i18n="footer.follow">Urmărește-ne</h4>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/PatronatCarne"
+                data-i18n="members.footer.facebook"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a href="#" data-i18n="footer.otherPlatforms">Alte platforme</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">
+          &copy; 2026 Patronatul Întreprinderilor Industriei Prelucrătoare de
+          Carne
+        </p>
+      </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="i18n.js"></script>
+    <script>
+      // Member data
+      const memberData = {
+        "org-1": {
+          companyName: "Mavita SRL",
+          foundingDate: "1998",
+          location: "or. Chișinău",
+          employees: "32",
+          role: "Producție de mezeluri",
+          description:
+            "Mavita este un producător autohton de preparate din carne, fondat în anul 1998, cu o experiență de peste două decenii în industria alimentară din Republica Moldova. Compania s‑a dezvoltat pornind de la pasiunea pentru gustul autentic al produselor tradiționale și dorința de a oferi consumatorilor preparate sigure, gustoase și de calitate constantă. Activitatea Mavita se concentrează pe producerea unei game variate de mezeluri, semifabricate și delicatese din carne, realizate din carne locală atent selecționată, provenită de la furnizori verificați. Rețetele sunt inspirate din tradiția culinară moldovenească și adaptate cerințelor moderne de consum, respectând standardele actuale de siguranță alimentară. Un element definitoriu al produselor Mavita este afumarea naturală, realizată exclusiv cu lemn de esență tare, care conferă preparatelor o aromă autentică, specifică produselor de odinioară. Procesul de producție îmbină metodele tradiționale cu tehnologii moderne, pentru a asigura prospețime, gust echilibrat și trasabilitate. Valorile care stau la baza brandului Mavita sunt calitatea, responsabilitatea, respectul față de consumator și continuitatea tradiției. Prin aceste principii, Mavita își propune să rămână un partener de încredere pentru clienți și un reper pe piața produselor din carne.",
+          phone: "+373 79 945 455",
+          email: "info@mavita.md",
+          website: "https://www.mavita.md",
+          certifications: ["ISO 22000"],
+          facebook: "https://facebook.com/MavitaMD",
+          instagram: "https://instagram.com/mavitamd",
+          prizes: ["Nelistat"],
+          logo: "./logo-companii/mavita-gray.png",
+        },
+        "org-2": {
+          companyName: "Salamer-Com SRL",
+          foundingDate: "2008",
+          location: "s. Mereni, r. Anenii Noi",
+          employees: "700",
+          role: "Procesarea cărnii, fabricarea preparatelor și produselor din carne",
+          description:
+            "Compania SC “Salamer Com” SRL activează în industria cărnii din anul 1999, inițial având o formă organizatorico-juridică de Întreprindere Individuală ,,Istrati Victor” fondată la 19 mai 1999, care a activat până în 04 martie 2008, fiind reorganizată în Societate cu Răspundere Limitată ,,Salamer Com” de către Istrati Victor în calitatea de director general și unic fondator. Întreprinderea SC Salamer Com SRL este situată în satul Mereni, r. Anenii Noi și este construită conform standardelor internaționale din domeniul procesării cărnii și producerii mezelurilor, fiind dotată cu cele mai moderne și performante utilaje pentru atingerea și menținerea standardelor sporite de calitate și siguranță alimentară. Compania SC “Salamer Com” SRL este certificată cu Sistemul de Management al Siguranței Alimentului - ISO 22000:2018 și cu Sistemul de Management al Calității - ISO 9001:2015 pentru domeniul de activitate: ”Procesarea cărnii și producerea de mezeluri”. În acest context, compania Salamer Com SRL își desfășoară activitatea sa de comercializare a produselor finite printr-o rețea proprie de magazine specializate. Serviciul de logistică al companiei este asigurat de parcul auto propriu dotat cu camioane frigorifice, care corespund tuturor cerințelor sanitare de transportare a produselor finite către rețeaua proprie și parteneri. Principiile de bază în activitatea companiei SC Salamer Com SRL sunt: crearea de produse sigure și inofensive, utilizarea celor mai moderne tehnologii, motivația și formarea continuă a angajaților, selectarea minuțioasă a furnizorilor, respectarea și satisfacerea clienților, conservarea mediului înconjurător.",
+          phone: "+373 265 55 444",
+          email: "salamer.office@gmail.com",
+          website: "https://art.salamer.md",
+          certifications: ["ISO 22000", "ISO 9001:2015"],
+          facebook: "https://www.facebook.com/salamer.md/",
+          instagram: "https://www.instagram.com/salamer.moldova/",
+          prizes: [
+            "Laureat al concursului 'Premiul pentru realizări în domeniul calității produselor și serviciilor' (2023)",
+          ],
+          logo: "./logo-companii/salamer-gray.png",
+        },
+        "org-3": {
+          companyName: "Carmez Processing SRL",
+          foundingDate: "2009",
+          location: "Or.Chișinău, str.Calea Basarabiei 36/4",
+          employees: "610",
+          role: "Procesarea cărnii, fabricarea preparatelor și produselor din carne",
+          description:
+            "Astăzi, Carmez Processing SRL este una din cele mai moderne fabrici de procesare a cărnii în Republica Moldova cu fermele proprii de creștere a păsărilor, care are mai mult de 600 de angajați. Compania cu o experiență de peste 18 ani a devenit unul dintre liderii de pe piața locală în prelucrarea, producerea și conservarea cărnii și produselor din carne, precum și în producția semifabricatelor, oferind consumătorilor săi produse mereu proaspete și sigure, folosind cele mai noi tehnologii. În ultimii 5 ani a fost complet modernizată producerea, construit un nou centrul de logistică cu o suprafață totală de 4000m2, construită o nouă hală de producere cu o suprafață de 6000 m2. Astăzi suprafața totală a producerii și centrului de logistică este de 12000m2. Politica de control a calității este construită în conformitate cu standartul internațional ISO 22000:2018. Capacitatea de producere este de până la 100 de tone de produs pe zi, peste 250 de tipuri de produse. Carmez Processing deține și o rețea de logistică proprie formată din 50 de camioane cu sisteme frigorifice integrate, dotate de GPS sisteme pentru a monitoriza 24/24 locul și temperatura fiecărui camion. Toate procesele sunt ținute sub control strict, astfel încât compania este sigură și garantează o calitate a produselor fabricate. Un alt ingredient al succesului este cea mai mare varietate de produse de pe piața: salamuri fierte, crenvurști, safalade, salamuri semi-afumate, salamuri fiert-afumate, salamuri crud-afumate, carne afumată, conserve din carne și vegetale, carne refregerată de găină, porc și vită, semifabricate din carne de găină, porc și vită, carne marinată. Carmez Processing tinde întotdeauna să construiască relații pe termen lung cu consumatorii, bazate pe sinceritate, devotament și respect reciproc.",
+          phone: "+373 22 788 251",
+          email: "reception@carmez.md",
+          website: "https://www.carmez.md",
+          certifications: ["ISO 22000:2018"],
+          facebook: "https://facebook.com/carmez.md",
+          instagram: "https://instagram.com/carmez.md",
+          prizes: [
+            "Notorium Brand Awards (2025)",
+            "Marca comercială 'Liderul Anului 2025'",
+            "Marca comercială 'Aprecierea consumatorului 2025'",
+            "Premiul Calității 2025",
+          ],
+          logo: "./logo-companii/carmez-gray.png",
+        },
+        "org-4": {
+          companyName: "FCP Pegas SRL",
+          foundingDate: "1992",
+          location: "or. Chișinău",
+          employees: "231",
+          role: "Fabricarea și distribuirea preparatelor și semipreparatelor din carne",
+          description:
+            "Pegas este o afacere de familie fondată în anul 1992, un brand premium de produse din carne și delicatese, lanț de magazine și propria brutărie. Poziționare: Brand premium, cu accent pe cea mai înaltă calitate, dezvoltare durabilă și inovație în fabricarea delicateselor de calitate. Misiune: \n Ne propunem să producem și să furnizăm pe piață produse din carne de înaltă calitate, garantând satisfacția și încrederea clienților noștri și contribuind la dezvoltarea culturii consumului. Strategie: \n Păstrarea rețetelor tradiționale și dezvoltarea unora noi pentru producerea delicateselor premium din materie primă proprie și ingrediente naturale. Implementarea metodelor sustenabile de producție și ambalare, precum și utilizarea tehnologiilor inovatoare pentru îmbunătățirea continuă a calității și menținerea caracterului natural al produselor. Creșterea constantă a nivelului serviciilor oferite clienților. Consolidarea unei colaborări sinergice între toate etapele procesului, respectiv producția proprie, procesarea și rețeaua proprie de magazine, pentru a garanta un control maxim al calității la fiecare etapă, până la masa consumatorului. Filosofie: \n Control deplin asupra proceselor de producție și vânzare pentru a oferi clienților delicatese de cea mai înaltă calitate și pentru a crea o experiență unică pentru consumatori. Nu putem schimba cu forța opinia oamenilor despre noi, însă prin acțiunile noastre de zi cu zi contribuim la formarea acesteia.",
+          phone: "+373 22 291 000",
+          email: "info@pegas.md",
+          website: "https://www.pegas.md",
+          certifications: ["ISO 22000:2018"],
+          facebook: "https://facebook.com/Pegas.magazin",
+          instagram: "https://instagram.com/pegas.magazin",
+          prizes: [
+            "Food and Drinks (2013)",
+            "Premiul mare 'Marca comercială' a anului 2011 și 2012",
+            "Premiul calității (2016)",
+          ],
+          logo: "./logo-companii/pegas-gray.png",
+        },
+        "org-5": {
+          companyName: "Nivali Prod SRL",
+          foundingDate: "2011",
+          location: "s. Dubăsarii Vechi, r. Criuleni",
+          employees: "260",
+          role: "Producție mezeluri, salamuri, afumături, crenvurști, produse din carne",
+          description:
+            "Combinatul de carne „Nivali Prod” SRL a fost fondat în anul 2010 în satul Dubăsarii Vechi, raionul Criuleni, pe malul pitoresc al râului Nistru – de unde provine și denumirea brandului Nivalli („Valea Nistrului”). De la înființare, compania și-a propus să devină un producător de referință în industria cărnii din Republica Moldova, combinând rețetele tradiționale cu tehnologiile moderne de producție. Combinatul este construit în conformitate cu cerințele și rigorile din domeniul industriei alimentare, fiind dotat cu utilaje și echipamente moderne produse în Germania și Austria. Activitatea principală constă în fabricarea produselor din carne (cod CAEM C1013), incluzând salamuri, afumături, crenvurști și delicatese din carne de vită, porc și pasăre. Compania deține peste 230 de sortimente de produse. Cu o echipă de aproximativ 260 de angajați, Nivalli asigură întregul ciclu – de la selecția atentă a materiei prime până la comercializarea produselor finite prin rețeaua proprie de magazine de specialitate și prin agenți de vânzări pe tot teritoriul Republicii Moldova. Calitatea este valoarea centrală a brandului Nivalli. Compania deține Certificatul ISO 9001 (Sistem de Management al Calității) și Certificatul ISO 22000 (Sistem de Management al Siguranței Alimentare), confirmând angajamentul față de standardele cele mai înalte. Folosim exclusiv carne atent selecționată și condimente speciale, iar procesul tradițional de afumare conferă produselor gustul și culoarea distinctivă apreciate de consumatori. Nivalli este membru al Patronatului Întreprinderilor Industriei Prelucrătoare de Carne și participant la concursul „Marca Comercială a Anului 2025”, organizat de Camera de Comerț și Industrie a Republicii Moldova.",
+          phone: "+373 68 532 222",
+          email: "angela.s@nivali-prod.md",
+          website: "https://www.nivalli.md",
+          certifications: ["ISO 9001", "ISO 22000"],
+          facebook: "https://facebook.com/nivalli.md",
+          instagram: "https://instagram.com/nivalli.md",
+          prizes: ["Participant la concursul 'Marca comercială a Anului 2025'"],
+          logo: "./logo-companii/nivalli-gray.png",
+        },
+        "org-6": {
+          companyName: "Debut-Sor SRL",
+          foundingDate: "2003",
+          location: "or. Soroca",
+          employees: "103",
+          role: "Procesarea cărnii, fabricarea mezelurilor, produse din carne și produse semipreparate",
+          description:
+            "Compania DEBUT-SOR SRL a fost fondată în anul 2003 în orașul Soroca grație unei nobile idei care a pus temelia dezvoltării unei afaceri de succes fiind producător al unui bogat asortiment de mezeluri fierte salamuri semiafumate produse semipreparate și produse din carne pentru gusturi rafinate întreprinderea deține certificatul Sistemului de Management al Siguranței Alimentelor ISO 22000:2018 și certificatul Sistemului de Management al Calității ISO 9001:2015 implementate în anul 2012 iar în perioada 2013-2025 auditurile anuale au confirmat menținerea certificării compania este laureat al Concursului pentru realizări în domeniul calității în anii 2015-2024 misiunea DEBUT-SOR SRL este orientată spre atenția acordată preferințelor consumatorilor și perfecționarea continuă printr-o activitate legală transparentă și eficientă valorile companiei includ parteneriatul de încredere pe termen lung și aprecierea clienților distribuția produselor este realizată 100% prin regie proprie preponderent în nordul Republicii Moldova iar principiile organizaționale includ satisfacția clienților simplitatea respectul integritatea și deviza Suntem DEBUT-SOR: Puteți conta pe noi!",
+          phone: "+373 68 100 898",
+          email: "debutsorsrl@yandex.ru",
+          website: "https://www.debutsor.md",
+          certifications: ["ISO 22000:2018", "ISO 9001:2015"],
+          facebook: "https://facebook.com/debut.sor",
+          instagram: "https://instagram.com/debut.sor",
+          prizes: [
+            "Laureat al concursului 'Realizări în domeniul calității (2015-2024)'",
+          ],
+          logo: "./logo-companii/debutsor-gray.png",
+        },
+        "org-7": {
+          companyName: "Aviselect SRL (Mezellini)",
+          foundingDate: "1997",
+          location: "s. Bulboaca, r. Anenii Noi",
+          employees: "250",
+          role: "Producerea salamurilor, semipreparatelor din carne, conserve din carne, sosuri de tomate și maioneză",
+          description:
+            "Povestea a început cu salvarea și revitalizarea Combinatului de Carne din Bulboaca, preluat de Aviselect în 2005. Inspirația a venit din viziunea de a reda viață unei unități industriale emblemate, de a valorifica potențialul agroalimentar al Moldovei și de a oferi consumatorului produse de carne de înaltă calitate, într-un context în care piața avea nevoie de astfel de standarde. Misiunea este de a hrăni familiile moldovenești cu produse de carne sănătoase, gustoase și accesibile, păstrând și modernizând tradițiile culinare locale. Scopul profund este de a fi un stâlp al economiei naționale, sprijinind producătorii locali, creând locuri de muncă stabile și promovând mărcile Moldovei. Elementul fundamental de unicitate este integrarea verticală a întregului lanț valoric, de la materie primă la raft, în cadrul aceluiași concern. Acest lucru ne oferă un control absolut asupra calității, costurilor și logisticii. Combinația dintre tradiția meșterilor moldoveni și tehnologii europene de ultimă generație constituie pilonul diferențierii noastre, oferind produse cu gust autentic, dar cu o fiabilitate și standard modern. Punctele noastre forte sunt: calitatea incontestabilă (asigurată de controlul integrat și standarde ISO), capacitatea industrială și eficiență ridicată, portofoliul diversificat de branduri și angajamentul față de comunitate (peste 250 de locuri de muncă, utilizarea materiei prime locale). Le menținem prin investiții constante în tehnologie (utilaje europene, sisteme IT/ERP), formare continuă a personalului, rebranding strategic și politici active de marketing și loialitate. Astăzi producem: carne proaspătă, producerea salamurilor, semipreparate din carne, inclusiv colțunași cu carne, conserve din carne, sosuri de tomate și maioneză. Brandurile sunt: Mezellini (segment premium), Zi de Zi (segment medium), Classic (segment econom), care se caracterizează prin prezența SKU de salamuri crud zvîntate pentru a oferi consumatorului din Moldova produse de calitate europeană la prețuri accesibile.",
+          phone: "+373 68 577 669",
+          email: "info@mezellini.md",
+          website: "https://www.mezellini.md",
+          certifications: ["ISO 22000", "ISO 9001"],
+          facebook: "https://facebook.com/mezellini",
+          instagram: "https://instagram.com/mezellini",
+          prizes: ["Neindicat"],
+          logo: "./logo-companii/mezellini-gray.png",
+        },
+      };
+
+      // Modal functionality
+      const modal = document.getElementById("memberModal");
+      const modalOverlay = document.querySelector(".member-modal-overlay");
+      const closeBtn = document.querySelector(".modal-close-btn");
+      let activeMemberId = null;
+
+      function isRomanianLanguage() {
+        return !window.I18N || window.I18N.getLanguage() === "ro";
+      }
+
+      function localizedMemberValue(value, key) {
+        if (isRomanianLanguage()) {
+          return value;
+        }
+
+        return window.I18N ? window.I18N.t(key, value) : value;
+      }
+
+      function renderMemberModal(memberId, data) {
+        if (!data) {
+          return;
+        }
+
+        const keyPrefix = `members.${memberId}`;
+
+        // Update header info
+        document.getElementById("modalLogo").src = data.logo;
+        document.getElementById("modalCompanyName").textContent =
+          data.companyName;
+        document.getElementById("modalRole").textContent = localizedMemberValue(
+          data.role,
+          `${keyPrefix}.role`,
+        );
+
+        // Update description
+        document.getElementById("modalDescription").textContent =
+          data.description
+            ? localizedMemberValue(data.description, `${keyPrefix}.description`)
+            : window.I18N
+              ? window.I18N.t("members.modal.noDescription")
+              : "Descriere nu este disponibilă.";
+
+        // Update quick info
+        document.getElementById("modalFoundingDate").textContent =
+          data.foundingDate;
+        document.getElementById("modalEmployees").textContent = data.employees;
+        document.getElementById("modalLocation").textContent =
+          localizedMemberValue(data.location, `${keyPrefix}.location`);
+
+        // Update contact info
+        document.getElementById("modalPhone").textContent = data.phone;
+        document.getElementById("modalPhone").href = `tel:${data.phone}`;
+        document.getElementById("modalEmail").textContent = data.email;
+        document.getElementById("modalEmail").href = `mailto:${data.email}`;
+        document.getElementById("modalWebsite").textContent = data.website;
+        document.getElementById("modalWebsite").href = data.website;
+
+        // Update certifications
+        const certsList = document.getElementById("modalCertifications");
+        certsList.innerHTML = "";
+        if (data.certifications && data.certifications.length > 0) {
+          data.certifications.forEach((cert, index) => {
+            const li = document.createElement("li");
+            li.textContent = localizedMemberValue(
+              cert,
+              `${keyPrefix}.certification.${index}`,
+            );
+            certsList.appendChild(li);
+          });
+        } else {
+          const li = document.createElement("li");
+          li.textContent = window.I18N
+            ? window.I18N.t("members.modal.noCertifications")
+            : "Nu sunt certificări listate";
+          certsList.appendChild(li);
+        }
+
+        // Update prizes
+        const prizesList = document.getElementById("modalPrizes");
+        prizesList.innerHTML = "";
+        if (data.prizes && data.prizes.length > 0) {
+          data.prizes.forEach((prize, index) => {
+            const li = document.createElement("li");
+            li.textContent = localizedMemberValue(
+              prize,
+              `${keyPrefix}.prize.${index}`,
+            );
+            prizesList.appendChild(li);
+          });
+        } else {
+          const li = document.createElement("li");
+          li.textContent = window.I18N
+            ? window.I18N.t("members.modal.noPrizes")
+            : "Nu sunt premii listate";
+          prizesList.appendChild(li);
+        }
+
+        // Update social links
+        document.getElementById("modalFacebook").href = data.facebook;
+        document.getElementById("modalInstagram").href = data.instagram;
+      }
+
+      // Open modal
+      document.querySelectorAll(".find-more-btn").forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          const memberId =
+            e.target.closest(".member-grid-item").dataset.memberId;
+          activeMemberId = memberId;
+          const data = memberData[memberId];
+
+          if (data) {
+            renderMemberModal(memberId, data);
+
+            // Show modal
+            modal.classList.add("active");
+            document.body.style.overflow = "hidden";
+          }
+        });
+      });
+
+      // Close modal
+      function closeModal() {
+        modal.classList.remove("active");
+        document.body.style.overflow = "";
+        activeMemberId = null;
+      }
+
+      closeBtn.addEventListener("click", closeModal);
+      modalOverlay.addEventListener("click", closeModal);
+
+      // Close modal on Escape key
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && modal.classList.contains("active")) {
+          closeModal();
+        }
+      });
+
+      document.addEventListener("languagechange", () => {
+        if (!activeMemberId || !modal.classList.contains("active")) {
+          return;
+        }
+
+        renderMemberModal(activeMemberId, memberData[activeMemberId]);
+      });
+
+      // Navigation scroll effect
+      const navbar = document.getElementById("navbar");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+  </body>
+</html>

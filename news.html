@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="news.metaTitle">Noutăți - Patronat Carne</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="logo-companii/website-favicon/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="logo-companii/website-favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="logo-companii/website-favicon/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="logo-companii/website-favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="logo-companii/website-favicon/android-chrome-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="logo-companii/website-favicon/android-chrome-192x192.png"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <img
+            src="./logo-companii/logo-patronat.png"
+            alt="Logo Patronat"
+            style="width: 5vw; padding: 0"
+          />
+          <span class="logo-dot"></span>
+          <br />
+          <p style="letter-spacing: normal" data-i18n="nav.logoText">
+            Patronatul Întreprinderilor Industriei Prelucrătoare de Carne
+          </p>
+        </div>
+        <ul>
+          <li><a href="index.html#hero" data-i18n="nav.home">Acasă</a></li>
+          <li><a href="aboutus.html" data-i18n="nav.about">Despre Noi</a></li>
+          <li><a href="members.html" data-i18n="nav.members">Membri</a></li>
+          <li><a href="news.html" data-i18n="nav.news">Noutăți</a></li>
+          <li>
+            <a href="index.html#contacts" data-i18n="nav.contact">Contact</a>
+          </li>
+          <li class="language-switcher" data-no-translate>
+            <button type="button" data-language-switcher data-lang="ro">
+              RO
+            </button>
+            <button type="button" data-language-switcher data-lang="en">
+              EN
+            </button>
+            <button type="button" data-language-switcher data-lang="ru">
+              RU
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="news-page">
+      <div class="container">
+        <h1 class="news-page-title" data-i18n="news.title">Noutăți</h1>
+        <p class="news-page-subtitle" data-i18n="news.subtitle">
+          Descoperă ultimele actualizări despre activitatea patronatului.
+        </p>
+
+        <div id="newsGrid" class="news-grid-container"></div>
+      </div>
+    </section>
+
+    <div id="newsModal" class="news-modal">
+      <div class="news-modal-overlay"></div>
+      <div class="news-modal-content">
+        <button
+          class="modal-close-btn"
+          data-i18n-aria-label="news.modal.closeAria"
+          aria-label="Închide"
+        >
+          ✕
+        </button>
+        <div class="news-modal-banner">
+          <img id="newsModalImage" src="" alt="" />
+        </div>
+        <div class="news-modal-body">
+          <p id="newsModalDate" class="news-date"></p>
+          <h2 id="newsModalTitle"></h2>
+          <p id="newsModalText" class="news-modal-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <img
+            src="./logo-companii/logo-patronat.png"
+            alt="PIIPC"
+            style="width: 13vw"
+          />
+        </div>
+        <div class="footer-section">
+          <h4 data-i18n="footer.about">Despre noi</h4>
+          <ul>
+            <li>
+              <a href="#" data-i18n="footer.aboutPatronat">Despre Patronat</a>
+            </li>
+            <li><a href="members.html" data-i18n="nav.members">Membri</a></li>
+            <li><a href="news.html" data-i18n="nav.news">Noutăți</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 data-i18n="footer.resources">Resurse</h4>
+          <ul>
+            <li>
+              <a
+                href="resources/extras-patronat.pdf"
+                target="_blank"
+                data-i18n="index.footer.extras"
+                >Extras înregistrare</a
+              >
+            </li>
+            <li>
+              <a
+                href="resources/studiu-maib.pdf"
+                target="_blank"
+                data-i18n="index.footer.caseStudy"
+                >Studiu de caz 2025</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 data-i18n="footer.follow">Urmărește-ne</h4>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/PatronatCarne"
+                data-i18n="index.footer.facebook"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a href="#" data-i18n="footer.otherPlatforms">Alte platforme</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">
+          &copy; 2026 Patronatul Întreprinderilor Industriei Prelucrătoare de
+          Carne
+        </p>
+      </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="i18n.js"></script>
+    <script>
+      const newsData = [
+        {
+          id: "article-1",
+          image: "photos/website-logo.jpg",
+          date: "Februarie 2026",
+          title: "Lansarea noului website",
+          summary:
+            "Ne bucurăm să anunțăm lansarea noului website al patronatului.",
+          content:
+            "Ne bucurăm să anunțăm lansarea noului website al patronatului. Acum puteți găsi informații despre membrii patronatului, ultimile știri, resurse și multe altele.",
+          i18n: {
+            date: "news.article1.date",
+            title: "news.article1.title",
+            summary: "news.article1.summary",
+            content: "news.article1.content",
+          },
+        },
+      ];
+
+      const newsGrid = document.getElementById("newsGrid");
+      const modal = document.getElementById("newsModal");
+      const modalOverlay = document.querySelector(".news-modal-overlay");
+      const closeBtn = document.querySelector(".modal-close-btn");
+      let activeArticleId = null;
+
+      function t(key, fallback = "") {
+        return window.I18N ? window.I18N.t(key, fallback) : fallback;
+      }
+
+      function getArticleById(articleId) {
+        return newsData.find((item) => item.id === articleId);
+      }
+
+      function localizedArticleValue(article, fieldName) {
+        const key = article.i18n[fieldName];
+        const fallback = article[fieldName] || "";
+        return t(key, fallback);
+      }
+
+      function createNewsCard(article) {
+        const articleElement = document.createElement("article");
+        articleElement.className = "news-card fade-in-on-scroll";
+        articleElement.dataset.articleId = article.id;
+
+        articleElement.innerHTML = `
+          <div class="news-image">
+            <img src="${article.image}" alt="${localizedArticleValue(article, "title")}" />
+          </div>
+          <div class="news-content">
+            <p class="news-date">${localizedArticleValue(article, "date")}</p>
+            <h3>${localizedArticleValue(article, "title")}</h3>
+            <p>${localizedArticleValue(article, "summary")}</p>
+            <button type="button" class="read-more news-read-more">${t("news.readMore", "Vezi mai mult")}</button>
+          </div>
+        `;
+
+        articleElement.addEventListener("click", () => {
+          openNewsModal(article.id);
+        });
+
+        return articleElement;
+      }
+
+      function renderNewsGrid() {
+        newsGrid.innerHTML = "";
+        newsData.forEach((article) => {
+          newsGrid.appendChild(createNewsCard(article));
+        });
+      }
+
+      function renderNewsModal(article) {
+        if (!article) {
+          return;
+        }
+
+        document.getElementById("newsModalImage").src = article.image;
+        document.getElementById("newsModalImage").alt = localizedArticleValue(
+          article,
+          "title",
+        );
+        document.getElementById("newsModalDate").textContent =
+          localizedArticleValue(article, "date");
+        document.getElementById("newsModalTitle").textContent =
+          localizedArticleValue(article, "title");
+        document.getElementById("newsModalText").textContent =
+          localizedArticleValue(article, "content");
+      }
+
+      function openNewsModal(articleId) {
+        const article = getArticleById(articleId);
+        if (!article) {
+          return;
+        }
+
+        activeArticleId = articleId;
+        renderNewsModal(article);
+        modal.classList.add("active");
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeNewsModal() {
+        modal.classList.remove("active");
+        document.body.style.overflow = "";
+        activeArticleId = null;
+      }
+
+      closeBtn.addEventListener("click", closeNewsModal);
+      modalOverlay.addEventListener("click", closeNewsModal);
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && modal.classList.contains("active")) {
+          closeNewsModal();
+        }
+      });
+
+      document.addEventListener("languagechange", () => {
+        renderNewsGrid();
+
+        if (!activeArticleId || !modal.classList.contains("active")) {
+          return;
+        }
+
+        renderNewsModal(getArticleById(activeArticleId));
+      });
+
+      renderNewsGrid();
+
+      const navbar = document.getElementById("navbar");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+  </body>
+</html>
