@@ -53,7 +53,16 @@
             Patronatul Întreprinderilor Industriei Prelucrătoare de Carne
           </p>
         </div>
-        <ul>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-lines"></span>
+        </button>
+        <ul id="primary-navigation" class="nav-menu">
           <li><a href="#hero" data-i18n="nav.home">Acasă</a></li>
           <li><a href="aboutus.html" data-i18n="nav.about">Despre Noi</a></li>
           <li><a href="members.html" data-i18n="nav.members">Membri</a></li>
@@ -76,23 +85,25 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
-      <div class="hero-content">
-        <h1 data-i18n="index.hero.title">Calitate. Tradiție. Siguranță.</h1>
-        <p class="hero-subtitle" data-i18n="index.hero.subtitle">
-          Din 2010 asigurăm cooperarea companiilor în soluționarea problemelor
-          din industrie și asigurăm respectarea celor mai înalte standarde de
-          siguranță alimentară pentru produsele de pe piața Republicii Moldova.
-        </p>
-        <div>
-          <button class="cta-button" data-i18n="index.hero.ctaMore">
-            Află mai mult
-          </button>
-          <button
-            class="cta-button secondary"
-            data-i18n="index.hero.ctaContact"
-          >
-            Contactează-ne
-          </button>
+      <div class="hero-layout">
+        <div class="hero-content">
+          <h1 data-i18n="index.hero.title">
+            Industria cărnii din Moldova, mai sigură și mai unită.
+          </h1>
+          <p class="hero-subtitle" data-i18n="index.hero.subtitle">
+            Din 2010 asigurăm cooperarea companiilor în soluționarea problemelor
+            din industrie și asigurăm respectarea celor mai înalte standarde de
+            siguranță alimentară pentru produsele de pe piața Republicii
+            Moldova.
+          </p>
+          <div>
+            <button class="cta-button" data-i18n="index.hero.ctaMore">
+              Află mai mult
+            </button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="photos/482A4273.png" alt="Reprezentare industria cărnii" />
         </div>
       </div>
     </section>
@@ -567,8 +578,38 @@
     <script src="translations.js"></script>
     <script src="i18n.js"></script>
     <script>
-      // Navigation scroll effect
       const navbar = document.getElementById("navbar");
+      const navToggle = document.querySelector(".nav-toggle");
+      const navMenu = document.getElementById("primary-navigation");
+
+      function setupMobileMenu() {
+        if (!navToggle || !navMenu) {
+          return;
+        }
+
+        navToggle.addEventListener("click", () => {
+          const isOpen = navbar.classList.toggle("menu-open");
+          navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        });
+
+        navMenu.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => {
+            navbar.classList.remove("menu-open");
+            navToggle.setAttribute("aria-expanded", "false");
+          });
+        });
+
+        window.addEventListener("resize", () => {
+          if (window.innerWidth > 768) {
+            navbar.classList.remove("menu-open");
+            navToggle.setAttribute("aria-expanded", "false");
+          }
+        });
+      }
+
+      setupMobileMenu();
+
+      // Navigation scroll effect
       window.addEventListener("scroll", () => {
         if (window.scrollY > 50) {
           navbar.classList.add("scrolled");
@@ -607,21 +648,39 @@
       const prevBtn = document.getElementById("prev-btn");
       const nextBtn = document.getElementById("next-btn");
       const memberCards = document.querySelectorAll(".member-card");
-      const cardsPerView = 3;
+      let cardsPerView = 3;
       let currentIndex = 0;
       let autoScrollTimer = null;
       let cardWidth = 0; // Will be calculated after DOM loads
 
+      function getCardsPerView() {
+        if (window.innerWidth <= 768) {
+          return 1;
+        }
+
+        if (window.innerWidth <= 1024) {
+          return 2;
+        }
+
+        return 3;
+      }
+
+      function getMaxIndex() {
+        return Math.max(memberCards.length - cardsPerView, 0);
+      }
+
       function calculateCardWidth() {
         if (memberCards.length > 0) {
-          const firstCard = memberCards[0];
           const computedStyle = window.getComputedStyle(carousel);
           const gap = parseFloat(computedStyle.gap || 0);
           const containerWidth = carousel.parentElement.offsetWidth;
+          cardsPerView = getCardsPerView();
 
-          // Calculate actual card width: (container - 2*gap) / 3
+          // Keep the card width in sync with responsive breakpoints.
           cardWidth =
             (containerWidth - (cardsPerView - 1) * gap) / cardsPerView;
+
+          currentIndex = Math.min(currentIndex, getMaxIndex());
         }
       }
 
@@ -632,7 +691,7 @@
       }
 
       function nextSlide() {
-        if (currentIndex < memberCards.length - cardsPerView) {
+        if (currentIndex < getMaxIndex()) {
           currentIndex++;
         } else {
           currentIndex = 0;
@@ -645,7 +704,7 @@
         if (currentIndex > 0) {
           currentIndex--;
         } else {
-          currentIndex = memberCards.length - cardsPerView;
+          currentIndex = getMaxIndex();
         }
         updateCarousel();
         resetAutoScroll();
@@ -666,6 +725,11 @@
 
       // Calculate card width after page loads
       window.addEventListener("load", () => {
+        calculateCardWidth();
+        updateCarousel();
+      });
+
+      window.addEventListener("resize", () => {
         calculateCardWidth();
         updateCarousel();
       });

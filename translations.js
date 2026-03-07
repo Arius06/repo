@@ -11,7 +11,8 @@
     "nav.members": "Membri",
     "nav.news": "Noutăți",
     "nav.contact": "Contact",
-    "index.hero.title": "Calitate. Tradiție. Siguranță.",
+    "index.hero.title":
+      "Industria cărnii din Moldova, mai sigură și mai unită.",
     "index.hero.subtitle":
       "Din 2010 asigurăm cooperarea companiilor în soluționarea problemelor din industrie și asigurăm respectarea celor mai înalte standarde de siguranță alimentară pentru produsele de pe piața Republicii Moldova.",
     "index.hero.ctaMore": "Află mai mult",
@@ -333,7 +334,7 @@
     "nav.members": "Members",
     "nav.news": "News",
     "nav.contact": "Contact",
-    "index.hero.title": "Quality. Tradition. Safety.",
+    "index.hero.title": "The Moldovan meat industry, safer and more united.",
     "index.hero.subtitle":
       "Since 2010, we have been ensuring the cooperation of companies in solving industry problems and ensuring compliance with the highest food safety standards for products on the market of the Republic of Moldova.",
     "index.hero.ctaMore": "Find out more",
@@ -497,7 +498,8 @@
     "nav.members": "Член",
     "nav.news": "Новости",
     "nav.contact": "Контакт",
-    "index.hero.title": "Качество. Традиции. Безопасность.",
+    "index.hero.title":
+      "Молдавская мясная промышленность: безопаснее и сплоченнее.",
     "index.hero.subtitle":
       "С 2010 года мы обеспечиваем сотрудничество компаний в решении отраслевых проблем и гарантируем соответствие продукции на рынке Республики Молдова самым высоким стандартам безопасности пищевых продуктов.",
     "index.hero.ctaMore": "Узнать больше",

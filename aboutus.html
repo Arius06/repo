@@ -53,7 +53,16 @@
             Patronatul Întreprinderilor Industriei Prelucrătoare de Carne
           </p>
         </div>
-        <ul>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-lines"></span>
+        </button>
+        <ul id="primary-navigation" class="nav-menu">
           <li><a href="index.html#hero" data-i18n="nav.home">Acasă</a></li>
           <li><a href="aboutus.html" data-i18n="nav.about">Despre Noi</a></li>
           <li><a href="members.html" data-i18n="nav.members">Membri</a></li>
@@ -265,8 +274,38 @@
       window.addEventListener("scroll", revealOnScroll);
       revealOnScroll();
 
-      // Navbar scroll effect
       const navbar = document.getElementById("navbar");
+      const navToggle = document.querySelector(".nav-toggle");
+      const navMenu = document.getElementById("primary-navigation");
+
+      function setupMobileMenu() {
+        if (!navToggle || !navMenu) {
+          return;
+        }
+
+        navToggle.addEventListener("click", () => {
+          const isOpen = navbar.classList.toggle("menu-open");
+          navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        });
+
+        navMenu.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => {
+            navbar.classList.remove("menu-open");
+            navToggle.setAttribute("aria-expanded", "false");
+          });
+        });
+
+        window.addEventListener("resize", () => {
+          if (window.innerWidth > 768) {
+            navbar.classList.remove("menu-open");
+            navToggle.setAttribute("aria-expanded", "false");
+          }
+        });
+      }
+
+      setupMobileMenu();
+
+      // Navbar scroll effect
       window.addEventListener("scroll", () => {
         if (window.scrollY > 50) {
           navbar.classList.add("scrolled");
