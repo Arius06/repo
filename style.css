@@ -15,8 +15,15 @@
   --color-gray: #f5f5f5;
   --color-gray-dark: #9e9e9e;
   --spacing-unit: 1rem;
+  --page-gutter: clamp(2rem, 4vw, 3rem);
   --font-primary: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
   --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@media (max-width: 1500px) and (min-width: 769px) {
+  :root {
+    --page-gutter: clamp(3rem, 8vw, 7rem);
+  }
 }
 
 html {
@@ -85,7 +92,7 @@ nav {
   background-color: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--color-border);
-  padding: 1.5rem 2rem;
+  padding: 1.5rem var(--page-gutter);
 }
 
 nav.scrolled {
@@ -354,11 +361,11 @@ nav a:hover::after {
 
 /* Hero Section */
 .hero {
-  min-height: 100vh;
+  min-height: clamp(620px, 86vh, 860px);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8rem 2rem 4rem;
+  padding: 8rem var(--page-gutter) 4rem;
   background: url("photos/hero-bg.png");
   position: relative;
   overflow: hidden;
@@ -383,13 +390,16 @@ nav a:hover::after {
 }
 
 .hero-image {
-  width: 100%;
+  /* width: 100%; */
+  height: 90vh;
   max-width: 36rem;
   justify-self: end;
-  border-radius: 18px;
+  align-self: end;
+  /* transform: translateY(20%); */
+  /* border-radius: 18px; */
   overflow: hidden;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+  /* border: 1px solid rgba(0, 0, 0, 0.08); */
+  /* box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18); */
   animation: fadeInRight 0.8s ease-out;
 }
 
@@ -397,7 +407,8 @@ nav a:hover::after {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center bottom;
   aspect-ratio: 4 / 3;
 }
 
@@ -472,7 +483,8 @@ nav a:hover::after {
 
 /* Sections */
 section {
-  padding: 6rem 2rem;
+  padding-block: clamp(3rem, 6vw, 5rem);
+  padding-inline: var(--page-gutter);
 }
 
 .container {
@@ -497,6 +509,15 @@ section h2::after {
   border-radius: 2px;
 }
 
+/* Divider between header copy and section content grids */
+.about-page .about-grid,
+.members-page .members-grid-container,
+.news-page .news-grid-container {
+  border-top: 5px solid var(--color-blue);
+  padding-top: clamp(1.25rem, 2.2vw, 2rem);
+  margin-top: clamp(1.25rem, 2vw, 2rem);
+}
+
 /* About Us Section */
 .about {
   background-color: #ffffff;
@@ -504,7 +525,7 @@ section h2::after {
 
 /* About Page */
 .about-page {
-  padding: 6rem 2rem;
+  padding: 6rem var(--page-gutter);
   background-color: #ffffff;
   min-height: 100vh;
 }
@@ -1190,7 +1211,8 @@ section h2::after {
   }
 
   section {
-    padding: 4rem 1.5rem;
+    padding-block: 3.5rem;
+    padding-inline: 1.5rem;
   }
 }
 
@@ -1198,7 +1220,7 @@ section h2::after {
 footer {
   background-color: #1a1a1a;
   color: rgba(255, 255, 255, 0.7);
-  padding: 3rem 2rem;
+  padding: 3rem var(--page-gutter);
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -1294,7 +1316,7 @@ footer {
 
 /* Members Page */
 .members-page {
-  padding: 6rem 2rem;
+  padding: 6rem var(--page-gutter);
   background-color: #ffffff;
   min-height: 100vh;
 }
@@ -1644,7 +1666,7 @@ footer {
 
 /* News Page */
 .news-page {
-  padding: 6rem 2rem;
+  padding: 6rem var(--page-gutter);
   background-color: #ffffff;
   min-height: 100vh;
 }
@@ -1784,7 +1806,7 @@ footer {
 /* Desktop - 1024px and up */
 @media (min-width: 1024px) {
   .members-page {
-    padding: 6rem 2rem;
+    padding: 6rem var(--page-gutter);
   }
 
   .members-grid-container {
@@ -1816,7 +1838,7 @@ footer {
   }
 
   .news-page {
-    padding: 6rem 2rem;
+    padding: 6rem var(--page-gutter);
   }
 
   .news-grid-container {
