@@ -20,7 +20,7 @@
     "index.about.title": "Despre noi",
     "index.about.activityTitle": "Activitatea noastră",
     "index.about.activityText":
-      "Reprezentăm interesele întreprinderilor producătoare și procesatoare de carne din Republica Moldova în relația cu autoritățile publice și alte instituții relevante. Ne implicăm activ în elaborarea și îmbunătățirea cadrului legislativ din domeniu, susținem un mediu de afaceri echitabil și competitiv și promovăm respectarea standardelor de calitate și siguranță alimentară. Facilităm dialogul dintre angajatori, stat și partenerii sociali, oferim suport informațional și consultativ membrilor noștri și contribuim la dezvoltarea și modernizarea sectorului cărnii la nivel național și internațional.",
+      "Reprezentăm interesele întreprinderilor producătoare și procesatoare de carne din Republica Moldova în relația cu autoritățile publice și alte instituții relevante prin activități de 'lobbying'. Ne implicăm activ în elaborarea și îmbunătățirea cadrului legislativ din domeniu, susținem un mediu de afaceri echitabil și competitiv și promovăm respectarea standardelor de calitate și siguranță alimentară.",
     "index.about.priorityTitle": "Prioritatea noastră - Consumatorul",
     "index.about.priorityText":
       "Patronatul are ca intenție dezvoltarea mai multor activități de advocacy ce vor avea un impact direct asupra consumatorului final, creșterea financiară pentru companii și extinderea relațiilor comerciale cu alte țări: La rândul său excluderea barierelor tarifare și netarifare va genera o creștere economică pentru întreprinderile din domeniu alimentar indirect vor creste salariile angajaților și taxele la buget.",
@@ -68,9 +68,9 @@
     "index.resources.card2.title": "Studiul pieței 2025",
     "index.resources.card2.text":
       "Un studiu de caz al Sectorului de Creștere Porci, producere Mezeluri și carne proaspătă în Moldova, 2025. Proprietate intelectuală a „maib”.",
-    "index.resources.card3.title": "Alte documente",
+    "index.resources.card3.title": "Legea Patronatelor (Nr. 976)",
     "index.resources.card3.text":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repellendus quasi id ullam molestias quas.",
+      "Legea reglementează modul de constituire şi funcţionare a patronatelor în RM în conformitate cu Concepţia pentru dezvoltarea sistemului de dialog social.",
     "index.resources.card4.title": "Alte documente",
     "index.resources.card4.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facere eius quos autem fugiat dolores inventore blanditiis modi rerum ducimus.",
@@ -96,7 +96,7 @@
       "Aflați mai mult despre Patronatul Întreprinderilor Industriei Prelucrătoare de Carne și misiunea noastră să susținem industria din Moldova.",
     "about.activity": "Activitatea noastră",
     "about.activityText":
-      "Reprezentăm interesele întreprinderilor producătoare și procesatoare de carne din Republica Moldova în relația cu autoritățile publice și alte instituții relevante. Ne implicăm activ în elaborarea și îmbunătățirea cadrului legislativ din domeniu, susținem un mediu de afaceri echitabil și competitiv și promovăm respectarea standardelor de calitate și siguranță alimentară.",
+      "Reprezentăm interesele întreprinderilor producătoare și procesatoare de carne din Republica Moldova în relația cu autoritățile publice și alte instituții relevante prin activități de 'lobbying'. Ne implicăm activ în elaborarea și îmbunătățirea cadrului legislativ din domeniu, susținem un mediu de afaceri echitabil și competitiv și promovăm respectarea standardelor de calitate și siguranță alimentară. Facilităm dialogul dintre angajatori, stat și partenerii sociali, oferim suport informațional și consultativ membrilor noștri și contribuim la dezvoltarea și modernizarea sectorului cărnii la nivel național și internațional.",
     "about.priority": "Prioritatea noastră - Consumatorul",
     "about.priorityText":
       "Patronatul are ca intenție dezvoltarea mai multor activități de advocacy ce vor avea un impact direct asupra consumatorului final, creșterea financiară pentru companii și extinderea relațiilor comerciale cu alte țări. Excluderea barierelor tarifare și netarifare va genera o creștere economică pentru întreprinderile din domeniu alimentar și vor crește salariile angajaților.",
@@ -342,7 +342,7 @@
     "index.about.title": "About us",
     "index.about.activityTitle": "Our work",
     "index.about.activityText":
-      "We represent the interests of meat producing and processing enterprises in the Republic of Moldova in relations with public authorities and other relevant institutions. We are actively involved in the development and improvement of the legislative framework in the field, we support a fair and competitive business environment and promote compliance with food quality and safety standards. We facilitate dialogue between employers, the state and social partners, provide informational and advisory support to our members and contribute to the development and modernization of the meat sector at the national and international levels.",
+      "The employers' association intends to develop several advocacy activities that will have a direct impact on the final consumer, financial growth for companies and expansion of trade relations with other countries. The exclusion of tariff and non-tariff barriers will generate economic growth for food businesses and increase employee salaries.",
     "index.about.priorityTitle": "Our priority - the consumer",
     "index.about.priorityText":
       "The employers' association intends to develop several advocacy activities that will have a direct impact on the end consumer, financial growth for companies and the expansion of trade relations with other countries: In turn, the exclusion of tariff and non-tariff barriers will generate economic growth for food enterprises, indirectly increasing employee salaries and taxes to the budget.",
@@ -365,7 +365,7 @@
       "Since its establishment, the company has aimed to become a reference producer in the meat industry in the Republic of Moldova, combining traditional recipes with modern production technologies. The plant is built in accordance with the requirements and rigors of the food industry, being equipped with modern machinery and equipment produced in Germany and Austria.",
     "index.member.debutsor.role": "Soroca",
     "index.member.debutsor.desc":
-      "The mission of the company – increased attention to consumer preferences and the tendency for continuous improvement, operating in a legal, transparent and efficient manner, thus providing buyers with quality products.",
+      "The mission of the company: increased attention to consumer preferences and the tendency for continuous improvement, operating in a legal, transparent and efficient manner, thus providing buyers with quality products.",
     "index.member.mezellini.role": "Bulboaca, Anenii-Noi",
     "index.member.mezellini.desc":
       "The mission is to feed Moldovan families with healthy, tasty and affordable meat products, preserving and modernizing local culinary traditions.",
@@ -390,9 +390,9 @@
     "index.resources.card2.title": "Market Study 2025",
     "index.resources.card2.text":
       "A case study of the Pig Breeding Sector, Sausage and Fresh Meat Production in Moldova, 2025. Intellectual property of 'maib'.",
-    "index.resources.card3.title": "Other documents",
+    "index.resources.card3.title": "Employer's Association Rule (№ 976)",
     "index.resources.card3.text":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repellendus quasi id ullam molestias quas.",
+      "The law regulates the establishment and functioning of employers' associations in the Republic of Moldova in accordance with the Concept for the development of the social dialogue system.",
     "index.resources.card4.title": "Other documents",
     "index.resources.card4.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facere eius quos autem fugiat dolores inventore blanditiis modi rerum ducimus.",
@@ -418,7 +418,7 @@
       "Learn more about the Employers' Association of Meat Processing Enterprises and our mission to support the industry in Moldova.",
     "about.activity": "Our work",
     "about.activityText":
-      "We represent the interests of meat producing and processing enterprises in the Republic of Moldova in relations with public authorities and other relevant institutions. We are actively involved in the development and improvement of the legislative framework in the field, we support a fair and competitive business environment and promote compliance with quality and food safety standards.",
+      "We represent the interests of meat producing and processing enterprises in the Republic of Moldova in relations with public authorities and other relevant institutions through lobbying activities. We are actively involved in the development and improvement of the legislative framework in the field, we support a fair and competitive business environment and promote compliance with food quality and safety standards. We facilitate dialogue between employers, the state and social partners, provide informational and advisory support to our members and contribute to the development and modernization of the meat sector at the national and international levels.",
     "about.priority": "Our priority - the consumer",
     "about.priorityText":
       "The employers' association intends to develop several advocacy activities that will have a direct impact on the final consumer, financial growth for companies and expansion of trade relations with other countries. The exclusion of tariff and non-tariff barriers will generate economic growth for food businesses and increase employee salaries.",
@@ -492,8 +492,7 @@
     "members.metaTitle": "Члены Совета директоров",
     "news.metaTitle": "Новости - Покровительство мясу",
     "nav.home": "Дом",
-    "nav.logoText":
-      "Ассоциация работодателей предприятий мясоперерабатывающей промышленности",
+    "nav.logoText": "Патронат предприятий мясоперерабатывающей промышленности",
     "nav.about": "О нас",
     "nav.members": "Член",
     "nav.news": "Новости",
@@ -507,7 +506,7 @@
     "index.about.title": "О нас",
     "index.about.activityTitle": "Наша деятельность",
     "index.about.activityText":
-      "Мы представляем интересы предприятий по производству и переработке мяса в Республике Молдова во взаимоотношениях с государственными органами и другими соответствующими учреждениями. Мы активно участвуем в разработке и совершенствовании законодательной базы в этой области, поддерживаем справедливую и конкурентную деловую среду и содействуем соблюдению стандартов качества и безопасности пищевых продуктов. Мы способствуем диалогу между работодателями, государством и социальными партнерами, предоставляем информационную и консультативную поддержку нашим членам и вносим вклад в развитие и модернизацию мясоперерабатывающей отрасли на национальном и международном уровнях.",
+      "Мы представляем интересы предприятий по производству и переработке мяса в Республике Молдова во взаимоотношениях с государственными органами и другими соответствующими учреждениями. Мы активно участвуем в разработке и совершенствовании законодательной базы в этой области, поддерживаем справедливую и конкурентную деловую среду и содействуем соблюдению стандартов качества и безопасности пищевых продуктов.",
     "index.about.priorityTitle": "Наш приоритет — потребитель.",
     "index.about.priorityText":
       "Ассоциация работодателей намерена разработать ряд мероприятий по защите интересов, которые окажут прямое влияние на конечного потребителя, финансовый рост компаний и расширение торговых отношений с другими странами: в свою очередь, отмена тарифных и нетарифных барьеров приведет к экономическому росту предприятий пищевой промышленности, косвенно увеличивая заработную плату сотрудников и налоговые поступления в бюджет.",
@@ -555,9 +554,9 @@
     "index.resources.card2.title": "Исследование рынка 2025 года",
     "index.resources.card2.text":
       "Исследование сектора свиноводства, производства колбас и свежего мяса в Молдове, 2025 год. Интеллектуальная собственность компании «maib».",
-    "index.resources.card3.title": "Alte documente",
+    "index.resources.card3.title": "Закон o патронатах (№ 976)",
     "index.resources.card3.text":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repellendus quasi id ullam molestias quas.",
+      "Закон регулирует создание и функционирование ассоциаций работодателей в РМ в соответствии с Концепцией развития системы социального диалога.",
     "index.resources.card4.title": "Alte documente",
     "index.resources.card4.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facere eius quos autem fugiat dolores inventore blanditiis modi rerum ducimus.",
@@ -583,7 +582,7 @@
       "Узнайте больше об Ассоциации работодателей предприятий мясоперерабатывающей промышленности и нашей миссии по поддержке отрасли в Молдове.",
     "about.activity": "Наша деятельность",
     "about.activityText":
-      "Мы представляем интересы предприятий по производству и переработке мяса в Республике Молдова во взаимоотношениях с государственными органами и другими соответствующими учреждениями. Мы активно участвуем в разработке и совершенствовании законодательной базы в этой области, поддерживаем справедливую и конкурентную деловую среду и содействуем соблюдению стандартов качества и безопасности пищевых продуктов.",
+      "Мы представляем интересы предприятий по производству и переработке мяса в Республике Молдова во взаимоотношениях с государственными органами и другими соответствующими учреждениями через лоббистскую деятельность. Мы активно участвуем в разработке и совершенствовании законодательной базы в этой области, поддерживаем справедливую и конкурентную деловую среду и содействуем соблюдению стандартов качества и безопасности пищевых продуктов. Мы способствуем диалогу между работодателями, государством и социальными партнерами, предоставляем информационную и консультативную поддержку нашим членам и вносим вклад в развитие и модернизацию мясоперерабатывающей отрасли на национальном и международном уровнях.",
     "about.priority": "Наш приоритет — потребитель.",
     "about.priorityText":
       "Ассоциация работодателей намерена разработать ряд мероприятий по защите интересов, которые окажут непосредственное влияние на конечного потребителя, финансовый рост компаний и расширение торговых связей с другими странами. Отмена тарифных и нетарифных барьеров будет способствовать экономическому росту предприятий пищевой промышленности и повышению заработной платы сотрудников.",
