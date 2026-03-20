@@ -47,6 +47,12 @@
     "index.member.mezellini.role": "s. Bulboaca, r. Anenii-Noi",
     "index.member.mezellini.desc":
       "Misiunea este de a hrăni familiile moldovenești cu produse de carne sănătoase, gustoase și accesibile, păstrând și modernizând tradițiile culinare locale.",
+    "index.member.bn.role": "or. Bălți",
+    "index.member.bn.desc":
+      "De-a lungul unei istorii de peste 80 de ani, în cadrul întreprinderii s-au format generații de tehnologi și maiștri specializați în producerea produselor din carne tradiționale și autentice.",
+    "index.member.slavena.role": "or. Chișinău",
+    "index.member.slavena.desc":
+      "Înființată în anul 2001, Slavena a evoluat pe parcursul anilor într-un importator și producător de frunte de produse alimentare, ocupând astăzi una dintre pozițiile de lider în acest domeniu.",
     "index.news.title": "Noutăți",
     "index.news.card1.date": "Februarie 2026",
     "index.news.card1.title": "Lansarea noului website",
@@ -243,6 +249,29 @@
     "members.org-7.certification.0": "ISO 22000",
     "members.org-7.certification.1": "ISO 9001",
     "members.org-7.prize.0": "Unlisted",
+
+    // org-8
+    "members.org-8.role":
+      "Production, processing and preservation of meat and meat products",
+    "members.org-8.description":
+      "The company 'Balti Meat Plant' was founded in 1944. In 1994, the enterprise was reorganized into the Joint-Stock Company 'BASARABIA-NORD'. Today, the company is one of the leading representatives of the meat processing industry in the Republic of Moldova, with a full technological cycle - receiving raw materials directly from the slaughterhouse, processing, pre-packaging, distribution and retail sale of finished products. The strategic resource of the company is its team of professionals. Over the course of more than 80 years of history, the company has trained generations of technologists and masters specializing in the production of traditional and authentic meat products. Many employees have been working at the company for decades, ensuring the continuity of know-how and the training of new specialists. Currently, representatives of over 10 professional dynasties work at the enterprise, which reflects the stability of the organizational culture and a high level of staff involvement and loyalty. The company has implemented and supports an integrated quality management system, applied at all stages of the production process. Technological processes comply with international standards ISO 22000 and ISO 9001, which also include the HACCP principles. Quality control and food safety are ensured throughout the entire traceability chain — from the receipt of raw materials to the delivery of finished products to customers. The efficiency of the system is supported by its own certified laboratory. The modernization of production capacities and the implementation of equipment from leading European suppliers have contributed to increasing operational efficiency, productivity and environmental sustainability. In the “premium” and “medium” segments, the company's product range includes over 150 types of sausages, 20 types of delicacies and over 100 types of chilled and frozen meat preparations, manufactured according to national and European standards. The company has its own network of 28 modern stores with national coverage, in the 'proximity store' format, of which 12 operate under the 'Filletti' brand, and 8 under the 'Gospodar' brand. The distribution network serves over 3,500 points of sale and collaborates with all the main national retailers.",
+    "members.org-8.location": "Bălți",
+    "members.org-8.certification.0": "ISO 22000",
+    "members.org-8.certification.1": "ISO 9001",
+    "members.org-8.certification.2": "DG-05 Certificate from CNA MOLDAC",
+    "members.org-8.prize.0": "Birmingham Flame (1992-1994)",
+    "members.org-8.prize.1": "Gold Medal (France Industrie)",
+    "members.org-8.prize.2": "Ertsmaker",
+    "members.org-8.prize.3": "Gold Star for Quality",
+
+    // org-9
+    "members.org-9.role": "Meat processing",
+    "members.org-9.description":
+      "Founded in 2001, Slavena has evolved over the years into a leading importer and manufacturer of food products, today occupying one of the leading positions in this field. The initial activity was fish processing, a field in which the company formed its expertise and operational standards based on quality and responsibility towards the consumer. Throughout its development, Slavena has constantly expanded its production capacities and portfolio, becoming today a manufacturer with a diversified assortment of products. The meat processing department, launched in 2013, marked a new stage of growth and diversification. Currently, we produce a wide range of meat products, including marinated meat, breaded products and minced meat semi-finished products, made in accordance with modern food safety and quality requirements. Continuing the development process, in 2024 the frozen dough semi-finished products production section was launched, expanding the offer with products adapted to the modern lifestyle and the growing demand for quick preparation solutions. The company's development is supported by continuous investments in high-performance technological lines, modernization of production processes and implementation of rigorous quality control systems, aimed at providing safe and high-quality products.",
+    "members.org-9.location": "Chișinău",
+    "members.org-9.certification.0": "ISO 22000:2018",
+    "members.org-9.certification.1": "HACCP",
+    "members.org-9.prize.0": "Unlisted",
   };
 
   const memberModalTemplateRu = {
@@ -318,6 +347,29 @@
     "members.org-7.certification.0": "ISO 22000",
     "members.org-7.certification.1": "ISO 9001",
     "members.org-7.prize.0": "Не указано",
+
+    // org-8
+    "members.org-8.role":
+      "Производство, переработка и консервирование мяса и мясных продуктов.",
+    "members.org-8.description":
+      "Компания «Балтинский мясокомбинат» была основана в 1944 году. В 1994 году предприятие было реорганизовано в акционерное общество «БАСАРАБИЯ-НОРД». Сегодня компания является одним из ведущих представителей мясоперерабатывающей промышленности Республики Молдова, осуществляя полный технологический цикл – от получения сырья непосредственно с бойни до переработки, предупаковки, распределения и розничной продажи готовой продукции. Стратегическим ресурсом компании является ее команда профессионалов. За более чем 80 лет истории компания подготовила поколения технологов и мастеров, специализирующихся на производстве традиционных и аутентичных мясных продуктов. Многие сотрудники работают на предприятии десятилетиями, обеспечивая преемственность ноу-хау и подготовку новых специалистов. В настоящее время на предприятии работают представители более 10 профессиональных династий, что отражает стабильность организационной культуры и высокий уровень вовлеченности и лояльности персонала. Компания внедрила и поддерживает интегрированную систему управления качеством, применяемую на всех этапах производственного процесса. Технологические процессы соответствуют международным стандартам ISO 22000 и ISO 9001, которые также включают принципы HACCP. Контроль качества и безопасность пищевых продуктов обеспечиваются на протяжении всей цепочки отслеживания — от получения сырья до доставки готовой продукции клиентам. Эффективность системы поддерживается собственной сертифицированной лабораторией. Модернизация производственных мощностей и внедрение оборудования от ведущих европейских поставщиков способствовали повышению операционной эффективности, производительности и экологической устойчивости. В сегментах «премиум» и «средний» ассортимент продукции компании включает более 150 видов колбас, 20 видов деликатесов и более 100 видов охлажденных и замороженных мясных продуктов, производимых в соответствии с национальными и европейскими стандартами. Компания имеет собственную сеть из 28 современных магазинов с общенациональным охватом, работающих в формате «магазинов шаговой доступности», из которых 12 работают под брендом «Filletti», а 8 — под брендом «Gospodar». Дистрибьюторская сеть обслуживает более 3500 торговых точек и сотрудничает со всеми основными национальными розничными сетями.",
+    "members.org-8.location": "Бэлци",
+    "members.org-8.certification.0": "ISO 22000",
+    "members.org-8.certification.1": "ISO 9001",
+    "members.org-8.certification.2": "Сертификат DG-05 от CNA MOLDAC",
+    "members.org-8.prize.0": "Бирмингем Флейм (1992-1994)",
+    "members.org-8.prize.1": "Золотая медаль (Франция Индустри)",
+    "members.org-8.prize.2": "Эртсмейкер",
+    "members.org-8.prize.3": "Золотая звезда за качество",
+
+    // org-9
+    "members.org-9.role": "Переработка мяса",
+    "members.org-9.description":
+      "Компания Slavena, основанная в 2001 году, за годы своего существования превратилась в ведущего импортера и производителя продуктов питания, занимая сегодня одну из ведущих позиций в этой области. Изначально компания занималась переработкой рыбы, в этой сфере сформировала свой опыт и операционные стандарты, основанные на качестве и ответственности перед потребителем. На протяжении всего своего развития Slavena постоянно расширяла свои производственные мощности и ассортимент, став сегодня производителем с диверсифицированным ассортиментом продукции. Запуск мясоперерабатывающего цеха в 2013 году ознаменовал новый этап роста и диверсификации. В настоящее время мы производим широкий спектр мясных продуктов, включая маринованное мясо, панированные продукты и полуфабрикаты из рубленого мяса, изготовленные в соответствии с современными требованиями к безопасности и качеству пищевых продуктов. Продолжая процесс развития, в 2024 году был запущен цех по производству замороженных полуфабрикатов из теста, расширив предложение продуктами, адаптированными к современному образу жизни и растущему спросу на решения для быстрого приготовления. Развитие компании обеспечивается постоянными инвестициями в высокоэффективные технологические линии, модернизацией производственных процессов и внедрением строгих систем контроля качества, направленных на обеспечение безопасности и высокого качества продукции.",
+    "members.org-9.location": "Кишинев",
+    "members.org-9.certification.0": "ISO 22000:2018",
+    "members.org-9.certification.1": "HACCP",
+    "members.org-9.prize.0": "Не указано",
   };
 
   const en = {
@@ -369,6 +421,12 @@
     "index.member.mezellini.role": "Bulboaca, Anenii-Noi",
     "index.member.mezellini.desc":
       "The mission is to feed Moldovan families with healthy, tasty and affordable meat products, preserving and modernizing local culinary traditions.",
+    "index.member.bn.role": "Bălți",
+    "index.member.bn.desc":
+      "Throughout a history of over 80 years, the company has trained generations of technologists and masters specialized in the production of traditional and authentic meat products.",
+    "index.member.slavena.role": "Chișinău",
+    "index.member.slavena.desc":
+      "Founded in 2001, Slavena has evolved over the years into a leading importer and producer of food products, today occupying one of the leading positions in this field.",
     "index.news.title": "News",
     "index.news.card1.date": "February 2026",
     "index.news.card1.title": "New Website Launch",
@@ -511,7 +569,7 @@
     "index.about.priorityText":
       "Ассоциация работодателей намерена разработать ряд мероприятий по защите интересов, которые окажут прямое влияние на конечного потребителя, финансовый рост компаний и расширение торговых отношений с другими странами: в свою очередь, отмена тарифных и нетарифных барьеров приведет к экономическому росту предприятий пищевой промышленности, косвенно увеличивая заработную плату сотрудников и налоговые поступления в бюджет.",
     "index.about.readMore": "Узнать больше",
-    "index.members.title": "Membrii noștri",
+    "index.members.title": "Наши участники",
     "index.member.mavita.role": "Кишинев",
     "index.member.mavita.desc":
       "Деятельность компании Mavita сосредоточена на производстве разнообразного ассортимента колбас, полуфабрикатов и мясных деликатесов, изготовленных из тщательно отобранного местного мяса, поставляемого проверенными поставщиками.",
@@ -526,13 +584,19 @@
       "Pegas — это семейное предприятие, основанное в 1992 году, премиальный бренд мясных и деликатесных продуктов, сеть магазинов и собственная пекарня; компания уделяет особое внимание высочайшему качеству, устойчивому развитию и инновациям в производстве высококачественных деликатесов.",
     "index.member.nivalli.role": "Дубэсарий Векь, Криуленьский район",
     "index.member.nivalli.desc":
-      "С момента своего основания компания стремилась стать ведущим производителем в мясной промышленности Республики Молдова, сочетая традиционные рецепты с современными технологиями производства. Завод построен в соответствии с требованиями и строгими нормами пищевой промышленности и оснащен современным оборудованием и машинами, произведенными в Германии и Австрии.",
+      "С момента своего основания компания стремилась стать ведущим производителем в мясной промышленности Республики Молдова, сочетая традиционные рецепты с современными технологиями производства.",
     "index.member.debutsor.role": "Сорока",
     "index.member.debutsor.desc":
       "Миссия компании – уделять повышенное внимание предпочтениям потребителей и стремиться к постоянному совершенствованию, работая в рамках закона, прозрачно и эффективно, тем самым предоставляя покупателям качественную продукцию.",
     "index.member.mezellini.role": "Бульбоака, район Анений-Ной",
     "index.member.mezellini.desc":
       "Наша миссия — обеспечить молдавские семьи здоровыми, вкусными и доступными мясными продуктами, сохраняя и модернизируя местные кулинарные традиции.",
+    "index.member.bn.role": "Бельцы",
+    "index.member.bn.desc":
+      "За свою более чем 80-летнюю историю компания подготовила целые поколения технологов и мастеров, специализирующихся на производстве традиционных и аутентичных мясных продуктов.",
+    "index.member.slavena.role": "Кишинев",
+    "index.member.slavena.desc":
+      "Компания Slavena, основанная в 2001 году, за прошедшие годы превратилась в ведущего импортера и производителя продуктов питания, занимая сегодня одну из ведущих позиций в этой области.",
     "index.news.title": "Новости",
     "index.news.card1.date": "февраль 2026",
     "index.news.card1.title": "Запуск нового веб-сайта",
