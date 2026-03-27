@@ -1591,6 +1591,7 @@ footer {
   gap: 1.5rem;
   padding: 1.5rem 0;
   border-bottom: 1px solid var(--color-border);
+  margin-bottom: 1.5rem;
 }
 
 .modal-info-item {
@@ -1612,7 +1613,7 @@ footer {
 .modal-details {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .modal-section h3 {
