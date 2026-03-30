@@ -492,7 +492,9 @@ nav a:hover::after {
 
 .general-page-title img {
   width: 28%;
-  animation: fadeInUp 0.8s ease-out;
+  animation: fadeUpOnly 0.8s ease-out;
+  opacity: 0.5;
+  filter: blur(2px);
 }
 
 .cta-button {
@@ -1534,6 +1536,15 @@ footer {
 }
 
 /* Animations */
+@keyframes fadeUpOnly {
+  from {
+    transform: translateY(40px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
