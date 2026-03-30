@@ -118,6 +118,19 @@
     "about.stats.yearsLabel": "Ani de activitate",
     "about.stats.yearsText":
       "Înregistrată la data 17 decembrie 2010, PÎIPC lucrează spre a avea un impact pozitiv direct asupra consumatorului final, a susține creșterea financiară a companiilor membre și a facilita extinderea relațiilor comerciale cu alte țări în industria pe care o reprezintă.",
+    "about.productJourney.title": "Procesul tehnologic",
+    "about.productJourney.stage1.title": "Standardele alimentare",
+    "about.productJourney.stage1.text":
+      "Produsele din carne fabricate în țara noastră parcurg un drum riguros supravegheat, de la recepția materiei prime și până la livrarea în rețelele comerciale. Fiecare etapă este reglementată printr-un cadru legislativ solid, verificată de autorități competente și executată conform unor instrucțiuni tehnologice precise.",
+    "about.productJourney.stage2.title": "Recepția materiei prime",
+    "about.productJourney.stage2.text":
+      "Totul începe cu recepția cărnii. Niciun lot de materie primă nu intră în producție fără a fi însoțit de documentele obligatorii: certificat sanitar-veterinar eliberat de Agenția Națională pentru Siguranța Alimentelor (ANSA), certificate de calitate și, după caz, avize sanitare care confirmă originea, calitatea și inofensivitatea produsului. \n Carnea provenită din abatoare autohtone este acceptată numai dacă provine de la animale sănătoase, sacrificate în unități autorizate. Carnea din import este admisă exclusiv dacă a fost autorizată pentru import de ANSA și este însoțită de certificat sanitar-veterinar recunoscut în sistemul național. La recepție, fiecare lot este verificat vizual și organoleptic (aspect exterior, culoare, miros, textură) și comparat cu datele din documentele de însoțire. Aditivii alimentari, membranele artificiale și toate materialele auxiliare (condimente, sare, amidon, proteine, stabilizatori, antioxidanți) sunt acceptate doar dacă sunt autorizate de Agenția Națională pentru Sănătate Publică și dețin avize care le confirmă calitatea și siguranța.",
+    "about.productJourney.stage3.title": "Packaging & Storage",
+    "about.productJourney.stage3.text":
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat.",
+    "about.productJourney.stage4.title": "Distribution & Retail",
+    "about.productJourney.stage4.text":
+      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur.",
     "about.ctaTitle": "Dorești să te alături membrilor noștri?",
     "about.ctaText":
       "Descoperă cum putem ajuta organizația ta să crească și să prospere prin rețeaua noastră de suport și advocacy.",
@@ -492,6 +505,21 @@
     "about.stats.yearsLabel": "Years of activity",
     "about.stats.yearsText":
       "Registered on December 17, 2010, PÎIPC works to have a direct positive impact on the end consumer, support the financial growth of member companies, and facilitate the expansion of trade relations with other countries in the industry it represents.",
+    "about.productJourney.title": "The Product Journey",
+    "about.productJourney.subtitle":
+      "Discover the path from farm to table, where quality and care define every step",
+    "about.productJourney.stage1.title": "Fresh Meat Selection",
+    "about.productJourney.stage1.text":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "about.productJourney.stage2.title": "Processing & Quality Control",
+    "about.productJourney.stage2.text":
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure.",
+    "about.productJourney.stage3.title": "Packaging & Storage",
+    "about.productJourney.stage3.text":
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat.",
+    "about.productJourney.stage4.title": "Distribution & Retail",
+    "about.productJourney.stage4.text":
+      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur.",
     "about.ctaTitle": "Want to become a member?",
     "about.ctaText":
       "Discover how we can help your organization grow and thrive through our support and advocacy network.",
@@ -547,12 +575,12 @@
     ...memberModalTemplateRu,
     "index.title": "Покровительство мясу",
     "about.metaTitle": "О нас - Покровительство мясу",
-    "members.metaTitle": "Члены Совета директоров",
+    "members.metaTitle": "Члены совета директоров",
     "news.metaTitle": "Новости - Покровительство мясу",
-    "nav.home": "Дом",
+    "nav.home": "Домашня",
     "nav.logoText": "Патронат предприятий мясоперерабатывающей промышленности",
     "nav.about": "О нас",
-    "nav.members": "Член",
+    "nav.members": "Члены",
     "nav.news": "Новости",
     "nav.contact": "Контакт",
     "index.hero.title":
@@ -662,6 +690,21 @@
     "about.stats.yearsLabel": "Годы деятельности",
     "about.stats.yearsText":
       "Зарегистрированная 17 декабря 2010 года, организация PÎIPC стремится оказывать непосредственное позитивное влияние на конечного потребителя, поддерживать финансовый рост компаний-членов и содействовать расширению торговых связей с другими странами в представляемой ею отрасли.",
+    "about.productJourney.title": "The Product Journey",
+    "about.productJourney.subtitle":
+      "Discover the path from farm to table, where quality and care define every step",
+    "about.productJourney.stage1.title": "Fresh Meat Selection",
+    "about.productJourney.stage1.text":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "about.productJourney.stage2.title": "Processing & Quality Control",
+    "about.productJourney.stage2.text":
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure.",
+    "about.productJourney.stage3.title": "Packaging & Storage",
+    "about.productJourney.stage3.text":
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat.",
+    "about.productJourney.stage4.title": "Distribution & Retail",
+    "about.productJourney.stage4.text":
+      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur.",
     "about.ctaTitle": "Хотите присоединиться к нашей группе?",
     "about.ctaText":
       "Узнайте, как мы можем помочь вашей организации расти и процветать благодаря нашей сети поддержки и защиты интересов.",

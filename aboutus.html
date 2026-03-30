@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-i18n="about.metaTitle">Despre Noi - Patronat Carne</title>
+    <title data-i18n="members.metaTitle">Despre noi</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
@@ -97,11 +97,7 @@
               din Moldova.
             </p>
           </div>
-          <img
-            src="logo-companii/logo-patronat.png"
-            alt="PIIPC Logo"
-            id="logo-hero-section"
-          />
+          <img src="logo-companii/logo-patronat.png" alt="PIIPC Logo" />
         </div>
 
         <!-- About Grid with Image -->
@@ -180,6 +176,104 @@
               relațiilor comerciale cu alte țări în industria pe care o
               reprezintă.
             </p>
+          </div>
+        </div>
+
+        <!-- Product Journey Section -->
+        <div class="product-journey-section">
+          <h2 data-i18n="about.productJourney.title">Procesul tehnologic</h2>
+
+          <div class="journey-accordion">
+            <div class="journey-tabs">
+              <!-- Stage 1: Fresh Meat -->
+              <button
+                class="journey-tab active"
+                data-stage="1"
+                data-i18n="about.productJourney.stage1.title"
+              >
+                <span class="journey-number">01</span>
+                <span class="journey-stage-title">Standarde alimentare</span>
+              </button>
+
+              <!-- Stage 2: Processing -->
+              <button
+                class="journey-tab"
+                data-stage="2"
+                data-i18n="about.productJourney.stage2.title"
+              >
+                <span class="journey-number">02</span>
+                <span class="journey-stage-title"
+                  >Processing & Quality Control</span
+                >
+              </button>
+
+              <!-- Stage 3: Packaging -->
+              <button
+                class="journey-tab"
+                data-stage="3"
+                data-i18n="about.productJourney.stage3.title"
+              >
+                <span class="journey-number">03</span>
+                <span class="journey-stage-title">Packaging & Storage</span>
+              </button>
+
+              <!-- Stage 4: Distribution -->
+              <button
+                class="journey-tab"
+                data-stage="4"
+                data-i18n="about.productJourney.stage4.title"
+              >
+                <span class="journey-number">04</span>
+                <span class="journey-stage-title">Distribution & Retail</span>
+              </button>
+            </div>
+
+            <div class="journey-panel">
+              <div class="journey-panel-content active" data-stage="1">
+                <p data-i18n="about.productJourney.stage1.text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="journey-image">
+                  <img src="./photos/482A0288.jpg" alt="Fresh Meat Selection" />
+                </div>
+              </div>
+              <div class="journey-panel-content" data-stage="2">
+                <p data-i18n="about.productJourney.stage2.text">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat duis aute
+                  irure.
+                </p>
+                <div class="journey-image">
+                  <img
+                    src="./photos/482A0288.jpg"
+                    alt="Processing & Quality Control"
+                  />
+                </div>
+              </div>
+              <div class="journey-panel-content" data-stage="3">
+                <p data-i18n="about.productJourney.stage3.text">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur excepteur sint
+                  occaecat.
+                </p>
+                <div class="journey-image">
+                  <img src="./photos/482A0288.jpg" alt="Packaging & Storage" />
+                </div>
+              </div>
+              <div class="journey-panel-content" data-stage="4">
+                <p data-i18n="about.productJourney.stage4.text">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum consectetur.
+                </p>
+                <div class="journey-image">
+                  <img
+                    src="./photos/482A0288.jpg"
+                    alt="Distribution & Retail"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -313,6 +407,72 @@
       }
 
       setupMobileMenu();
+
+      // Product Journey Accordion
+      const journeyAccordions = document.querySelectorAll(".journey-accordion");
+
+      journeyAccordions.forEach((accordion) => {
+        const tabsContainer = accordion.querySelector(".journey-tabs");
+        const tabs = Array.from(accordion.querySelectorAll(".journey-tab"));
+        const panels = Array.from(
+          accordion.querySelectorAll(".journey-panel-content"),
+        );
+
+        if (!tabsContainer || !tabs.length || !panels.length) {
+          return;
+        }
+
+        const panelByStage = new Map(
+          panels
+            .filter((panel) => panel.dataset.stage)
+            .map((panel) => [panel.dataset.stage, panel]),
+        );
+
+        const getFallbackStage = () =>
+          tabs[0]?.dataset.stage || panels[0]?.dataset.stage;
+
+        const activateStage = (stage) => {
+          const stageToActivate = panelByStage.has(stage)
+            ? stage
+            : getFallbackStage();
+
+          if (!stageToActivate) {
+            return;
+          }
+
+          tabs.forEach((tab) => {
+            tab.classList.toggle(
+              "active",
+              tab.dataset.stage === stageToActivate,
+            );
+          });
+
+          panels.forEach((panel) => {
+            panel.classList.toggle(
+              "active",
+              panel.dataset.stage === stageToActivate,
+            );
+          });
+        };
+
+        const initialStage =
+          tabs.find((tab) => tab.classList.contains("active"))?.dataset.stage ||
+          panels.find((panel) => panel.classList.contains("active"))?.dataset
+            .stage ||
+          getFallbackStage();
+
+        activateStage(initialStage);
+
+        tabsContainer.addEventListener("click", (event) => {
+          const tab = event.target.closest(".journey-tab");
+
+          if (!tab || !tabsContainer.contains(tab)) {
+            return;
+          }
+
+          activateStage(tab.dataset.stage);
+        });
+      });
 
       // Navbar scroll effect
       window.addEventListener("scroll", () => {
