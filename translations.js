@@ -102,7 +102,7 @@
       "Aflați mai mult despre Patronatul Întreprinderilor Industriei Prelucrătoare de Carne și misiunea noastră să susținem industria din Moldova.",
     "about.activity": "Activitatea noastră",
     "about.activityText":
-      "Reprezentăm interesele întreprinderilor producătoare și procesatoare de carne din Republica Moldova în relația cu autoritățile publice și alte instituții relevante prin activități de 'lobbying'. Ne implicăm activ în elaborarea și îmbunătățirea cadrului legislativ din domeniu, susținem un mediu de afaceri echitabil și competitiv și promovăm respectarea standardelor de calitate și siguranță alimentară. Facilităm dialogul dintre angajatori, stat și partenerii sociali, oferim suport informațional și consultativ membrilor noștri și contribuim la dezvoltarea și modernizarea sectorului cărnii la nivel național și internațional.",
+      "Reprezentăm interesele întreprinderilor producătoare și procesatoare de carne din Republica Moldova în relația cu autoritățile publice și alte instituții relevante prin activități de 'lobbying'.",
     "about.priority": "Prioritatea noastră - Consumatorul",
     "about.priorityText":
       "Patronatul are ca intenție dezvoltarea mai multor activități de advocacy ce vor avea un impact direct asupra consumatorului final, creșterea financiară pentru companii și extinderea relațiilor comerciale cu alte țări. Excluderea barierelor tarifare și netarifare va genera o creștere economică pentru întreprinderile din domeniu alimentar și vor crește salariile angajaților.",
