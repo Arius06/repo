@@ -40,7 +40,7 @@
       "Pegas este o afacere de familie fondată în anul 1992, un brand premium de produse din carne și delicatese, lanț de magazine și propria brutărie; cu accent pe cea mai înaltă calitate, dezvoltare durabilă și inovație în fabricarea delicateselor de calitate.",
     "index.member.nivalli.role": "s. Dubăsarii Vechi, r. Criuleni",
     "index.member.nivalli.desc":
-      "De la înființare, compania și-a propus să devină un producător de referință în industria cărnii din Republica Moldova, combinând rețetele tradiționale cu tehnologiile moderne de producție. Combinatul este construit în conformitate cu cerințele și rigorile din domeniul industriei alimentare, fiind dotat cu utilaje și echipamente moderne produse în Germania și Austria.",
+      "De la înființare, compania și-a propus să devină un producător de referință în industria cărnii din Republica Moldova, combinând rețetele tradiționale cu tehnologiile moderne de producție.",
     "index.member.debutsor.role": "or. Soroca",
     "index.member.debutsor.desc":
       "Misiunea întreprinderii – atenția sporită la preferințele consumatorilor și tendința de perfecționare continuă, activînd într-o manieră legală, transparentă și eficientă, asigurînd astfel cumpărătorii cu produse de calitate.",
