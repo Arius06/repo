@@ -655,6 +655,24 @@
         document.getElementById("modalInstagram").href = data.instagram;
       }
 
+      // Alternative open from clicking grid item
+      document.querySelectorAll(".member-grid-item").forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          const memberId =
+            e.target.closest(".member-grid-item").dataset.memberId;
+          activeMemberId = memberId;
+          const data = memberData[memberId];
+
+          if (data) {
+            renderMemberModal(memberId, data);
+
+            // Show modal
+            modal.classList.add("active");
+            document.body.style.overflow = "hidden";
+          }
+        });
+      });
+
       // Open modal
       document.querySelectorAll(".find-more-btn").forEach((btn) => {
         btn.addEventListener("click", (e) => {
