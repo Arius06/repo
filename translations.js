@@ -77,9 +77,9 @@
     "index.resources.card3.title": "Legea Patronatelor (Nr. 976)",
     "index.resources.card3.text":
       "Legea reglementează modul de constituire şi funcţionare a patronatelor în RM în conformitate cu Concepţia pentru dezvoltarea sistemului de dialog social.",
-    "index.resources.card4.title": "Alte documente",
+    "index.resources.card4.title": "Newsletter UNIDO",
     "index.resources.card4.text":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facere eius quos autem fugiat dolores inventore blanditiis modi rerum ducimus.",
+      "Ediția #5 din newsletterul proiectului UE-UNIDO „Îmbunătățirea conformității standardelor prin creșterea capacităților naționale de monitorizare a reziduurilor”.",
     "index.resources.open": "Deschide",
     "index.contacts.title": "Contactează-ne",
     "index.contacts.officeTitle": "Sediul nostru",
@@ -483,9 +483,9 @@
     "index.resources.card3.title": "Employer's Association Rule (№ 976)",
     "index.resources.card3.text":
       "The law regulates the establishment and functioning of employers' associations in the Republic of Moldova in accordance with the Concept for the development of the social dialogue system.",
-    "index.resources.card4.title": "Other documents",
+    "index.resources.card4.title": "UNIDO Newsletter",
     "index.resources.card4.text":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facere eius quos autem fugiat dolores inventore blanditiis modi rerum ducimus.",
+      "5th edition of UE-UNIDO project's newsletter 'Improving compliance with standards by increasing national capacities for residue monitoring'.",
     "index.resources.open": "Open",
     "index.contacts.title": "Contact us",
     "index.contacts.officeTitle": "Our Headquarters",
@@ -685,9 +685,9 @@
     "index.resources.card3.title": "Закон o патронатах (№ 976)",
     "index.resources.card3.text":
       "Закон регулирует создание и функционирование ассоциаций работодателей в РМ в соответствии с Концепцией развития системы социального диалога.",
-    "index.resources.card4.title": "Alte documente",
+    "index.resources.card4.title": "Бюллетень ЕС-ЮНИДО",
     "index.resources.card4.text":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facere eius quos autem fugiat dolores inventore blanditiis modi rerum ducimus.",
+      "Выпуск № 5 информационного бюллетеня проекта ЕС-ЮНИДО «Повышение соответствия стандартам путем наращивания национальных возможностей по мониторингу остаточных веществ».",
     "index.resources.open": "Открыть",
     "index.contacts.title": "Связаться с нами",
     "index.contacts.officeTitle": "Наша штаб-квартира",
