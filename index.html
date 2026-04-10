@@ -123,9 +123,11 @@
     <!-- About Section -->
     <section id="about" class="about">
       <div class="container">
-        <h2 data-i18n="index.about.title">Despre noi</h2>
+        <h2 class="fade-in-on-scroll" data-i18n="index.about.title">
+          Despre noi
+        </h2>
         <div class="about-grid">
-          <div class="about-text">
+          <div class="about-text fade-in-on-scroll">
             <h3 data-i18n="index.about.activityTitle">Activitatea noastră</h3>
             <p data-i18n="index.about.activityText">
               Reprezentăm interesele întreprinderilor producătoare și
@@ -169,7 +171,9 @@
     <!-- Members Section -->
     <section id="members" class="members">
       <div class="container">
-        <h2 data-i18n="index.members.title">Membrii noștri</h2>
+        <h2 class="fade-in-on-scroll" data-i18n="index.members.title">
+          Membrii noștri
+        </h2>
         <div class="members-wrapper">
           <div class="carousel-container">
             <div class="members-grid" id="carousel">
@@ -322,7 +326,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-nav">
+          <div class="carousel-nav fade-in-on-scroll">
             <button class="carousel-btn" id="prev-btn" aria-label="Previous">
               ❮
             </button>
@@ -337,7 +341,7 @@
     <!-- News Section -->
     <section id="news" class="news">
       <div class="container">
-        <h2 data-i18n="index.news.title">Noutăți</h2>
+        <h2 class="fade-in-on-scroll" data-i18n="index.news.title">Noutăți</h2>
         <div class="news-grid">
           <article class="news-card fade-in-on-scroll" data-news-page="true">
             <div class="news-image">
@@ -418,7 +422,9 @@
     <!-- Resources Section -->
     <section id="resources" class="resources">
       <div class="container">
-        <h2 data-i18n="index.resources.title">Resurse</h2>
+        <h2 class="fade-in-on-scroll" data-i18n="index.resources.title">
+          Resurse
+        </h2>
         <div class="resources-grid">
           <div class="resource-card fade-in-on-scroll">
             <a
@@ -511,8 +517,10 @@
     <!-- Contacts Section -->
     <section id="contacts" class="contacts">
       <div class="container">
-        <h2 data-i18n="index.contacts.title">Contactează-ne</h2>
-        <div class="contacts-content">
+        <h2 class="fade-in-on-scroll" data-i18n="index.contacts.title">
+          Contactează-ne
+        </h2>
+        <div class="contacts-content fade-in-on-scroll">
           <div class="contact-info">
             <div class="contact-item">
               <h3 data-i18n="index.contacts.officeTitle">Sediul nostru</h3>
@@ -551,7 +559,7 @@
               </p>
             </div>
           </div>
-          <form id="contact-form">
+          <form id="contact-form" class="fade-in-on-scroll">
             <div class="form-group">
               <label for="name" data-i18n="index.form.name"
                 >Nume, Prenume</label
@@ -677,6 +685,8 @@
 
     <script src="translations.js"></script>
     <script src="i18n.js"></script>
+    <script src="parallax.js"></script>
+    <script src="scroll-reveal.js"></script>
     <script>
       const navbar = document.getElementById("navbar");
       const navToggle = document.querySelector(".nav-toggle");
@@ -856,28 +866,6 @@
       // Start auto-scroll
       resetAutoScroll();
 
-      // Observe elements for scroll animations
-      const observerOptions = {
-        threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px",
-      };
-
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("fade-in-on-scroll");
-            observer.unobserve(entry.target);
-          }
-        });
-      }, observerOptions);
-
-      // Observe all member and resource cards
-      document
-        .querySelectorAll(".member-card, .news-card, .resource-card")
-        .forEach((card) => {
-          observer.observe(card);
-        });
-
       // Form submission
       document
         .getElementById("contact-form")
@@ -916,15 +904,6 @@
               alert("Error sending message. Please try again.");
             });
         });
-
-      // Parallax effect on hero section
-      const hero = document.querySelector(".hero");
-      window.addEventListener("scroll", () => {
-        const scrollPosition = window.scrollY;
-        if (scrollPosition < window.innerHeight) {
-          hero.style.backgroundPosition = `center ${scrollPosition * 0.5}px`;
-        }
-      });
     </script>
   </body>
 </html>

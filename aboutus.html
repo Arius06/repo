@@ -88,7 +88,7 @@
     <!-- About Section -->
     <section class="about-page">
       <div class="container">
-        <div class="general-page-title">
+        <div class="general-page-title fade-in-on-scroll">
           <div class="left-title">
             <h1 class="about-page-title" data-i18n="about.title">Despre Noi</h1>
             <p class="about-page-subtitle" data-i18n="about.subtitle">
@@ -101,7 +101,7 @@
         </div>
 
         <!-- About Grid with Image -->
-        <div class="about-grid">
+        <div class="about-grid fade-in-on-scroll">
           <div class="about-text">
             <h3 data-i18n="about.activity">Activitatea noastră</h3>
             <p data-i18n="about.activityText">
@@ -180,7 +180,10 @@
         </div>
 
         <!-- Product Journey Section -->
-        <div class="product-journey-section" id="product-journey-section">
+        <div
+          class="product-journey-section fade-in-on-scroll"
+          id="product-journey-section"
+        >
           <h2 data-i18n="about.productJourney.title">Procesul tehnologic</h2>
 
           <div class="journey-accordion">
@@ -511,7 +514,7 @@
         </div>
 
         <!-- Callback to Members -->
-        <div class="about-cta">
+        <div class="about-cta fade-in-on-scroll">
           <h3 data-i18n="about.ctaTitle">
             Dorești să te alături membrilor noștri?
           </h3>
@@ -593,24 +596,9 @@
 
     <script src="translations.js"></script>
     <script src="i18n.js"></script>
+    <script src="parallax.js"></script>
+    <script src="scroll-reveal.js"></script>
     <script>
-      // Scroll reveal animation
-      const revealOnScroll = () => {
-        const reveals = document.querySelectorAll(".fade-in-on-scroll");
-        reveals.forEach((element) => {
-          const windowHeight = window.innerHeight;
-          const revealTop = element.getBoundingClientRect().top;
-
-          if (revealTop < windowHeight - 100) {
-            element.style.opacity = "1";
-            element.style.transform = "translateY(0)";
-          }
-        });
-      };
-
-      window.addEventListener("scroll", revealOnScroll);
-      revealOnScroll();
-
       const navbar = document.getElementById("navbar");
       const navToggle = document.querySelector(".nav-toggle");
       const navMenu = document.getElementById("primary-navigation");
