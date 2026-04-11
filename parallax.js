@@ -58,8 +58,10 @@
   const parallaxImages = Array.from(document.querySelectorAll("img")).filter(
     isEligibleImage,
   );
+  const heroAboutGlow = document.querySelector(".hero-about-glow");
+  const heroAboutStage = document.querySelector(".hero-about-stage");
 
-  if (!parallaxImages.length) {
+  if (!parallaxImages.length && !heroAboutGlow) {
     return;
   }
 
@@ -69,6 +71,10 @@
     imageElement,
     documentCenterY: 0,
   }));
+
+  if (heroAboutGlow) {
+    heroAboutGlow.style.willChange = "transform";
+  }
 
   function measureItems() {
     parallaxItems.forEach((item) => {
@@ -105,6 +111,22 @@
 
       imageElement.style.transform = `translate3d(0, ${offset.toFixed(2)}px, 0) scale(${scale})`;
     });
+
+    if (heroAboutGlow && heroAboutStage) {
+      const stageRect = heroAboutStage.getBoundingClientRect();
+      const isInView = stageRect.bottom > 0 && stageRect.top < viewportHeight;
+
+      if (isInView) {
+        const stageProgress =
+          (viewportCenterY - (stageRect.top + window.scrollY)) /
+          Math.max(stageRect.height, 1);
+        const clamped = Math.max(-0.6, Math.min(1.2, stageProgress));
+        const glowOffset =
+          (clamped - 0.28) * (window.innerWidth < 768 ? 300 : 400);
+
+        heroAboutGlow.style.transform = `translate3d(0, ${glowOffset.toFixed(2)}px, 0)`;
+      }
+    }
 
     ticking = false;
   }

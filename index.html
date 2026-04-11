@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title data-i18n="index.title">Patronat Carne</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
@@ -87,86 +93,89 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
-      <div class="hero-layout">
-        <div class="hero-content">
-          <img
-            src="./logo-companii/logo-patronat.png"
-            alt="Logo patronat"
-            id="logo-hero-section"
-          />
-          <h1 data-i18n="index.hero.title">
-            Industria cărnii din Moldova, mai sigură și mai unită.
-          </h1>
-          <p class="hero-subtitle" data-i18n="index.hero.subtitle">
-            Din 2010 asigurăm cooperarea companiilor în soluționarea problemelor
-            din industrie și asigurăm respectarea celor mai înalte standarde de
-            siguranță alimentară pentru produsele de pe piața Republicii
-            Moldova.
-          </p>
-          <div>
-            <button class="cta-button" data-i18n="index.hero.ctaMore">
-              Află mai mult
-            </button>
-          </div>
-        </div>
-        <div class="hero-image">
-          <img
-            src="photos/floating-salami.webp"
-            alt="Reprezentare industria cărnii"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-      <div class="container">
-        <h2 class="fade-in-on-scroll" data-i18n="index.about.title">
-          Despre noi
-        </h2>
-        <div class="about-grid">
-          <div class="about-text fade-in-on-scroll">
-            <h3 data-i18n="index.about.activityTitle">Activitatea noastră</h3>
-            <p data-i18n="index.about.activityText">
-              Reprezentăm interesele întreprinderilor producătoare și
-              procesatoare de carne din Republica Moldova în relația cu
-              autoritățile publice și alte instituții relevante. Ne implicăm
-              activ în elaborarea și îmbunătățirea cadrului legislativ din
-              domeniu, susținem un mediu de afaceri echitabil și competitiv și
-              promovăm respectarea standardelor de calitate și siguranță
-              alimentară. Facilităm dialogul dintre angajatori, stat și
-              partenerii sociali, oferim suport informațional și consultativ
-              membrilor noștri și contribuim la dezvoltarea și modernizarea
-              sectorului cărnii la nivel național și internațional.
+    <div class="hero-about-stage">
+      <span class="hero-about-glow" aria-hidden="true"></span>
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <div class="hero-layout">
+          <div class="hero-content">
+            <img
+              src="./logo-companii/logo-patronat.png"
+              alt="Logo patronat"
+              id="logo-hero-section"
+            />
+            <h1 data-i18n="index.hero.title">
+              Industria cărnii din Moldova, mai sigură și mai unită.
+            </h1>
+            <p class="hero-subtitle" data-i18n="index.hero.subtitle">
+              Din 2010 asigurăm cooperarea companiilor în soluționarea
+              problemelor din industrie și asigurăm respectarea celor mai înalte
+              standarde de siguranță alimentară pentru produsele de pe piața
+              Republicii Moldova.
             </p>
-
-            <h3 data-i18n="index.about.priorityTitle">
-              Prioritatea noastră - Consumatorul
-            </h3>
-            <p data-i18n="index.about.priorityText">
-              Patronatul are ca intenție dezvoltarea mai multor activități de
-              advocacy ce vor avea un impact direct asupra consumatorului final,
-              creșterea financiară pentru companii și extinderea relațiilor
-              comerciale cu alte țări: La rândul său excluderea barierelor
-              tarifare și netarifare va genera o creștere economică pentru
-              întreprinderile din domeniu alimentar indirect vor creste
-              salariile angajaților și taxele la buget.
-            </p>
-            <a
-              href="aboutus.html"
-              class="read-more"
-              data-i18n="index.about.readMore"
-              >Află mai mult</a
-            >
+            <div>
+              <button class="cta-button" data-i18n="index.hero.ctaMore">
+                Află mai mult
+              </button>
+            </div>
           </div>
-          <div class="about-image">
-            <img src="./photos/482A0288.webp" alt="PIIPC" />
+          <div class="hero-image">
+            <img
+              src="photos/hero-salami-image.webp"
+              alt="Reprezentare industria cărnii"
+            />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="fade-in-on-scroll" data-i18n="index.about.title">
+            Despre noi
+          </h2>
+          <div class="about-grid">
+            <div class="about-text fade-in-on-scroll">
+              <h3 data-i18n="index.about.activityTitle">Activitatea noastră</h3>
+              <p data-i18n="index.about.activityText">
+                Reprezentăm interesele întreprinderilor producătoare și
+                procesatoare de carne din Republica Moldova în relația cu
+                autoritățile publice și alte instituții relevante. Ne implicăm
+                activ în elaborarea și îmbunătățirea cadrului legislativ din
+                domeniu, susținem un mediu de afaceri echitabil și competitiv și
+                promovăm respectarea standardelor de calitate și siguranță
+                alimentară. Facilităm dialogul dintre angajatori, stat și
+                partenerii sociali, oferim suport informațional și consultativ
+                membrilor noștri și contribuim la dezvoltarea și modernizarea
+                sectorului cărnii la nivel național și internațional.
+              </p>
+
+              <h3 data-i18n="index.about.priorityTitle">
+                Prioritatea noastră - Consumatorul
+              </h3>
+              <p data-i18n="index.about.priorityText">
+                Patronatul are ca intenție dezvoltarea mai multor activități de
+                advocacy ce vor avea un impact direct asupra consumatorului
+                final, creșterea financiară pentru companii și extinderea
+                relațiilor comerciale cu alte țări: La rândul său excluderea
+                barierelor tarifare și netarifare va genera o creștere economică
+                pentru întreprinderile din domeniu alimentar indirect vor creste
+                salariile angajaților și taxele la buget.
+              </p>
+              <a
+                href="aboutus.html"
+                class="read-more"
+                data-i18n="index.about.readMore"
+                >Află mai mult</a
+              >
+            </div>
+            <div class="about-image">
+              <img src="./photos/482A0288.webp" alt="PIIPC" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <!-- Members Section -->
     <section id="members" class="members">
@@ -755,6 +764,7 @@
 
       // Carousel functionality
       const carousel = document.getElementById("carousel");
+      const membersWrapper = document.querySelector(".members-wrapper");
       const prevBtn = document.getElementById("prev-btn");
       const nextBtn = document.getElementById("next-btn");
       const memberCards = document.querySelectorAll(".member-card");
@@ -824,14 +834,32 @@
         nextSlide();
       }
 
+      function stopAutoScroll() {
+        if (autoScrollTimer) {
+          clearInterval(autoScrollTimer);
+          autoScrollTimer = null;
+        }
+      }
+
+      function startAutoScroll() {
+        if (!autoScrollTimer) {
+          autoScrollTimer = setInterval(autoScroll, 5000);
+        }
+      }
+
       function resetAutoScroll() {
-        clearInterval(autoScrollTimer);
-        autoScrollTimer = setInterval(autoScroll, 5000);
+        stopAutoScroll();
+        startAutoScroll();
       }
 
       // Event listeners for carousel navigation
       prevBtn.addEventListener("click", prevSlide);
       nextBtn.addEventListener("click", nextSlide);
+
+      if (membersWrapper) {
+        membersWrapper.addEventListener("mouseenter", stopAutoScroll);
+        membersWrapper.addEventListener("mouseleave", startAutoScroll);
+      }
 
       // Calculate card width after page loads
       window.addEventListener("load", () => {
