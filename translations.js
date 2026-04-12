@@ -54,19 +54,11 @@
     "index.member.slavena.desc":
       "Înființată în anul 2001, Slavena a evoluat pe parcursul anilor într-un importator și producător de frunte de produse alimentare, ocupând astăzi una dintre pozițiile de lider în acest domeniu.",
     "index.news.title": "Noutăți",
-    "index.news.card1.date": "Februarie 2026",
-    "index.news.card1.title": "Lansarea noului website",
-    "index.news.card1.text":
-      "Ne bucurăm să anunțăm lansarea noului website al patronatului. Acum puteți găsi informații despre membrii patronatului, ultimile știri, resurse și multe altele.",
-    "index.news.card2.date": "Februarie 2026",
-    "index.news.card2.title": "Lansarea noului website",
-    "index.news.card2.text":
-      "Ne bucurăm să anunțăm lansarea noului website al patronatului. Acum puteți găsi informații despre membrii patronatului, ultimile știri, resurse și multe altele.",
-    "index.news.card3.date": "Februarie 2026",
-    "index.news.card3.title": "Lansarea noului website",
-    "index.news.card3.text":
-      "Ne bucurăm să anunțăm lansarea noului website al patronatului. Acum puteți găsi informații despre membrii patronatului, ultimile știri, resurse și multe altele.",
-    "index.news.readMore": "Vezi mai mult",
+    "index.news.bannerTitle":
+      "Noutățile care definesc industria, într-un singur loc.",
+    "index.news.bannerText":
+      "Citește cele mai recente anunțuri, inițiative și actualizări ale patronatului.",
+    "index.news.bannerCta": "Vezi ultimele noutăți",
     "index.resources.title": "Resurse",
     "index.resources.card1.title": "Certificat de înregistrare",
     "index.resources.card1.text":
@@ -460,19 +452,11 @@
     "index.member.slavena.desc":
       "Founded in 2001, Slavena has evolved over the years into a leading importer and producer of food products, today occupying one of the leading positions in this field.",
     "index.news.title": "News",
-    "index.news.card1.date": "February 2026",
-    "index.news.card1.title": "New Website Launch",
-    "index.news.card1.text":
-      "Ne bucurăm să anunțăm lansarea noului website al patronatului. Acum puteți găsi informații despre membrii patronatului, ultimile știri, resurse și multe altele.",
-    "index.news.card2.date": "Februarie 2026",
-    "index.news.card2.title": "Lansarea noului website",
-    "index.news.card2.text":
-      "Ne bucurăm să anunțăm lansarea noului website al patronatului. Acum puteți găsi informații despre membrii patronatului, ultimile știri, resurse și multe altele.",
-    "index.news.card3.date": "Februarie 2026",
-    "index.news.card3.title": "Lansarea noului website",
-    "index.news.card3.text":
-      "Ne bucurăm să anunțăm lansarea noului website al patronatului. Acum puteți găsi informații despre membrii patronatului, ultimile știri, resurse și multe altele.",
-    "index.news.readMore": "See more",
+    "index.news.bannerTitle":
+      "The latest updates shaping the industry, all in one place.",
+    "index.news.bannerText":
+      "Read the newest announcements, initiatives, and updates from our association.",
+    "index.news.bannerCta": "See latest news",
     "index.resources.title": "Resources",
     "index.resources.card1.title": "Registration certificate",
     "index.resources.card1.text":
@@ -662,19 +646,10 @@
     "index.member.slavena.desc":
       "Компания Slavena, основанная в 2001 году, за прошедшие годы превратилась в ведущего импортера и производителя продуктов питания, занимая сегодня одну из ведущих позиций в этой области.",
     "index.news.title": "Новости",
-    "index.news.card1.date": "февраль 2026",
-    "index.news.card1.title": "Запуск нового веб-сайта",
-    "index.news.card1.text":
-      "Мы рады объявить о запуске нового веб-сайта ассоциации работодателей. Теперь вы можете найти информацию о членах ассоциации, последние новости, ресурсы и многое другое.",
-    "index.news.card2.date": "февраль 2026",
-    "index.news.card2.title": "Lansarea noului website",
-    "index.news.card2.text":
-      "Ne bucurăm să anunțăm lansarea noului website al patronatului. Acum puteți găsi informații despre membrii patronatului, ultimile știri, resurse și multe altele.",
-    "index.news.card3.date": "февраль 2026",
-    "index.news.card3.title": "Lansarea noului website",
-    "index.news.card3.text":
-      "Ne bucurăm să anunțăm lansarea noului website al patronatului. Acum puteți găsi informații despre membrii patronatului, ultimile știri, resurse și multe altele.",
-    "index.news.readMore": "Посмотреть больше",
+    "index.news.bannerTitle": "Последние новости отрасли в одном месте.",
+    "index.news.bannerText":
+      "Читайте свежие объявления, инициативы и обновления нашей ассоциации.",
+    "index.news.bannerCta": "Смотреть последние новости",
     "index.resources.title": "Ресурсы",
     "index.resources.card1.title": "Свидетельство о регистрации",
     "index.resources.card1.text":

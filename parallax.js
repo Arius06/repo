@@ -109,6 +109,10 @@
 
       const scale = imageElement.closest(".about-image") ? 1.2 : 1;
 
+      if (imageElement.closest(".news-banner-image")) {
+        scale = 1.4;
+      }
+
       imageElement.style.transform = `translate3d(0, ${offset.toFixed(2)}px, 0) scale(${scale})`;
     });
 
@@ -122,7 +126,7 @@
           Math.max(stageRect.height, 1);
         const clamped = Math.max(-0.6, Math.min(1.2, stageProgress));
         const glowOffset =
-          (clamped - 0.28) * (window.innerWidth < 768 ? 300 : 400);
+          (clamped - 0.28) * (window.innerWidth < 768 ? 1300 : 600);
 
         heroAboutGlow.style.transform = `translate3d(0, ${glowOffset.toFixed(2)}px, 0)`;
       }

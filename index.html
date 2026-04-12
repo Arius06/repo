@@ -48,18 +48,10 @@
     <nav id="navbar">
       <div class="nav-container">
         <a href="index.html" class="logo" aria-label="Acasă">
-          <img
-            src="./logo-companii/logo-patronat.png"
-            alt="Logo Patronat"
-            style="width: 5vw; padding: 0"
-          />
+          <img src="./logo-companii/logo-patronat.png" alt="Logo Patronat" />
           <span class="logo-dot"></span>
           <br />
-          <p
-            style="letter-spacing: normal"
-            data-i18n="nav.logoText"
-            id="org-name-text"
-          >
+          <p data-i18n="nav.logoText" id="org-name-text">
             Patronatul Întreprinderilor Industriei Prelucrătoare de Carne
           </p>
         </a>
@@ -351,80 +343,26 @@
     <section id="news" class="news">
       <div class="container">
         <h2 class="fade-in-on-scroll" data-i18n="index.news.title">Noutăți</h2>
-        <div class="news-grid">
-          <article class="news-card fade-in-on-scroll" data-news-page="true">
-            <div class="news-image">
-              <img src="photos/news_thumbnail1.webp" alt="Știre 1" />
-            </div>
-            <div class="news-content">
-              <p class="news-date" data-i18n="index.news.card1.date">
-                Februarie 2026
-              </p>
-              <h3 data-i18n="index.news.card1.title">
-                Lansarea noului website
-              </h3>
-              <p data-i18n="index.news.card1.text">
-                Ne bucurăm să anunțăm lansarea noului website al patronatului.
-                Acum puteți găsi informații despre membrii patronatului,
-                ultimile știri, resurse și multe altele.
-              </p>
-              <a
-                href="news.html"
-                class="read-more"
-                data-i18n="index.news.readMore"
-                >Vezi mai mult</a
-              >
-            </div>
-          </article>
-          <article class="news-card fade-in-on-scroll" data-news-page="true">
-            <div class="news-image">
-              <img src="photos/news_thumbnail2.webp" alt="Știre 2" />
-            </div>
-            <div class="news-content">
-              <p class="news-date" data-i18n="index.news.card2.date">
-                Februarie 2026
-              </p>
-              <h3 data-i18n="index.news.card2.title">
-                Lansarea noului website
-              </h3>
-              <p data-i18n="index.news.card2.text">
-                Ne bucurăm să anunțăm lansarea noului website al patronatului.
-                Acum puteți găsi informații despre membrii patronatului,
-                ultimile știri, resurse și multe altele.
-              </p>
-              <a
-                href="news.html"
-                class="read-more"
-                data-i18n="index.news.readMore"
-                >Vezi mai mult</a
-              >
-            </div>
-          </article>
-          <article class="news-card fade-in-on-scroll" data-news-page="true">
-            <div class="news-image">
-              <img src="photos/news_thumbnail3.webp" alt="Știre 3" />
-            </div>
-            <div class="news-content">
-              <p class="news-date" data-i18n="index.news.card3.date">
-                Februarie 2026
-              </p>
-              <h3 data-i18n="index.news.card3.title">
-                Lansarea noului website
-              </h3>
-              <p data-i18n="index.news.card3.text">
-                Ne bucurăm să anunțăm lansarea noului website al patronatului.
-                Acum puteți găsi informații despre membrii patronatului,
-                ultimile știri, resurse și multe altele.
-              </p>
-              <a
-                href="news.html"
-                class="read-more"
-                data-i18n="index.news.readMore"
-                >Vezi mai mult</a
-              >
-            </div>
-          </article>
-        </div>
+        <a href="news.html" class="news-banner fade-in-on-scroll">
+          <img
+            src="photos/482A0288.webp"
+            alt="Noutăți Patronat"
+            class="news-banner-image"
+          />
+          <div class="news-banner-overlay" aria-hidden="true"></div>
+          <div class="news-banner-content">
+            <h3 data-i18n="index.news.bannerTitle">
+              Noutățile care definesc industria, într-un singur loc.
+            </h3>
+            <p data-i18n="index.news.bannerText">
+              Citește cele mai recente anunțuri, inițiative și actualizări ale
+              patronatului.
+            </p>
+            <span class="news-banner-cta" data-i18n="index.news.bannerCta"
+              >Vezi ultimele noutăți</span
+            >
+          </div>
+        </a>
       </div>
     </section>
 
@@ -633,7 +571,7 @@
           <img
             src="./logo-companii/logo-patronat.png"
             alt="PIIPC"
-            style="width: 13vw"
+            class="footer-brand-logo"
           />
         </div>
         <div class="footer-section">
@@ -882,14 +820,22 @@
           });
         });
 
-      // News page navigation
-      document
-        .querySelectorAll(".news-card[data-news-page]")
-        .forEach((card) => {
-          card.addEventListener("click", () => {
-            window.location.href = "news.html";
-          });
+      // Cursor-follow glow for the homepage news banner.
+      document.querySelectorAll(".news-banner").forEach((banner) => {
+        banner.addEventListener("pointermove", (event) => {
+          const rect = banner.getBoundingClientRect();
+          const x = event.clientX - rect.left;
+          const y = event.clientY - rect.top;
+
+          banner.style.setProperty("--cursor-x", `${x}px`);
+          banner.style.setProperty("--cursor-y", `${y}px`);
         });
+
+        banner.addEventListener("pointerleave", () => {
+          banner.style.setProperty("--cursor-x", "50%");
+          banner.style.setProperty("--cursor-y", "50%");
+        });
+      });
 
       // Start auto-scroll
       resetAutoScroll();
