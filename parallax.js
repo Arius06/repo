@@ -78,7 +78,13 @@
 
   function measureItems() {
     parallaxItems.forEach((item) => {
+      const previousTransform = item.imageElement.style.transform;
+
+      // Measure from the element's natural layout box, not the current parallax offset.
+      item.imageElement.style.transform = "none";
       const rect = item.imageElement.getBoundingClientRect();
+      item.imageElement.style.transform = previousTransform;
+
       item.documentCenterY = rect.top + window.scrollY + rect.height / 2;
     });
   }
@@ -107,7 +113,7 @@
       const aboutImageBoost = imageElement.closest(".about-image") ? 2.8 : 1;
       const offset = progress * strength * aboutImageBoost * -1;
 
-      const scale = imageElement.closest(".about-image") ? 1.2 : 1;
+      let scale = imageElement.closest(".about-image") ? 1.2 : 1;
 
       if (imageElement.closest(".news-banner-image")) {
         scale = 1.4;
@@ -141,6 +147,70 @@
       ticking = true;
     }
   }
+
+  function monitorScrollToTopAndRefresh() {
+    let frameCount = 0;
+    let stableFrames = 0;
+    let previousY = window.scrollY;
+    const maxFrames = 240;
+
+    function step() {
+      frameCount += 1;
+      requestUpdate();
+
+      const currentY = window.scrollY;
+      if (Math.abs(currentY - previousY) < 0.5) {
+        stableFrames += 1;
+      } else {
+        stableFrames = 0;
+      }
+      previousY = currentY;
+
+      if ((currentY <= 2 && stableFrames >= 3) || frameCount >= maxFrames) {
+        measureItems();
+        requestUpdate();
+        return;
+      }
+
+      window.requestAnimationFrame(step);
+    }
+
+    window.requestAnimationFrame(step);
+  }
+
+  function isTopOfIndexLink(anchorElement) {
+    if (!(anchorElement instanceof HTMLAnchorElement)) {
+      return false;
+    }
+
+    const rawHref = (anchorElement.getAttribute("href") || "").trim();
+    if (!rawHref) {
+      return false;
+    }
+
+    if (rawHref === "#hero" || rawHref === "#") {
+      return true;
+    }
+
+    try {
+      const url = new URL(rawHref, window.location.href);
+      const path = url.pathname.toLowerCase();
+      const isIndexPath = path.endsWith("/index.html") || path.endsWith("/");
+      const isTopHash = !url.hash || url.hash === "#" || url.hash === "#hero";
+
+      return isIndexPath && isTopHash;
+    } catch {
+      return false;
+    }
+  }
+
+  document.querySelectorAll("a").forEach((anchorElement) => {
+    if (!isTopOfIndexLink(anchorElement)) {
+      return;
+    }
+
+    anchorElement.addEventListener("click", monitorScrollToTopAndRefresh);
+  });
 
   window.addEventListener("scroll", requestUpdate, { passive: true });
   window.addEventListener("resize", () => {
