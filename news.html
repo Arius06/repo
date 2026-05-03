@@ -102,27 +102,6 @@
       </div>
     </section>
 
-    <div id="newsModal" class="news-modal">
-      <div class="news-modal-overlay"></div>
-      <div class="news-modal-content">
-        <button
-          class="modal-close-btn"
-          data-i18n-aria-label="news.modal.closeAria"
-          aria-label="Închide"
-        >
-          ✕
-        </button>
-        <div class="news-modal-banner">
-          <img id="newsModalImage" src="" alt="" />
-        </div>
-        <div class="news-modal-body">
-          <p id="newsModalDate" class="news-date"></p>
-          <h2 id="newsModalTitle"></h2>
-          <p id="newsModalText" class="news-modal-text"></p>
-        </div>
-      </div>
-    </div>
-
     <footer>
       <div class="footer-content">
         <div class="footer-section">
@@ -198,13 +177,13 @@
       const newsData = [
         {
           id: "article-1",
-          image: "photos/website-logo.jpg",
-          date: "Februarie 2026",
-          title: "Lansarea noului website",
+          image: "photos/news-thumbnails/preturi-porc.webp",
+          date: "Mai 2025",
+          title:
+            "Prețurile la carnea de porc cresc în pofida afirmațiilor oficialilor",
           summary:
-            "Ne bucurăm să anunțăm lansarea noului website al patronatului.",
-          content:
-            "Ne bucurăm să anunțăm lansarea noului website al patronatului. Acum puteți găsi informații despre membrii patronatului, ultimile știri, resurse și multe altele.",
+            "Prețurile cu ridicata la carnea de porc au crescut cu aproximativ 10-12% de la jumătatea lunii aprilie până la jumătatea lunii mai.",
+          url: "https://point.md/ro/noutati/economic/preturile-la-carnea-de-porc-cresc-in-pofida-afirmatiilor-oficialilor/",
           i18n: {
             date: "news.article1.date",
             title: "news.article1.title",
@@ -215,10 +194,6 @@
       ];
 
       const newsGrid = document.getElementById("newsGrid");
-      const modal = document.getElementById("newsModal");
-      const modalOverlay = document.querySelector(".news-modal-overlay");
-      const closeBtn = document.querySelector(".modal-close-btn");
-      let activeArticleId = null;
 
       function t(key, fallback = "") {
         return window.I18N ? window.I18N.t(key, fallback) : fallback;
@@ -235,7 +210,10 @@
       }
 
       function createNewsCard(article) {
-        const articleElement = document.createElement("article");
+        const articleElement = document.createElement("a");
+        articleElement.href = article.url;
+        articleElement.target = "_blank";
+        articleElement.rel = "noopener noreferrer";
         articleElement.className = "news-card fade-in-on-scroll";
         articleElement.dataset.articleId = article.id;
 
@@ -251,10 +229,6 @@
           </div>
         `;
 
-        articleElement.addEventListener("click", () => {
-          openNewsModal(article.id);
-        });
-
         return articleElement;
       }
 
@@ -265,59 +239,8 @@
         });
       }
 
-      function renderNewsModal(article) {
-        if (!article) {
-          return;
-        }
-
-        document.getElementById("newsModalImage").src = article.image;
-        document.getElementById("newsModalImage").alt = localizedArticleValue(
-          article,
-          "title",
-        );
-        document.getElementById("newsModalDate").textContent =
-          localizedArticleValue(article, "date");
-        document.getElementById("newsModalTitle").textContent =
-          localizedArticleValue(article, "title");
-        document.getElementById("newsModalText").textContent =
-          localizedArticleValue(article, "content");
-      }
-
-      function openNewsModal(articleId) {
-        const article = getArticleById(articleId);
-        if (!article) {
-          return;
-        }
-
-        activeArticleId = articleId;
-        renderNewsModal(article);
-        modal.classList.add("active");
-        document.body.style.overflow = "hidden";
-      }
-
-      function closeNewsModal() {
-        modal.classList.remove("active");
-        document.body.style.overflow = "";
-        activeArticleId = null;
-      }
-
-      closeBtn.addEventListener("click", closeNewsModal);
-      modalOverlay.addEventListener("click", closeNewsModal);
-
-      document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape" && modal.classList.contains("active")) {
-          closeNewsModal();
-        }
-      });
-
       document.addEventListener("languagechange", () => {
         renderNewsGrid();
-
-        if (!activeArticleId || !modal.classList.contains("active")) {
-          return;
-        }
-
-        renderNewsModal(getArticleById(activeArticleId));
       });
 
       renderNewsGrid();

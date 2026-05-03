@@ -168,12 +168,11 @@
       "Descoperă ultimele actualizări despre activitatea patronatului.",
     "news.readMore": "Vezi mai mult",
     "news.modal.closeAria": "Închide",
-    "news.article1.date": "Februarie 2026",
-    "news.article1.title": "Lansarea noului website",
+    "news.article1.date": "Mai 2025",
+    "news.article1.title":
+      "Prețurile la carnea de porc cresc în pofida afirmațiilor oficialilor",
     "news.article1.summary":
-      "Ne bucurăm să anunțăm lansarea noului website al patronatului.",
-    "news.article1.content":
-      "Ne bucurăm să anunțăm lansarea noului website al patronatului. Acum puteți găsi informații despre membrii patronatului, ultimile știri, resurse și multe altele.",
+      "Prețurile cu ridicata la carnea de porc au crescut cu aproximativ 10-12% de la jumătatea lunii aprilie până la jumătatea lunii mai.",
     "index.footer.extras": "Extras înregistrare",
     "index.footer.caseStudy": "Studiu de caz 2025",
     "index.footer.facebook": "Facebook",
@@ -566,12 +565,10 @@
       "Discover the latest updates about the association's work.",
     "news.readMore": "Read full article",
     "news.modal.closeAria": "Close",
-    "news.article1.date": "February 2026",
-    "news.article1.title": "New Website Launch",
+    "news.article1.date": "May 2025",
+    "news.article1.title": "Pig meat prices rise despite official claims",
     "news.article1.summary":
-      "We are pleased to announce the launch of the association's new website.",
-    "news.article1.content":
-      "We are pleased to announce the launch of the association's new website. You can now find information about our members, the latest news, resources, and much more.",
+      "Pig meat prices rose 10-12% since the second half of April until the first half of May.",
     "index.footer.extras": "Registration certificate",
     "index.footer.caseStudy": "Market Study 2025",
     "index.footer.facebook": "Facebook",
@@ -758,12 +755,11 @@
     "news.subtitle": "Узнайте о последних обновлениях деятельности ассоциации.",
     "news.readMore": "Читать полностью",
     "news.modal.closeAria": "Закрыть",
-    "news.article1.date": "Февраль 2026",
-    "news.article1.title": "Запуск нового веб-сайта",
+    "news.article1.date": "Май 2025",
+    "news.article1.title":
+      "Цены на свинину растут, несмотря на официальные заявления",
     "news.article1.summary":
-      "Мы рады объявить о запуске нового веб-сайта ассоциации.",
-    "news.article1.content":
-      "Мы рады объявить о запуске нового веб-сайта ассоциации. Теперь вы можете найти информацию о наших членах, последние новости, ресурсы и многое другое.",
+      "Оптовые цены на свинину выросли примерно на 10-12% в период с середины апреля по середину мая.",
     "index.footer.extras": "Выдержка из записи",
     "index.footer.caseStudy": "Исследование рынка 2025 года",
     "index.footer.facebook": "Facebook",

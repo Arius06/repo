@@ -20,7 +20,6 @@
     ".member-grid-logo",
     ".modal-logo",
     ".news-image",
-    ".news-modal-banner",
     ".journey-image",
     ".modal-social-links",
     ".hero-image",
