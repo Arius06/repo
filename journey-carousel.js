@@ -4,14 +4,30 @@
   ).matches;
 
   const stageImages = {
-    1: ["./photos/j1/482A0288.webp", "./photos/j1/tehn1.webp"],
-    2: ["./photos/j2/482A0288.webp", "./photos/j2/tehn2.webp"],
-    3: ["./photos/j3/news_thumbnail2.webp", "./photos/j3/tehn1.webp"],
-    4: ["./photos/j4/482A0288.webp", "./photos/j4/news_thumbnail1.webp"],
-    5: ["./photos/j5/IMG_0705.webp", "./photos/j5/IMG_0722.webp"],
-    6: ["./photos/j6/IMG_0714.webp", "./photos/j6/news_thumbnail1.webp"],
-    7: ["./photos/j7/482A0288.webp", "./photos/j7/tehn1.webp"],
-    8: ["./photos/j8/IMG_0646.webp", "./photos/j8/tehn2.webp"],
+    1: [
+      "./photos/j1/482A0917.webp",
+      "./photos/j1/igiena-salamer.webp",
+      "./photos/j1/tehn1.webp",
+    ],
+    2: ["./photos/j2/evidenta-salamer.webp", "./photos/j2/tehn2.webp"],
+    3: ["./photos/j3/transportare-semicarcase.webp"],
+    4: [
+      "./photos/j4/cuter-salamer.webp",
+      "./photos/j4/transare2-salamer.webp",
+      "./photos/j4/transare-salamer.webp",
+    ],
+    5: [
+      "./photos/j5/IMG_0705.webp",
+      "./photos/j5/IMG_0722.webp",
+      "./photos/j5/afumate-salamer.webp",
+      "./photos/j5/condimentare-salamer.webp",
+    ],
+    6: ["./photos/j6/IMG_0714.webp", "./photos/j6/pregatire-salamer.webp"],
+    7: [
+      "./photos/j7/crud-afumat-salamer.webp",
+      "./photos/j7/umplere-salamer.webp",
+    ],
+    8: ["./photos/j8/IMG_0646.webp"],
     9: ["./photos/j9/tehn1.webp", "./photos/j9/tehn2.webp"],
     10: ["./photos/j10/tehn1.webp", "./photos/j10/tehn2.webp"],
   };
