@@ -8,6 +8,7 @@
       "./photos/j1/482A0917.webp",
       "./photos/j1/igiena-salamer.webp",
       "./photos/j1/tehn1.webp",
+      "./photos/j1/calitate.webp",
     ],
     2: [
       "./photos/j2/evidenta-salamer.webp",
@@ -23,6 +24,7 @@
       "./photos/j4/transare-salamer.webp",
       "./photos/j4/IMG_1039.webp",
       "./photos/j4/IMG_1893.webp",
+      "./photos/j2/taiere-salamer.webp",
     ],
     5: [
       "./photos/j5/IMG_0705.webp",
@@ -34,6 +36,7 @@
       "./photos/j5/IMG_1685.webp",
       "./photos/j5/IMG_3244.webp",
       "./photos/j5/IMG_3253.webp",
+      "./photos/j5/fung-produs.webp",
     ],
     6: [
       "./photos/j6/IMG_0714.webp",
@@ -42,10 +45,16 @@
       "./photos/j6/IMG_3264.webp",
     ],
     7: [
+      "./photos/j3/inspectie-salamer.webp",
       "./photos/j7/crud-afumat-salamer.webp",
       "./photos/j7/umplere-salamer.webp",
     ],
-    8: ["./photos/j8/IMG_0646.webp", "./photos/j8/IMG_1613.webp"],
+    8: [
+      "./photos/j8/IMG_0646.webp",
+      "./photos/j8/IMG_1613.webp",
+      "./photos/j8/produse2-salamer.webp",
+      "./photos/j8/salamer-dacia.webp",
+    ],
     9: ["./photos/j9/tehn1.webp", "./photos/j9/tehn2.webp"],
     10: ["./photos/j10/tehn1.webp", "./photos/j10/tehn2.webp"],
   };
