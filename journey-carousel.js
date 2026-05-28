@@ -6,18 +6,21 @@
   const stageImages = {
     1: [
       "./photos/j1/482A0917.webp",
-      "./photos/j1/igiena-salamer.webp",
-      "./photos/j1/tehn1.webp",
+      "./photos/j1/standarde.webp",
       "./photos/j1/calitate.webp",
     ],
     2: [
       "./photos/j2/evidenta-salamer.webp",
-      "./photos/j2/tehn2.webp",
       "./photos/j2/IMG_0986.webp",
       "./photos/j2/IMG_1005.webp",
       "./photos/j2/IMG_1615.webp",
     ],
-    3: ["./photos/j3/transportare-semicarcase.webp"],
+    3: [
+      "./photos/j3/transportare-semicarcase.webp",
+      "./photos/j3/depozitare1.webp",
+      "./photos/j3/depozitare2.webp",
+      "./photos/j3/depozitare3.webp",
+    ],
     4: [
       "./photos/j4/cuter-salamer.webp",
       "./photos/j4/transare2-salamer.webp",
@@ -55,8 +58,13 @@
       "./photos/j8/produse2-salamer.webp",
       "./photos/j8/salamer-dacia.webp",
     ],
-    9: ["./photos/j9/tehn1.webp", "./photos/j9/tehn2.webp"],
-    10: ["./photos/j10/tehn1.webp", "./photos/j10/tehn2.webp"],
+    9: [
+      "./photos/j9/igiena1.webp",
+      "./photos/j9/igiena2.webp",
+      "./photos/j9/igiena3.webp",
+      "./photos/j9/igiena-salamer.webp",
+    ],
+    10: ["./photos/j10/livrare1.webp"],
   };
 
   const CYCLE_DELAY = 4800;
