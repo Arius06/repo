@@ -672,6 +672,10 @@ section h2::after {
   animation: fadeInUp 0.8s ease-out;
 }
 
+.news-content h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .about-page-subtitle,
 .members-page-subtitle,
 .news-page-subtitle {

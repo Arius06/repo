@@ -569,6 +569,10 @@
     "news.article1.title": "Pig meat prices rise despite official claims",
     "news.article1.summary":
       "Pig meat prices rose 10-12% since the second half of April until the first half of May.",
+    "news.article2.date": "May 2025",
+    "news.article2.title": "Epizootic situation of Moldova in May",
+    "news.article2.summary":
+      "Between 18.05.2026 and 25.05.2026, three outbreaks of animal diseases were recorded...",
     "index.footer.extras": "Registration certificate",
     "index.footer.caseStudy": "Market Study 2025",
     "index.footer.facebook": "Facebook",
@@ -760,6 +764,10 @@
       "Цены на свинину растут, несмотря на официальные заявления",
     "news.article1.summary":
       "Оптовые цены на свинину выросли примерно на 10-12% в период с середины апреля по середину мая.",
+    "news.article2.date": "Май 2025",
+    "news.article2.title": "Эпизоотическая ситуация в Молдовe в мае",
+    "news.article2.summary":
+      "В период с 18.05.2026 по 25.05.2026 на территории Республики Молдова зафиксировано три вспышки...",
     "index.footer.extras": "Выдержка из записи",
     "index.footer.caseStudy": "Исследование рынка 2025 года",
     "index.footer.facebook": "Facebook",
