@@ -6,8 +6,10 @@
   const stageImages = {
     1: [
       "./photos/j1/482A0917.webp",
+      "./photos/j1/standarde-bn2.webp",
       "./photos/j1/standarde.webp",
       "./photos/j1/calitate.webp",
+      "./photos/j1/standarde-bn.webp",
     ],
     2: [
       "./photos/j2/evidenta-salamer.webp",
@@ -24,10 +26,12 @@
     4: [
       "./photos/j4/cuter-salamer.webp",
       "./photos/j4/transare2-salamer.webp",
+      "./photos/j4/transare-bn.webp",
       "./photos/j4/transare-salamer.webp",
       "./photos/j4/IMG_1039.webp",
       "./photos/j4/IMG_1893.webp",
       "./photos/j2/taiere-salamer.webp",
+      "./photos/j2/prelucrare-filetti-2.webp",
     ],
     5: [
       "./photos/j5/IMG_0705.webp",
@@ -39,11 +43,13 @@
       "./photos/j5/IMG_1685.webp",
       "./photos/j5/IMG_3244.webp",
       "./photos/j5/IMG_3253.webp",
+      "./photos/j5/tocatura-bn.webp",
       "./photos/j5/fung-produs.webp",
     ],
     6: [
       "./photos/j6/IMG_0714.webp",
       "./photos/j6/pregatire-salamer.webp",
+      "./photos/j6/termica-filetti.webp",
       "./photos/j6/IMG_1262.webp",
       "./photos/j6/IMG_3264.webp",
     ],
@@ -51,12 +57,14 @@
       "./photos/j3/inspectie-salamer.webp",
       "./photos/j7/crud-afumat-salamer.webp",
       "./photos/j7/umplere-salamer.webp",
+      "./photos/j7/control-calitate.webp",
     ],
     8: [
       "./photos/j8/IMG_0646.webp",
       "./photos/j8/IMG_1613.webp",
       "./photos/j8/produse2-salamer.webp",
       "./photos/j8/salamer-dacia.webp",
+      "./photos/j8/ambalare.webp",
     ],
     9: [
       "./photos/j9/igiena1.webp",
@@ -64,7 +72,7 @@
       "./photos/j9/igiena3.webp",
       "./photos/j9/igiena-salamer.webp",
     ],
-    10: ["./photos/j10/livrare1.webp"],
+    10: ["./photos/j10/livrare1.webp", "./photos/j10/masini-bn.webp"],
   };
 
   const CYCLE_DELAY = 4800;
