@@ -278,13 +278,17 @@ nav a:hover::after {
 }
 
 @media (max-width: 768px) {
+  :root {
+    --page-gutter: clamp(3rem, 5vw, 3.75rem);
+  }
+
   #logo-hero-section {
     width: clamp(170px, 46vw, 300px);
     margin-bottom: clamp(0.75rem, 2.5vw, 1.25rem);
   }
 
   nav {
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
   }
 
   nav .nav-container {
@@ -338,9 +342,7 @@ nav a:hover::after {
     font-size: 0.75rem;
     padding: 0;
   }
-}
 
-@media (max-width: 768px) {
   .general-page-title img {
     display: none;
   }
@@ -348,7 +350,7 @@ nav a:hover::after {
 
 @media (max-width: 480px) {
   nav {
-    padding: 0.75rem 0.75rem;
+    padding: 0.75rem 1.25rem;
   }
 
   nav .nav-container {
@@ -579,6 +581,31 @@ nav a:hover::after {
   animation: fadeUpOnly 0.8s ease-out;
   opacity: 0.5;
   filter: blur(2px);
+}
+
+@media (max-width: 768px) {
+  .general-page-title {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .general-page-title p {
+    margin: 0;
+    font-size: 1.05rem;
+  }
+
+  .general-page-title img {
+    display: none;
+    position: static;
+    margin-left: 0;
+    align-self: auto;
+  }
 }
 
 .cta-button {
@@ -895,7 +922,7 @@ section h2::after {
   }
 
   .about-page {
-    padding: var(--page-top-space) 1rem var(--section-space-mobile);
+    padding: var(--page-top-space) 1.5rem var(--section-space-mobile);
   }
 }
 
@@ -1525,7 +1552,7 @@ section h2::after {
 
   section {
     padding-block: var(--section-space-mobile);
-    padding-inline: 1rem;
+    padding-inline: 1.5rem;
   }
 }
 

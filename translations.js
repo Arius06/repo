@@ -168,11 +168,6 @@
       "Descoperă ultimele actualizări despre activitatea patronatului.",
     "news.readMore": "Vezi mai mult",
     "news.modal.closeAria": "Închide",
-    "news.article1.date": "Mai 2025",
-    "news.article1.title":
-      "Prețurile la carnea de porc cresc în pofida afirmațiilor oficialilor",
-    "news.article1.summary":
-      "Prețurile cu ridicata la carnea de porc au crescut cu aproximativ 10-12% de la jumătatea lunii aprilie până la jumătatea lunii mai.",
     "index.footer.extras": "Extras înregistrare",
     "index.footer.caseStudy": "Studiu de caz 2025",
     "index.footer.facebook": "Facebook",
@@ -572,7 +567,11 @@
     "news.article2.date": "May 2025",
     "news.article2.title": "Epizootic situation of Moldova in May",
     "news.article2.summary":
-      "Between 18.05.2026 and 25.05.2026, three outbreaks of animal diseases were recorded...",
+      "Between 18.05.2026 and 25.05.2026, three outbreaks of animal diseases were recorded ...",
+    "news.article3.date": "June 2025",
+    "news.article3.title": "European experts support ANSA & MAIA",
+    "news.article3.summary":
+      "The National Food Safety Agency (ANSA), in cooperation with the Ministry of ...",
     "index.footer.extras": "Registration certificate",
     "index.footer.caseStudy": "Market Study 2025",
     "index.footer.facebook": "Facebook",
@@ -767,7 +766,11 @@
     "news.article2.date": "Май 2025",
     "news.article2.title": "Эпизоотическая ситуация в Молдовe в мае",
     "news.article2.summary":
-      "В период с 18.05.2026 по 25.05.2026 на территории Республики Молдова зафиксировано три вспышки...",
+      "В период с 18.05.2026 по 25.05.2026 на территории Республики Молдова зафиксировано три вспышки ...",
+    "news.article3.date": "Июнь 2025",
+    "news.article3.title": "Европейские эксперты поддерживают ANSA и MAIA",
+    "news.article3.summary":
+      "23–24 июня 2026 года Национальное агентство по безопасности пищевых продуктов (ANSA) в сотрудничестве ...",
     "index.footer.extras": "Выдержка из записи",
     "index.footer.caseStudy": "Исследование рынка 2025 года",
     "index.footer.facebook": "Facebook",
