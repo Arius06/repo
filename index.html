@@ -389,12 +389,8 @@
                 validitatea activității patronatului drept „Asociație
                 Patronală”.
               </p>
-              <a
-                href="resources/extras-patronat.pdf"
-                target="_blank"
-                class="read-more"
-                data-i18n="index.resources.open"
-                >Deschide</a
+              <span class="read-more" data-i18n="index.resources.open"
+                >Deschide</span
               >
             </a>
           </div>
@@ -409,12 +405,8 @@
                 Mezeluri și carne proaspătă în Moldova, 2025. Proprietate
                 intelectuală a „maib”.
               </p>
-              <a
-                href="resources/studiu-maib.pdf"
-                target="_blank"
-                class="read-more"
-                data-i18n="index.resources.open"
-                >Deschide</a
+              <span class="read-more" data-i18n="index.resources.open"
+                >Deschide</span
               >
             </a>
           </div>
@@ -430,12 +422,8 @@
               <p data-i18n="index.resources.card3.text">
                 Descrierea sectiunii resurse 3
               </p>
-              <a
-                href="https://www.legis.md/cautare/getResults?doc_id=138550&lang=ro"
-                class="read-more"
-                data-i18n="index.resources.open"
-                target="_blank"
-                >Deschide</a
+              <span class="read-more" data-i18n="index.resources.open"
+                >Deschide</span
               >
             </a>
           </div>
@@ -448,12 +436,8 @@
                 conformității standardelor prin creșterea capacităților
                 naționale de monitorizare a reziduurilor”.
               </p>
-              <a
-                href="resources/UNIDO-RO.pdf"
-                target="_blank"
-                class="read-more"
-                data-i18n="index.resources.open"
-                >Deschide</a
+              <span class="read-more" data-i18n="index.resources.open"
+                >Deschide</span
               >
             </a>
           </div>
@@ -714,7 +698,11 @@
             : "#about";
           const targetSection = document.querySelector(targetId);
           if (targetSection) {
-            targetSection.scrollIntoView({ behavior: "smooth" });
+            targetSection.scrollIntoView({
+              behavior: "smooth",
+              block: "nearest",
+              inline: "nearest",
+            });
           }
         });
       });

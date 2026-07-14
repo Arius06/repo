@@ -675,6 +675,7 @@ section h2::after {
   background: transparent;
   position: relative;
   z-index: 1;
+  scroll-margin-top: 8vh;
 }
 
 /* About Page */
@@ -1333,7 +1334,7 @@ section h2::after {
 }
 
 .read-more {
-  align-self: flex-start;
+  align-self: flex-end;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -1425,8 +1426,21 @@ section h2::after {
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 2.5rem 2rem;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
   transition: var(--transition);
   cursor: pointer;
+}
+
+.resource-card > a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.resource-card .read-more {
+  margin-top: auto;
+  align-self: flex-start;
 }
 
 .resource-card:hover {
@@ -1443,7 +1457,7 @@ section h2::after {
 }
 
 .resource-card:hover .resource-icon {
-  transform: scale(1.15) rotate(5deg);
+  transform: scale(1.1) rotate(-2deg);
 }
 
 .resource-card h3 {
