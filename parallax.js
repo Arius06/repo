@@ -23,6 +23,7 @@
     ".journey-image",
     ".modal-social-links",
     ".hero-image",
+    ".authority-item",
     "footer",
     "nav",
   ];

@@ -10,6 +10,7 @@
     "nav.about": "Despre Noi",
     "nav.members": "Membri",
     "nav.news": "Noutăți",
+    "nav.resources": "Resurse",
     "nav.contact": "Contact",
     "index.hero.title":
       "Industria cărnii din Moldova, mai sigură și mai unită.",
@@ -168,6 +169,101 @@
       "Descoperă ultimele actualizări despre activitatea patronatului.",
     "news.readMore": "Vezi mai mult",
     "news.modal.closeAria": "Închide",
+    "resources.metaTitle": "Resurse - Patronat Carne",
+    "resources.title": "Resurse",
+    "resources.subtitle":
+      "Explorează documente și puncte de contact utile pentru activitatea patronatului.",
+    "resources.authorities.title": "Autorități",
+    "resources.links.website": "Website",
+    "resources.links.email": "Email",
+    "resources.authorities.group.policy":
+      "Autorități responsabile de elaborarea politicilor în domeniul agroalimentar.",
+    "resources.authorities.group.implementation":
+      "Autoritățile responsabile de implementarea politicilor în domeniul agroalimentar.",
+    "resources.authorities.group.finance": "Autorități financiare și donatori.",
+    "resources.authorities.item1.title":
+      "Ministerul Agriculturii și Industriei Alimentare",
+    "resources.authorities.item1.text":
+      "Elaborează politici în domeniu dezvoltării sectorului agroalimentar. Agricultura. Dezvoltarea rurală.",
+    "resources.authorities.item2.title":
+      "Ministerul Dezvoltării Economiei și Digitalizării",
+    "resources.authorities.item2.text":
+      "Mediu de afaceri, libera circulație a mărfurilor, cooperarea economică internațională, infrastructura calității.",
+    "resources.authorities.item3.title": "Ministerul Mediului",
+    "resources.authorities.item3.text":
+      "Politici în domeniul mediului, rapoarte de monitorizare, evaluarea impactului asupra mediului, managementul integrat al resurselor de apă.",
+    "resources.authorities.item4.title": "Ministerul Finanțelor",
+    "resources.authorities.item4.text":
+      "Politica bugetar fiscală, TARIM, achiziții publice.",
+    "resources.authorities.item5.title": "Ministerul Sănătății",
+    "resources.authorities.item5.text":
+      "Politici de sănătate, rezistența anti microbiană, ambalaje in contact cu produsele alimentare, adausuri și suplimente alimentare.",
+    "resources.authorities.item6.title":
+      "Ministerul Muncii și Protecției Sociale",
+    "resources.authorities.item6.text":
+      "Politici de siguranță în câmpul muncii.",
+    "resources.authorities.item7.title":
+      "Ministerul Infrastructurii și Dezvoltării Regionale",
+    "resources.authorities.item7.text":
+      "Apă și sanitație, infrastructura rutieră, construcții și urbanism.",
+    "resources.authorities.item8.title":
+      "Agenția Națională pentru Siguranța Alimentelor I.P. CNSAPSA",
+    "resources.authorities.item8.text":
+      "Cu funcție de monitorizare și control. Legea 306/2018 art.( 24). Laborator de referință.",
+    "resources.authorities.item9.title":
+      "Agenția Națională pentru Sănătatea Publică",
+    "resources.authorities.item9.text":
+      "Cu funcție de monitorizare și control. Legea 306/2018 art. (25). Legea 10/2009 art. (38), (39); Anexa nr.1.",
+    "resources.authorities.item10.title":
+      "Agenția Protecția Consumatorilor (ISSPNPC)",
+    "resources.authorities.item10.text":
+      "Cu funcție de monitorizare și control. HG 907/2014 marcajul „e”. HG 1042/2016",
+    "resources.authorities.item11.title":
+      "Institutul Național de Standardizare (INS), Institutul National de Metrologie, Centrul National de Acreditare MOLDAC",
+    "resources.authorities.item11.text":
+      "Infrastructura calității (standarde, etalonări, verificări și expertize); Registre OEC Acreditate, Registre OEC recunoscute.",
+    "resources.authorities.item11.link.ins": "Website INS",
+    "resources.authorities.item11.link.inm": "Website INM",
+    "resources.authorities.item11.link.moldac": "Website MOLDAC",
+    "resources.authorities.item11.link.emailMoldac": "Email MOLDAC",
+    "resources.authorities.item12.title":
+      "Agenția de mediu, Inspectoratul de mediu, Laborator de referință",
+    "resources.authorities.item12.text":
+      "Cu funcție de monitorizare și control. Laboratorul din cadrul agenției de mediu de referință (MD-2005, mun. Chișinău, str. Albișoara 38).",
+    "resources.authorities.item12.link.am": "Website AM",
+    "resources.authorities.item12.link.emailAm": "Email AM",
+    "resources.authorities.item12.link.ipm": "Website IPM",
+    "resources.authorities.item12.link.emailIpm": "Email IPM",
+    "resources.authorities.item13.title":
+      "Serviciul Vamal, Agenția de achiziții",
+    "resources.authorities.item13.text":
+      "Servicii, monitorizare și control. Import/Export. Valoarea in vamă a mărfurilor.",
+    "resources.authorities.item13.link.customsPortal": "Portalul Vamal Public",
+    "resources.authorities.item13.link.sv": "Website SV",
+    "resources.authorities.item13.link.aap": "Website AAP",
+    "resources.authorities.item13.link.emailAap": "Email AAP",
+    "resources.authorities.item14.title": "Inspectoratul de stat al muncii",
+    "resources.authorities.item14.text":
+      "Controlul de stat (liste de verificare și plan al controalelor)",
+    "resources.authorities.item15.title": "Consiliul Concurenței",
+    "resources.authorities.item15.text":
+      "Control de stat, concurența, ajutor de stat, practici neloiale, monopol.",
+    "resources.authorities.item16.title":
+      "Agenția de stat pentru Proprietatea Intelectuală (AGEPI)",
+    "resources.authorities.item16.text":
+      "Mărci comerciale, denumiri de origine, proprietatea intelectuală.",
+    "resources.authorities.item17.title":
+      "Centrul național pentru energia durabilă (CNED)",
+    "resources.authorities.item17.text": "Auditul energetic.",
+    "resources.authorities.item18.title": "Agenția de Intervenții și Plăți",
+    "resources.authorities.item18.text":
+      "Asigura și implementează asistența financiară a OSA (subvenții, proiecte de la donatori, s.a.m.d.). Granturi: MAC-P; AGGRI; Livada Moldovei.",
+    "resources.authorities.item19.title":
+      "Organizația pentru Dezvoltarea Antreprenorialului (ODA)",
+    "resources.authorities.item19.text":
+      "Oportunități de finanțare și servicii de sprijin în accesarea finanțării.",
+    "resources.authorities.item20.title": "Delegația UE",
+    "resources.authorities.item20.text": "Proiecte in derulare. EU4Moldova.eu",
     "index.footer.extras": "Extras înregistrare",
     "index.footer.caseStudy": "Studiu de caz 2025",
     "index.footer.facebook": "Facebook",
@@ -403,6 +499,7 @@
     "nav.about": "About Us",
     "nav.members": "Members",
     "nav.news": "News",
+    "nav.resources": "Resources",
     "nav.contact": "Contact",
     "index.hero.title": "The Moldovan meat industry, safer and more united.",
     "index.hero.subtitle":
@@ -560,6 +657,99 @@
       "Discover the latest updates about the association's work.",
     "news.readMore": "Read full article",
     "news.modal.closeAria": "Close",
+    "resources.metaTitle": "Resources - Meat Patronage",
+    "resources.title": "Resources",
+    "resources.subtitle":
+      "Explore documents and useful contact points for the association's work.",
+    "resources.authorities.title": "Authorities",
+    "resources.links.website": "Website",
+    "resources.links.email": "Email",
+    "resources.authorities.group.policy":
+      "Authorities responsible for drafting policies in the agri-food sector.",
+    "resources.authorities.group.implementation":
+      "Authorities responsible for implementing policies in the agri-food sector.",
+    "resources.authorities.group.finance": "Financial authorities and donors.",
+    "resources.authorities.item1.title":
+      "Ministry of Agriculture and Food Industry",
+    "resources.authorities.item1.text":
+      "Develops policies for the agri-food sector. Agriculture. Rural development.",
+    "resources.authorities.item2.title":
+      "Ministry of Economic Development and Digitalization",
+    "resources.authorities.item2.text":
+      "Business environment, free movement of goods, international economic cooperation, quality infrastructure.",
+    "resources.authorities.item3.title": "Ministry of Environment",
+    "resources.authorities.item3.text":
+      "Environmental policies, monitoring reports, environmental impact assessment, integrated water resources management.",
+    "resources.authorities.item4.title": "Ministry of Finance",
+    "resources.authorities.item4.text":
+      "Fiscal-budget policy, TARIM, public procurement.",
+    "resources.authorities.item5.title": "Ministry of Health",
+    "resources.authorities.item5.text":
+      "Health policies, antimicrobial resistance, packaging in contact with food products, food additives and supplements.",
+    "resources.authorities.item6.title":
+      "Ministry of Labor and Social Protection",
+    "resources.authorities.item6.text": "Occupational safety policies.",
+    "resources.authorities.item7.title":
+      "Ministry of Infrastructure and Regional Development",
+    "resources.authorities.item7.text":
+      "Water and sanitation, road infrastructure, construction and urban planning.",
+    "resources.authorities.item8.title":
+      "National Food Safety Agency P.I. CNSAPSA",
+    "resources.authorities.item8.text":
+      "Monitoring and control function. Law 306/2018 art. (24). Reference laboratory.",
+    "resources.authorities.item9.title": "National Agency for Public Health",
+    "resources.authorities.item9.text":
+      "Monitoring and control function. Law 306/2018 art. (25). Law 10/2009 art. (38), (39); Annex no. 1.",
+    "resources.authorities.item10.title":
+      "Consumer Protection Agency (ISSPNPC)",
+    "resources.authorities.item10.text":
+      'Monitoring and control function. GD 907/2014 marking "e". GD 1042/2016',
+    "resources.authorities.item11.title":
+      "National Institute for Standardization (INS), National Institute of Metrology, National Accreditation Center MOLDAC",
+    "resources.authorities.item11.text":
+      "Quality infrastructure (standards, calibrations, verifications and expertise); registers of accredited CABs and recognized CABs.",
+    "resources.authorities.item11.link.ins": "INS website",
+    "resources.authorities.item11.link.inm": "NIM website",
+    "resources.authorities.item11.link.moldac": "MOLDAC website",
+    "resources.authorities.item11.link.emailMoldac": "MOLDAC email",
+    "resources.authorities.item12.title":
+      "Environmental Agency, Environmental Inspectorate, Reference Laboratory",
+    "resources.authorities.item12.text":
+      "Monitoring and control function. Reference laboratory within the Environmental Agency (MD-2005, Chisinau, Albisoara 38).",
+    "resources.authorities.item12.link.am": "EA website",
+    "resources.authorities.item12.link.emailAm": "EA email",
+    "resources.authorities.item12.link.ipm": "EI website",
+    "resources.authorities.item12.link.emailIpm": "EI email",
+    "resources.authorities.item13.title": "Customs Service, Procurement Agency",
+    "resources.authorities.item13.text":
+      "Services, monitoring and control. Import/Export. Customs value of goods.",
+    "resources.authorities.item13.link.customsPortal": "Public Customs Portal",
+    "resources.authorities.item13.link.sv": "Customs website",
+    "resources.authorities.item13.link.aap": "PPA website",
+    "resources.authorities.item13.link.emailAap": "PPA email",
+    "resources.authorities.item14.title": "State Labor Inspectorate",
+    "resources.authorities.item14.text":
+      "State control (checklists and control plan)",
+    "resources.authorities.item15.title": "Competition Council",
+    "resources.authorities.item15.text":
+      "State control, competition, state aid, unfair practices, monopoly.",
+    "resources.authorities.item16.title":
+      "State Agency on Intellectual Property (AGEPI)",
+    "resources.authorities.item16.text":
+      "Trademarks, geographical indications, intellectual property.",
+    "resources.authorities.item17.title":
+      "National Center for Sustainable Energy (CNED)",
+    "resources.authorities.item17.text": "Energy auditing.",
+    "resources.authorities.item18.title":
+      "Agency for Interventions and Payments",
+    "resources.authorities.item18.text":
+      "Ensures and implements OSA financial support (subsidies, donor-funded projects, etc.). Grants: MAC-P; AGGRI; Livada Moldovei.",
+    "resources.authorities.item19.title":
+      "Organization for Entrepreneurship Development (ODA)",
+    "resources.authorities.item19.text":
+      "Funding opportunities and support services for accessing finance.",
+    "resources.authorities.item20.title": "EU Delegation",
+    "resources.authorities.item20.text": "Ongoing projects. EU4Moldova.eu",
     "news.article1.date": "May 2025",
     "news.article1.title": "Pig meat prices rise despite official claims",
     "news.article1.summary":
@@ -572,6 +762,21 @@
     "news.article3.title": "European experts support ANSA & MAIA",
     "news.article3.summary":
       "The National Food Safety Agency (ANSA), in cooperation with the Ministry of ...",
+    "news.article4.date": "August 2023",
+    "news.article4.title":
+      "Pig meat product prices will rise if authorities do not intervene",
+    "news.article4.summary":
+      "The national patronage of the meat product industry warns that...",
+    "news.article5.date": "May 2025",
+    "news.article5.title":
+      "Is there a deficit and a price increase for pig meat?",
+    "news.article5.summary":
+      "For the last few months there has been a heated dialogue in the media...",
+    "news.article6.date": "May 2025",
+    "news.article6.title":
+      "Pig meat prices rise, contrary to the claims of the authorities",
+    "news.article6.summary":
+      "Prices for purchasing pig meat have risen with approximately 10-12% from the...",
     "index.footer.extras": "Registration certificate",
     "index.footer.caseStudy": "Market Study 2025",
     "index.footer.facebook": "Facebook",
@@ -602,6 +807,7 @@
     "nav.about": "О нас",
     "nav.members": "Члены",
     "nav.news": "Новости",
+    "nav.resources": "Ресурсы",
     "nav.contact": "Контакт",
     "index.hero.title":
       "Молдавская мясная промышленность: безопаснее и сплоченнее.",
@@ -758,6 +964,101 @@
     "news.subtitle": "Узнайте о последних обновлениях деятельности ассоциации.",
     "news.readMore": "Читать полностью",
     "news.modal.closeAria": "Закрыть",
+    "resources.metaTitle": "Ресурсы - Покровительство мясу",
+    "resources.title": "Ресурсы",
+    "resources.subtitle":
+      "Изучите документы и полезные контактные данные для деятельности патроната.",
+    "resources.authorities.title": "Органы",
+    "resources.links.website": "Сайт",
+    "resources.links.email": "Email",
+    "resources.authorities.group.policy":
+      "Органы, ответственные за разработку политик в агропродовольственном секторе.",
+    "resources.authorities.group.implementation":
+      "Органы, ответственные за внедрение политик в агропродовольственном секторе.",
+    "resources.authorities.group.finance": "Финансовые органы и доноры.",
+    "resources.authorities.item1.title":
+      "Министерство сельского хозяйства и пищевой промышленности",
+    "resources.authorities.item1.text":
+      "Разрабатывает политики в сфере развития агропродовольственного сектора. Сельское хозяйство. Развитие села.",
+    "resources.authorities.item2.title":
+      "Министерство экономического развития и цифровизации",
+    "resources.authorities.item2.text":
+      "Бизнес-среда, свободное движение товаров, международное экономическое сотрудничество, инфраструктура качества.",
+    "resources.authorities.item3.title": "Министерство окружающей среды",
+    "resources.authorities.item3.text":
+      "Экологические политики, отчеты мониторинга, оценка воздействия на окружающую среду, интегрированное управление водными ресурсами.",
+    "resources.authorities.item4.title": "Министерство финансов",
+    "resources.authorities.item4.text":
+      "Бюджетно-налоговая политика, TARIM, государственные закупки.",
+    "resources.authorities.item5.title": "Министерство здравоохранения",
+    "resources.authorities.item5.text":
+      "Политики в сфере здравоохранения, антимикробная устойчивость, упаковка, контактирующая с пищевыми продуктами, пищевые добавки и БАД.",
+    "resources.authorities.item6.title":
+      "Министерство труда и социальной защиты",
+    "resources.authorities.item6.text": "Политики безопасности труда.",
+    "resources.authorities.item7.title":
+      "Министерство инфраструктуры и регионального развития",
+    "resources.authorities.item7.text":
+      "Вода и санитария, дорожная инфраструктура, строительство и урбанизм.",
+    "resources.authorities.item8.title":
+      "Национальное агентство по безопасности пищевых продуктов I.P. CNSAPSA",
+    "resources.authorities.item8.text":
+      "Функции мониторинга и контроля. Закон 306/2018 ст. (24). Референтная лаборатория.",
+    "resources.authorities.item9.title":
+      "Национальное агентство общественного здоровья",
+    "resources.authorities.item9.text":
+      "Функции мониторинга и контроля. Закон 306/2018 ст. (25). Закон 10/2009 ст. (38), (39); Приложение №1.",
+    "resources.authorities.item10.title":
+      "Агентство по защите прав потребителей (ISSPNPC)",
+    "resources.authorities.item10.text":
+      "Функции мониторинга и контроля. ПП 907/2014 маркировка «e». ПП 1042/2016",
+    "resources.authorities.item11.title":
+      "Национальный институт стандартизации (INS), Национальный институт метрологии, Национальный центр аккредитации MOLDAC",
+    "resources.authorities.item11.text":
+      "Инфраструктура качества (стандарты, калибровки, поверки и экспертизы); реестры аккредитованных и признанных OEC.",
+    "resources.authorities.item11.link.ins": "Сайт INS",
+    "resources.authorities.item11.link.inm": "Сайт INM",
+    "resources.authorities.item11.link.moldac": "Сайт MOLDAC",
+    "resources.authorities.item11.link.emailMoldac": "Email MOLDAC",
+    "resources.authorities.item12.title":
+      "Агентство окружающей среды, Экологическая инспекция, Референтная лаборатория",
+    "resources.authorities.item12.text":
+      "Функции мониторинга и контроля. Референтная лаборатория в составе Агентства окружающей среды (MD-2005, г. Кишинев, ул. Албишоара 38).",
+    "resources.authorities.item12.link.am": "Сайт AOС",
+    "resources.authorities.item12.link.emailAm": "Email AOС",
+    "resources.authorities.item12.link.ipm": "Сайт ЭИ",
+    "resources.authorities.item12.link.emailIpm": "Email ЭИ",
+    "resources.authorities.item13.title":
+      "Таможенная служба, Агентство закупок",
+    "resources.authorities.item13.text":
+      "Услуги, мониторинг и контроль. Импорт/Экспорт. Таможенная стоимость товаров.",
+    "resources.authorities.item13.link.customsPortal":
+      "Публичный таможенный портал",
+    "resources.authorities.item13.link.sv": "Сайт Таможни",
+    "resources.authorities.item13.link.aap": "Сайт AAP",
+    "resources.authorities.item13.link.emailAap": "Email AAP",
+    "resources.authorities.item14.title": "Государственная инспекция труда",
+    "resources.authorities.item14.text":
+      "Государственный контроль (чек-листы и план проверок)",
+    "resources.authorities.item15.title": "Совет по конкуренции",
+    "resources.authorities.item15.text":
+      "Государственный контроль, конкуренция, государственная помощь, недобросовестные практики, монополия.",
+    "resources.authorities.item16.title":
+      "Государственное агентство по интеллектуальной собственности (AGEPI)",
+    "resources.authorities.item16.text":
+      "Торговые марки, наименования происхождения, интеллектуальная собственность.",
+    "resources.authorities.item17.title":
+      "Национальный центр устойчивой энергетики (CNED)",
+    "resources.authorities.item17.text": "Энергетический аудит.",
+    "resources.authorities.item18.title": "Агентство интервенций и платежей",
+    "resources.authorities.item18.text":
+      "Обеспечивает и реализует финансовую поддержку OSA (субсидии, донорские проекты и т.д.). Гранты: MAC-P; AGGRI; Livada Moldovei.",
+    "resources.authorities.item19.title":
+      "Организация по развитию предпринимательства (ODA)",
+    "resources.authorities.item19.text":
+      "Возможности финансирования и услуги поддержки при доступе к финансированию.",
+    "resources.authorities.item20.title": "Делегация ЕС",
+    "resources.authorities.item20.text": "Текущие проекты. EU4Moldova.eu",
     "news.article1.date": "Май 2025",
     "news.article1.title":
       "Цены на свинину растут, несмотря на официальные заявления",
@@ -771,6 +1072,18 @@
     "news.article3.title": "Европейские эксперты поддерживают ANSA и MAIA",
     "news.article3.summary":
       "23–24 июня 2026 года Национальное агентство по безопасности пищевых продуктов (ANSA) в сотрудничестве ...",
+    "news.article4.date": "Август 2023",
+    "news.article4.title": "Цены на продукцию из свинины вырастут",
+    "news.article4.summary":
+      "Ассоциация работодателей предприятий мясоперерабатывающей промышленности подчеркивает, что субсидии...",
+    "news.article5.date": "Май 2025",
+    "news.article5.title": "Наблюдается ли дефицит и рост цен на свинину?",
+    "news.article5.summary":
+      "Уже несколько месяцев в информационном пространстве Молдовы между ними двумя ведется «диалог на повышенных тонах»...",
+    "news.article6.date": "Май 2025",
+    "news.article6.title": "Цены на свинину растут, вопреки заявлениям MAIA",
+    "news.article6.summary":
+      "Оптовые цены на свинину выросли примерно на 10–12% с середины апреля...",
     "index.footer.extras": "Выдержка из записи",
     "index.footer.caseStudy": "Исследование рынка 2025 года",
     "index.footer.facebook": "Facebook",
