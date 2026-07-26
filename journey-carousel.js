@@ -67,16 +67,28 @@
       "./photos/j8/ambalare.webp",
     ],
     9: [
-      "./photos/j9/igiena1.webp",
-      "./photos/j9/igiena2.webp",
-      "./photos/j9/igiena3.webp",
-      "./photos/j9/igiena-salamer.webp",
+      "./photos/j9/igiena-calcat.webp",
+      "./photos/j9/igiena-new.webp",
+      "./photos/j9/igiena-pers-new.webp",
+      "./photos/j9/igiena-pers-new1.webp",
+      "./photos/j9/alta-igiena.webp",
     ],
-    10: ["./photos/j10/livrare1.webp", "./photos/j10/masini-bn.webp"],
+    10: [
+      "./photos/j10/livrare-carcase.webp",
+      "./photos/j10/livrare-new.webp",
+      "./photos/j10/livrare-new2.webp",
+      "./photos/j10/livrare-new3.webp",
+      "./photos/j10/livrare-new4.webp",
+      "./photos/j10/livrare-new-frigidere.webp",
+      "./photos/j10/truck-rampa.webp",
+      "./photos/j10/livrare-rampa.webp",
+      "./photos/j10/parcare-alta.webp",
+      "./photos/j10/masini-bn.webp",
+    ],
   };
 
-  const CYCLE_DELAY = 4800;
-  const FADE_MS = 700;
+  const CYCLE_DELAY = 6800;
+  const FADE_MS = 800;
 
   function preloadImages(imageSources) {
     imageSources.forEach((source) => {
