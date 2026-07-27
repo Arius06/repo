@@ -2367,11 +2367,63 @@ footer {
   margin-top: var(--stack-lg);
 }
 
+.legislation-shortcut {
+  margin-top: var(--stack-lg);
+  display: flex;
+  flex-direction: column;
+}
+
+.legislation-shortcut-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-primary);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-red);
+}
+
+.legislation-shortcut-link::before {
+  content: "";
+  width: 1.15rem;
+  height: 1.15rem;
+  flex: none;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 13a5 5 0 0 1 7.07 0l1.42 1.42a5 5 0 0 1-7.07 7.07l-1.06-1.06'/%3E%3Cpath d='M15 11a5 5 0 0 1-7.07 0L6.5 9.57a5 5 0 0 1 7.07-7.07l1.06 1.06'/%3E%3Cpath d='M8.5 15.5 15.5 8.5'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 13a5 5 0 0 1 7.07 0l1.42 1.42a5 5 0 0 1-7.07 7.07l-1.06-1.06'/%3E%3Cpath d='M15 11a5 5 0 0 1-7.07 0L6.5 9.57a5 5 0 0 1 7.07-7.07l1.06 1.06'/%3E%3Cpath d='M8.5 15.5 15.5 8.5'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+}
+
+.legislation-shortcut-link:hover {
+  color: #b0181f;
+}
+
+.legislation-shortcut-link:visited {
+  color: #737373;
+}
+
 .resources-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: clamp(1.25rem, 2.5vw, 2rem);
   margin-top: var(--stack-lg);
+}
+
+.resources-list > h3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+}
+
+.resources-list > h3::before {
+  content: "";
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background-color: var(--color-red);
+  flex: none;
+  margin-top: 1.4vh;
 }
 
 .authority-item {
@@ -2386,6 +2438,22 @@ footer {
   gap: 3vw;
   justify-content: flex-start;
   align-items: center;
+}
+
+@media (max-width: 320px) {
+  .authority-item img {
+    align-self: center;
+  }
+  .authority-links {
+    display: flex;
+    justify-content: center;
+  }
+  :root {
+    --page-gutter: 2rem;
+  }
+  .text-details {
+    text-align: center;
+  }
 }
 
 .authority-item img {
