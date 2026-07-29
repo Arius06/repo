@@ -197,7 +197,7 @@
       "Politica bugetar fiscală, TARIM, achiziții publice.",
     "resources.authorities.item5.title": "Ministerul Sănătății",
     "resources.authorities.item5.text":
-      "Politici de sănătate, rezistența anti microbiană, ambalaje in contact cu produsele alimentare, adausuri și suplimente alimentare.",
+      "Politici de sănătate, rezistența anti microbiană, ambalaje în contact cu produsele alimentare, adaosuri și suplimente alimentare.",
     "resources.authorities.item6.title":
       "Ministerul Muncii și Protecției Sociale",
     "resources.authorities.item6.text":
