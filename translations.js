@@ -569,7 +569,7 @@
     "index.contacts.detailsTitle": "Contact information",
     "index.contacts.phoneLabel": "Phone:",
     "index.contacts.emailLabel": "Email:",
-    "index.contacts.hoursTitle": "Ore de lucru",
+    "index.contacts.hoursTitle": "Working hours",
     "index.contacts.hoursLine1": "Monday – Friday: 9:00 – 17:00",
     "index.contacts.hoursLine2": "Saturday: Closed",
     "index.contacts.hoursLine3": "Sunday: Closed",
@@ -664,6 +664,10 @@
     "resources.authorities.title": "Authorities",
     "resources.links.website": "Website",
     "resources.links.email": "Email",
+    "resources.page.hyperlink": "See all resources",
+    "resources.legislation.title": "Legislation catalogue",
+    "resources.legislation.hyperlink":
+      "Link to the catalogue of relevant laws and their EU analogues.",
     "resources.authorities.group.policy":
       "Authorities responsible for drafting policies in the agri-food sector.",
     "resources.authorities.group.implementation":
@@ -966,8 +970,12 @@
     "news.modal.closeAria": "Закрыть",
     "resources.metaTitle": "Ресурсы - Покровительство мясу",
     "resources.title": "Ресурсы",
+    "resources.page.hyperlink": "Посмотреть все ресурсы",
     "resources.subtitle":
       "Изучите документы и полезные контактные данные для деятельности патроната.",
+    "resources.legislation.title": "Каталог законодательных актов",
+    "resources.legislation.hyperlink":
+      "Ссылка на каталог соответствующих законов PÎIPC и их аналогов в ЕС.",
     "resources.authorities.title": "Органы",
     "resources.links.website": "Сайт",
     "resources.links.email": "Email",
