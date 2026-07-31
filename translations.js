@@ -53,7 +53,7 @@
       "De-a lungul unei istorii de peste 80 de ani, în cadrul întreprinderii s-au format generații de tehnologi și maiștri specializați în producerea produselor din carne tradiționale și autentice.",
     "index.member.slavena.role": "or. Chișinău",
     "index.member.slavena.desc":
-      "Înființată în anul 2001, Slavena a evoluat pe parcursul anilor într-un importator și producător de frunte de produse alimentare, ocupând astăzi una dintre pozițiile de lider în acest domeniu.",
+      "Înființată în anul 2001, Slavena-Lux a evoluat pe parcursul anilor într-un importator și producător de frunte de produse alimentare, ocupând astăzi una dintre pozițiile de lider în acest domeniu.",
     "index.news.title": "Noutăți",
     "index.news.bannerTitle":
       "Noutățile care definesc industria, într-un singur loc.",
@@ -64,15 +64,24 @@
     "index.resources.card1.title": "Certificat de înregistrare",
     "index.resources.card1.text":
       "Extrasul de la Agenția Servicii Publice (ASP) care certifică validitatea activității patronatului drept „Asociație Patronală”.",
-    "index.resources.card2.title": "Studiul pieței 2025",
+    "index.resources.card2.title": "(2025) Studiul pieței",
     "index.resources.card2.text":
-      "Un studiu de caz al Sectorului de Creștere Porci, producere Mezeluri și carne proaspătă în Moldova, 2025. Proprietate intelectuală a „maib”.",
+      "Un studiu de caz al Sectorului de Creștere Porci, producere Mezeluri și carne proaspătă în Moldova, 2025.",
     "index.resources.card3.title": "Legea Patronatelor (Nr. 976)",
     "index.resources.card3.text":
       "Legea reglementează modul de constituire şi funcţionare a patronatelor în RM în conformitate cu Concepţia pentru dezvoltarea sistemului de dialog social.",
     "index.resources.card4.title": "Newsletter UNIDO",
     "index.resources.card4.text":
       "Ediția #5 din newsletterul proiectului UE-UNIDO „Îmbunătățirea conformității standardelor prin creșterea capacităților naționale de monitorizare a reziduurilor”.",
+    "index.resources.card5.title": "Studiul industriei producătoare de carne",
+    "index.resources.card5.text":
+      "Studiul potențialului de dezvoltare al industriei cărnii și produselor din carne din Moldova.",
+    "index.resources.card6.title": "(2016) Studiul pieței",
+    "index.resources.card6.text":
+      "O analiză detaliată a pieței cărnii din Republica Moldova în perioada anilor 2013-2016.",
+    "index.resources.card7.title": "(2019) Impactul TVA asupra sectorului",
+    "index.resources.card7.text":
+      "O analiză a sectorului de producere și procesare a cărnii, cărnii de pasăre și ouă în Republica Moldova.",
     "index.resources.open": "Deschide",
     "index.contacts.title": "Contactează-ne",
     "index.contacts.officeTitle": "Sediul nostru",
@@ -113,7 +122,7 @@
       "Înregistrată la data 17 decembrie 2010, PÎIPC lucrează spre a avea un impact pozitiv direct asupra consumatorului final, a susține creșterea financiară a companiilor membre și a facilita extinderea relațiilor comerciale cu alte țări în industria pe care o reprezintă.",
     "about.productJourney.title": "Procesul de fabricare",
     "about.productJourney.nextButton": "Următorul",
-    "about.productJourney.stage1.title": "Standardele alimentare",
+    "about.productJourney.stage1.title": "Legislația alimentară",
     "about.productJourney.stage1.text":
       "În Republica Moldova activitățile de producere și comercializare a preparatelor și produselor din carne sunt reglementate de un cadru legal armonizat cu normele Uniunii Europene privind siguranța și calitatea alimentelor. Operatorii din domeniul alimentar sunt responsabili de întreg lanț alimentar, începând de la materia primă și până la produsul finit destinat consumatorului final, asigurând calitatea și siguranța produselor în condiții controlate de igienă, respectând tipul procesului, compoziția produsului și condițiile de depozitare. Agenții economici care desfășoară activitatea de creștere a animalelor,  procesarea cărnii și producerea de mezeluri pot activa doar dacă au fost supuși procedurii de autorizare și au obținut Autorizație sanitar – veterinară eliberată de către Agenția Națională pentru Siguranța Alimentelor (ANSA).",
     "about.productJourney.stage2.title": "Recepția materiei prime",
@@ -131,15 +140,16 @@
     "about.productJourney.stage6.title": "Tratarea termică",
     "about.productJourney.stage6.text":
       "Tratarea termică în industria cărnii este un factor important și are scopul de a elimina microorganismele patogene, asigurînd calitatea și inofensivitatea produselor alimentare. Necesitatea aplicării diferitelor tratamente termice (fierbere, uscare, coacere, afumare, răcire) asigură îmbunătățirea proprietăților senzoriale (gust, textură, aromă), face ca produsul să fie bun pentru consum și conservabil pe o durată mai mare de timp. Ea este efectuată în camere termice cu funcționare continuă,  cu reglare automată a temperaturii, umidității relative a mediului de fum și a vitezei mișcării aerului. Controlul temperaturii în camerele de fierbere, camerele termice, camerele de răcire a produselor finite şi în profunzimea produselor se efectuiază cu termometrele verificate metrologic.",
-    "about.productJourney.stage7.title": "Certificatul de calitate",
+    "about.productJourney.stage7.title":
+      "Certificatul de calitate după ambalare",
     "about.productJourney.stage7.text":
       "La fabricarea produselor alimentare operatorii din domeniul alimentar sunt obligați să respecte cerințele privind siguranța și calitatea acestor produse la toate etapele lanțului alimentar, de asemenea să elaboreze planurile de autocontrol al siguranței și al calității în procesul de producere. Periodicitatea sau frecvența rapoartelor de încercări de laborator se stabilește în baza planului de autocontrol, în funcție de gradul de perisabilitate, de numărul punctelor critice de control identificate și în funcție de indicatorii de siguranță (microbiologici, contaminanți, reziduuri). Fiecare lot de produse este însoțit de un certificat de calitate care atestă conformitatea cu documentele normative în vigoare, conținând date complete despre producător, produs, dată de fabricare, termen de valabilitate și condiții de păstrare. Originalul rămâne la producător; beneficiarul primește o copie.",
     "about.productJourney.stage8.title": "Ambalarea",
     "about.productJourney.stage8.text":
       "Operatorul din domeniul alimentar este responsabil pentru informarea consumatorilor cu privire la produsele alimentare sub a cărui denumire se comercializează produsul alimentar, cu indicarea pe etichetă a  informaţiilor obligatorii conform actelor normative în vigoare, oferind informații complete și clare: datele producătorului, denumirea produsului, lista ingredientelor, declarația nutrițională, data de fabricare, termenul de valabilitate și condițiile de păstrare. Etichetarea și ambalarea produselor alimentare vor avea loc în condiții stricte de igienă și în materiale sigure, autorizate sanitar, care nu transmit substanțe dăunătoare produsului și asigură protecție pe durata transportării și depozitării, și pentru menținerea calității și siguranța acestora pe durata termenului de valabilitate. Produsele alimentare de origine animală sunt introduse pe piață doar dacă poartă marca de identificare, care este aplicată pe materialul de ambalare sau  tipărită pe eticheta fixată/atașată pe ambalaj. De asemenea, aceasta se va aplica și pe documentele de însoțire a produselor.",
-    "about.productJourney.stage9.title": "Igiena personalului",
+    "about.productJourney.stage9.title": "Sistemul intern de control",
     "about.productJourney.stage9.text":
-      "Calitatea și siguranța produselor alimentare de origine animală depinde și de gradul ridicat de curățenie personală, de fiecare persoană care lucrează în zona de manipulare a produselor, care trebuie să dețină carnet medical, să fie supusă controlului medical la angajare și ulterior efectuează examene medicale periodice,  să poarte o vestimentație adecvată și curată. Niciunei persoane care suferă de o boală sau este purtătoare a unei boli ce poate fi transmisă prin produse alimentare ori care suferă de o altă afecțiune, cum ar fi leziuni infectate, infecții ale pielii, abcese sau diaree, nu trebuie să i se permită manipularea cu produse alimentare sau intrarea în zona de manipulare a produselor alimentare.",
+      "Bune practici de igienă și de producție, împreună constituie un program de pre-condiții. Programul de condiții preliminare este împărțit în: programul care stabilește structura întreprinderii și condițiile de construcție, programul care stabilește procesul și metodele de activitate. În centrul sistemului de gestionare al siguranței alimentare se află un program bine gândit și planificat de pre-condiții. Activitatea concretă în cadrul programului de condiții preliminare este indicată în planul de control intern. La întreprinderea alimentară este necesar de creat un sistem de control intern, care constă dintr-un program de condiții preliminare, un sistem de urmărire și revocare a produselor, precum și un sistem de asigurare a securității alimentare bazate pe principiile HACCP. Sistemul de gestionare al siguranței alimentare constă din: bune practici de igienă, cum ar fi curățare, spălarea si dezinfectare, igiena lucrătorilor, clădirile potrivite și echipamente, controlul dăunătorilor etc.; bune practici de fabricare, cum ar fi dozarea exactă a ingredientelor, temperatura corectă de procesare, depozitarea și transportul produselor etc.; proceduri bazate pe un sistem de analizei pericolelor și stabilirii punctelor critice de control - HACCP (engl. Hazard Analysis and Critical Control Points); alte principii de gestionare și schimb de informații bilaterale pentru a asigura un sistem de urmărire a produselor și retragerea acestora.",
     "about.productJourney.stage10.title": "Livrarea",
     "about.productJourney.stage10.text":
       "Livrarea produselor către rețelele comerciale se realizează cu mijloace de transport specializate, echipate cu instalație frigorifică sau izotermice, care mențin temperatura prescrisă pe toată durata transportului. Toate mijloacele de transport utilizate dețin autorizație sanitar-veterinară, aceasta certificând corespunderea la standardele pentru transportul produselor alimentare. Ele trebuie să fie menținute curate, conform cerințelor generale de igienă și să fie funcționale pentru ca produsele alimentare să fie protejate împotriva contaminării, de asemenea să fie concepute și construite astfel încît să permită igienizarea și/sau dezinfectarea. Operatorii din domeniul alimentar, în cadrul întreprinderilor pe care le gestionează, vor recepționa și livra doar produse alimentare sigure pentru consum, însoțite de certificatele de calitate și/sau certificatul sanitar – veterinar eliberat de producători, vor monitoriza întregul lanț alimentar pentru respectarea legislației din domeniul alimentar și asigurarea unui înalt nivel de protecție a consumatorilor.",
@@ -171,6 +181,9 @@
     "news.modal.closeAria": "Închide",
     "resources.metaTitle": "Resurse - Patronat Carne",
     "resources.title": "Resurse",
+    "resources.legislation.title": "Catalog de legislație",
+    "resources.legislation.hyperlink":
+      "Link către catalogul de legi relevante PÎIPC și analogul UE al acestora.",
     "resources.subtitle":
       "Explorează documente și puncte de contact utile pentru activitatea patronatului.",
     "resources.authorities.title": "Autorități",
@@ -381,7 +394,7 @@
     // org-9
     "members.org-9.role": "Meat processing",
     "members.org-9.description":
-      "Founded in 2001, Slavena has evolved over the years into a leading importer and manufacturer of food products, today occupying one of the leading positions in this field. The initial activity was fish processing, a field in which the company formed its expertise and operational standards based on quality and responsibility towards the consumer. Throughout its development, Slavena has constantly expanded its production capacities and portfolio, becoming today a manufacturer with a diversified assortment of products. The meat processing department, launched in 2013, marked a new stage of growth and diversification. Currently, we produce a wide range of meat products, including marinated meat, breaded products and minced meat semi-finished products, made in accordance with modern food safety and quality requirements. Continuing the development process, in 2024 the frozen dough semi-finished products production section was launched, expanding the offer with products adapted to the modern lifestyle and the growing demand for quick preparation solutions. The company's development is supported by continuous investments in high-performance technological lines, modernization of production processes and implementation of rigorous quality control systems, aimed at providing safe and high-quality products.",
+      "Founded in 2001, Slavena-Lux has evolved over the years into a leading importer and manufacturer of food products, today occupying one of the leading positions in this field. The initial activity was fish processing, a field in which the company formed its expertise and operational standards based on quality and responsibility towards the consumer. Throughout its development, Slavena-Lux has constantly expanded its production capacities and portfolio, becoming today a manufacturer with a diversified assortment of products. The meat processing department, launched in 2013, marked a new stage of growth and diversification. Currently, we produce a wide range of meat products, including marinated meat, breaded products and minced meat semi-finished products, made in accordance with modern food safety and quality requirements. Continuing the development process, in 2024 the frozen dough semi-finished products production section was launched, expanding the offer with products adapted to the modern lifestyle and the growing demand for quick preparation solutions. The company's development is supported by continuous investments in high-performance technological lines, modernization of production processes and implementation of rigorous quality control systems, aimed at providing safe and high-quality products.",
     "members.org-9.location": "Chișinău",
     "members.org-9.certification.0": "ISO 22000:2018",
     "members.org-9.certification.1": "HACCP",
@@ -435,7 +448,7 @@
     "members.org-5.role":
       "Производство колбас, салями, копчёностей, хот-догов, мясной продукции",
     "members.org-5.description":
-      "Мясоперерабатывающее предприятие «Nivali Prod» SRL было основано в 2010 году в селе Дубэсарий Векь, район Криулень, на живописном берегу реки Днестр — откуда и происходит название бренда Nivalli (Долина Днестра). С момента основания компания стремилась стать эталонным производителем в мясной отрасли Республики Молдова, сочетая традиционные рецепты с современными производственными технологиями. Завод построен в соответствии с требованиями и стандартами пищевой промышленности и оснащён современными машинами и оборудованием немецкого и австрийского производства. Основная деятельность заключается в производстве мясной продукции (код CAEM C1013), включая салями, копчёности, колбасы и деликатесы из говядины, свинины и мяса птицы. Компания выпускает более 230 наименований продукции. Команда из примерно 260 сотрудников обеспечивает полный цикл — от тщательного отбора сырья до реализации готовой продукции через собственную сеть специализированных магазинов и торговых агентов по всей Республике Молдова. Качество является центральной ценностью бренда Nivalli. Компания обладает сертификатом ISO 9001 (Система менеджмента качества) и сертификатом ISO 22000 (Система менеджмента безопасности пищевых продуктов), что подтверждает её приверженность самым высоким стандартам. Мы используем исключительно тщательно отобранное мясо и специальные специи, а традиционный процесс копчения придаёт продукции характерный вкус и цвет, ценимые потребителями. Nivalli является членом Патронатной ассоциации предприятий мясоперерабатывающей промышленности и участником конкурса «Торговая марка года 2025», организованного Торгово-промышленной палатой Республики Молдова.",
+      "Мясоперерабатывающее предприятие «Nivali Prod» SRL было основано в 2010 году в селе Дубэсарий Векь, район Криулень, на живописном берегу реки Днестр — откуда и происходит название бренда Nivalli (Долина Днестра). С момента основания компания стремилась стать эталонным производителем в мясной отрасли Республики Молдова, сочетая традиционные рецепты с современными производственными технологиями. Завод построен в соответствии с требованиями и стандартами пищевой промышленности и оснащён современными машинами и оборудованием немецкого и австрийского производства. Основная деятельность заключается в производстве мясной продукции (код CAEM C1013), включая салями, копчёности, колбасы и деликатесы из говядины, свинины и мяса птицы. Компания выпускает более 230 наименований продукции. Команда из примерно 260 сотрудников обеспечивает полный цикл — от тщательного отбора сырья до реализации готовой продукции через собственную сеть специализированных магазинов и торговых агентов по всей Республике Молдова. Качество является главной ценностью бренда Nivalli. Компания обладает сертификатом ISO 9001 (Система менеджмента качества) и сертификатом ISO 22000 (Система менеджмента безопасности пищевых продуктов), что подтверждает её приверженность самым высоким стандартам. Мы используем только тщательно отобранное мясо и специи премиум-класса, а традиционный процесс копчения придает продукту характерный аромат и цвет, которые высоко ценят потребители. Nivalli является членом Патронатной ассоциации предприятий мясоперерабатывающей промышленности и участником конкурса «Торговая марка года 2025», организованного Торгово-промышленной палатой Республики Молдова.",
     "members.org-5.location": "Дубэсарий Векь, Криулень",
     "members.org-5.certification.0": "ISO 9001",
     "members.org-5.certification.1": "ISO 22000",
@@ -466,7 +479,7 @@
     "members.org-8.role":
       "Производство, переработка и консервирование мяса и мясных продуктов.",
     "members.org-8.description":
-      "Компания «Балтинский мясокомбинат» была основана в 1944 году. В 1994 году предприятие было реорганизовано в акционерное общество «БАСАРАБИЯ-НОРД». Сегодня компания является одним из ведущих представителей мясоперерабатывающей промышленности Республики Молдова, осуществляя полный технологический цикл – от получения сырья непосредственно с бойни до переработки, предупаковки, распределения и розничной продажи готовой продукции. Стратегическим ресурсом компании является ее команда профессионалов. За более чем 80 лет истории компания подготовила поколения технологов и мастеров, специализирующихся на производстве традиционных и аутентичных мясных продуктов. Многие сотрудники работают на предприятии десятилетиями, обеспечивая преемственность ноу-хау и подготовку новых специалистов. В настоящее время на предприятии работают представители более 10 профессиональных династий, что отражает стабильность организационной культуры и высокий уровень вовлеченности и лояльности персонала. Компания внедрила и поддерживает интегрированную систему управления качеством, применяемую на всех этапах производственного процесса. Технологические процессы соответствуют международным стандартам ISO 22000 и ISO 9001, которые также включают принципы HACCP. Контроль качества и безопасность пищевых продуктов обеспечиваются на протяжении всей цепочки отслеживания — от получения сырья до доставки готовой продукции клиентам. Эффективность системы поддерживается собственной сертифицированной лабораторией. Модернизация производственных мощностей и внедрение оборудования от ведущих европейских поставщиков способствовали повышению операционной эффективности, производительности и экологической устойчивости. В сегментах «премиум» и «средний» ассортимент продукции компании включает более 150 видов колбас, 20 видов деликатесов и более 100 видов охлажденных и замороженных мясных продуктов, производимых в соответствии с национальными и европейскими стандартами. Компания имеет собственную сеть из 28 современных магазинов с общенациональным охватом, работающих в формате «магазинов шаговой доступности», из которых 12 работают под брендом «Filletti», а 8 — под брендом «Gospodar». Дистрибьюторская сеть обслуживает более 3500 торговых точек и сотрудничает со всеми основными национальными розничными сетями.",
+      "Предприятие «Бельский мясокомбинат» была основана в 1944 году. В 1994 году предприятие было реорганизовано в акционерное общество «БАСАРАБИЯ-НОРД». Сегодня компания является одним из ведущих представителей мясоперерабатывающей промышленности Республики Молдова, осуществляя полный технологический цикл – от приема сырья непосредственно с бойни до переработки, упаковки, перевозки и распределения в розничной продажи готовой продукции. Стратегическим ресурсом компании является ее команда профессионалов. За более чем 80 лет истории компания подготовила поколения технологов и мастеров, специализирующихся на производстве традиционных и аутентичных мясных продуктов. Многие сотрудники работают на предприятии десятилетиями, обеспечивая преемственность ноу-хау и подготовку новых специалистов. В настоящее время на предприятии работают представители более 10 профессиональных династий, что отражает стабильность организационной культуры и высокий уровень вовлеченности и лояльности персонала. Компания внедрила и поддерживает интегрированную систему управления качеством, применяемую на всех этапах производственного процесса. Технологические процессы соответствуют международным стандартам ISO 22000 и ISO 9001, которые также включают принципы HACCP. Контроль качества и безопасность пищевых продуктов обеспечиваются на протяжении всей цепочки системы прослеживания — от приема сырья до доставки готовой продукции клиентам. Эффективность системы поддерживается собственной сертифицированной лабораторией. Модернизация производственных мощностей и внедрение оборудования от ведущих европейских поставщиков способствовали повышению операционной эффективности, производительности и экологической устойчивости. В сегментах «премиум» и «средний» ассортимент продукции компании включает более 150 видов колбас, 20 видов деликатесов и более 100 видов охлажденных и замороженных мясных продуктов, производимых в соответствии с национальными и европейскими стандартами. Компания имеет собственную сеть из 28 современных магазинов с общенациональным охватом, работающих в формате «магазинов шаговой доступности», из которых 12 работают под брендом «Filletti», а 8 — под брендом «Gospodar». Дистрибьюторская сеть обслуживает более 3500 торговых точек и сотрудничает со всеми основными национальными розничными сетями.",
     "members.org-8.location": "Бэлци",
     "members.org-8.certification.0": "ISO 22000",
     "members.org-8.certification.1": "ISO 9001",
@@ -479,7 +492,7 @@
     // org-9
     "members.org-9.role": "Переработка мяса",
     "members.org-9.description":
-      "Компания Slavena, основанная в 2001 году, за годы своего существования превратилась в ведущего импортера и производителя продуктов питания, занимая сегодня одну из ведущих позиций в этой области. Изначально компания занималась переработкой рыбы, в этой сфере сформировала свой опыт и операционные стандарты, основанные на качестве и ответственности перед потребителем. На протяжении всего своего развития Slavena постоянно расширяла свои производственные мощности и ассортимент, став сегодня производителем с диверсифицированным ассортиментом продукции. Запуск мясоперерабатывающего цеха в 2013 году ознаменовал новый этап роста и диверсификации. В настоящее время мы производим широкий спектр мясных продуктов, включая маринованное мясо, панированные продукты и полуфабрикаты из рубленого мяса, изготовленные в соответствии с современными требованиями к безопасности и качеству пищевых продуктов. Продолжая процесс развития, в 2024 году был запущен цех по производству замороженных полуфабрикатов из теста, расширив предложение продуктами, адаптированными к современному образу жизни и растущему спросу на решения для быстрого приготовления. Развитие компании обеспечивается постоянными инвестициями в высокоэффективные технологические линии, модернизацией производственных процессов и внедрением строгих систем контроля качества, направленных на обеспечение безопасности и высокого качества продукции.",
+      "Компания Slavena-Lux, основанная в 2001 году, за годы своего существования превратилась в ведущего импортера и производителя продуктов питания, занимая сегодня одну из ведущих позиций в этой области. Изначально компания занималась переработкой рыбы, в этой сфере сформировала свой опыт и операционные стандарты, основанные на качестве и ответственности перед потребителем. На протяжении всего своего развития Slavena-Lux постоянно расширяла свои производственные мощности и ассортимент, став сегодня производителем с диверсифицированным ассортиментом продукции. Запуск мясоперерабатывающего цеха в 2013 году ознаменовал новый этап роста и диверсификации. В настоящее время мы производим широкий спектр мясных продуктов, включая маринованное мясо, панированные продукты и полуфабрикаты из рубленого мяса, изготовленные в соответствии с современными требованиями к безопасности и качеству пищевых продуктов. Продолжая процесс развития, в 2024 году был запущен цех по производству замороженных полуфабрикатов из теста, расширив предложение продуктами, адаптированными к современному образу жизни и растущему спросу на решения для быстрого приготовления. Развитие компании обеспечивается постоянными инвестициями в высокоэффективные технологические линии, модернизацией производственных процессов и внедрением строгих систем контроля качества, направленных на обеспечение безопасности и высокого качества продукции.",
     "members.org-9.location": "Кишинев",
     "members.org-9.certification.0": "ISO 22000:2018",
     "members.org-9.certification.1": "HACCP",
@@ -541,7 +554,7 @@
       "Throughout a history of over 80 years, the company has trained generations of technologists and masters specialized in the production of traditional and authentic meat products.",
     "index.member.slavena.role": "Chișinău",
     "index.member.slavena.desc":
-      "Founded in 2001, Slavena has evolved over the years into a leading importer and producer of food products, today occupying one of the leading positions in this field.",
+      "Founded in 2001, Slavena-Lux has evolved over the years into a leading importer and producer of food products, today occupying one of the leading positions in this field.",
     "index.news.title": "News",
     "index.news.bannerTitle":
       "The latest updates shaping the industry, all in one place.",
@@ -552,15 +565,24 @@
     "index.resources.card1.title": "Registration certificate",
     "index.resources.card1.text":
       "The extract from the Public Services Agency (ASP) certifying the validity of the employer's activity as an 'Employer's Association'.",
-    "index.resources.card2.title": "Market Study 2025",
+    "index.resources.card2.title": "(2025) Market Study",
     "index.resources.card2.text":
-      "A case study of the Pig Breeding Sector, Sausage and Fresh Meat Production in Moldova, 2025. Intellectual property of 'maib'.",
-    "index.resources.card3.title": "Employer's Association Rule (№ 976)",
+      "A case study of the Pig Breeding Sector, Sausage and Fresh Meat Production in Moldova, 2025.",
+    "index.resources.card3.title": "Employer's Association Law (№ 976)",
     "index.resources.card3.text":
-      "The law regulates the establishment and functioning of employers' associations in the Republic of Moldova in accordance with the Concept for the development of the social dialogue system.",
+      "The law regulates the establishment and functioning of employers' associations in the Republic of Moldova.",
     "index.resources.card4.title": "UNIDO Newsletter",
     "index.resources.card4.text":
       "5th edition of UE-UNIDO project's newsletter 'Improving compliance with standards by increasing national capacities for residue monitoring'.",
+    "index.resources.card5.title": "Meat-produce market study",
+    "index.resources.card5.text":
+      "Study on the development potential of the meat and meat products industry in Moldova.",
+    "index.resources.card6.title": "(2016) Market study",
+    "index.resources.card6.text":
+      "A detailed analysis of the meat market in the Republic of Moldova during the 2013–2016 period.",
+    "index.resources.card7.title": "(2019) Sector's VAT impact study",
+    "index.resources.card7.text":
+      "An analysis of the meat, poultry, and egg production and processing sector in the Republic of Moldova.",
     "index.resources.open": "Open",
     "index.contacts.title": "Contact us",
     "index.contacts.officeTitle": "Our Headquarters",
@@ -601,7 +623,7 @@
       "Registered on December 17, 2010, PÎIPC works to have a direct positive impact on the end consumer, support the financial growth of member companies, and facilitate the expansion of trade relations with other countries in the industry it represents.",
     "about.productJourney.title": "Manufacturing Process",
     "about.productJourney.nextButton": "Next",
-    "about.productJourney.stage1.title": "Food Standards",
+    "about.productJourney.stage1.title": "Food Regulation",
     "about.productJourney.stage1.text":
       "In the Republic of Moldova, the production and commercialization of meat preparations and products are regulated by a legal framework harmonized with European Union standards on food safety and quality. Food business operators are responsible for the entire food chain, from raw material to the final product intended for the consumer, ensuring product quality and safety under controlled hygiene conditions, while respecting the type of process, product composition, and storage conditions. Economic operators engaged in animal farming, meat processing, and production of meat products may operate only after undergoing authorization procedures and obtaining a sanitary-veterinary authorization issued by the National Food Safety Agency (ANSA).",
     "about.productJourney.stage2.title": "Raw Material Reception",
@@ -619,15 +641,15 @@
     "about.productJourney.stage6.title": "Thermal Processing",
     "about.productJourney.stage6.text":
       "Thermal processing in the meat industry is an important factor aimed at eliminating pathogenic microorganisms, ensuring the quality and safety of food products. The application of different thermal treatments (boiling, drying, baking, smoking, cooling) improves sensory properties (taste, texture, aroma), makes the product suitable for consumption, and extends shelf life. It is carried out in continuously operating thermal chambers with automatic control of temperature, relative humidity of the smoke environment, and air movement speed. Temperature control in boiling chambers, thermal chambers, product cooling chambers, and within the product core is performed using metrologically verified thermometers.",
-    "about.productJourney.stage7.title": "Quality Certificate",
+    "about.productJourney.stage7.title": "Quality Certificate after packaging",
     "about.productJourney.stage7.text":
       "In food production, operators are required to comply with food safety and quality requirements at all stages of the food chain and to develop self-control plans for safety and quality in the production process. The frequency of laboratory testing reports is determined based on the self-control plan, depending on perishability, the number of identified critical control points, and safety indicators (microbiological, contaminants, residues). Each batch of products is accompanied by a quality certificate attesting compliance with current regulations, containing complete information about the producer, product, production date, shelf life, and storage conditions. The original remains with the producer; the beneficiary receives a copy.",
     "about.productJourney.stage8.title": "Packaging",
     "about.productJourney.stage8.text":
       "The food business operator is responsible for informing consumers about the food products marketed under their name, including mandatory labeling information in accordance with applicable regulations, providing complete and clear details: producer information, product name, ingredient list, nutritional declaration, production date, shelf life, and storage conditions. Labeling and packaging are carried out under strict hygiene conditions using safe, authorized materials that do not transfer harmful substances to the product and ensure protection during transport and storage, maintaining quality and safety throughout the shelf life. Animal-origin food products are placed on the market only if they bear an identification mark applied on the packaging material or printed on the label attached to the packaging, and also on accompanying documents.",
-    "about.productJourney.stage9.title": "Personnel Hygiene",
+    "about.productJourney.stage9.title": "Internal control system",
     "about.productJourney.stage9.text":
-      "The quality and safety of food products of animal origin also depend on a high level of personal hygiene among all personnel working in product handling areas. Staff must possess a medical record, undergo medical examination upon hiring and periodic check-ups thereafter, and wear appropriate, clean clothing. No person suffering from or carrying a disease transmissible through food, or suffering from conditions such as infected wounds, skin infections, abscesses, or diarrhea, shall be allowed to handle food products or enter food handling areas.",
+      "Good hygiene and production practices together constitute a prerequisite program. This prerequisite program is divided into a program establishing the enterprise's structure and construction conditions, and a program establishing operational processes and methods. A well-conceived and planned prerequisite program lies at the heart of the food safety management system. Specific activities within the prerequisite program are outlined in the internal control plan. Food businesses must establish an internal control system comprising a prerequisite program, a product traceability and recall system, and a food safety assurance system based on HACCP principles. The food safety management system consists of: good hygiene practices (such as cleaning, washing, and disinfection, worker hygiene, suitable premises and equipment, pest control, etc.); good manufacturing practices (such as precise ingredient dosing, correct processing temperatures, product storage and transport, etc.); procedures based on the Hazard Analysis and Critical Control Points (HACCP) system; and other management principles and two-way information exchange to ensure product traceability and recall capabilities.",
     "about.productJourney.stage10.title": "Delivery",
     "about.productJourney.stage10.text":
       "Delivery of products to retail networks is carried out using specialized transport equipped with refrigeration or isothermal systems that maintain the required temperature throughout transport. All transport vehicles hold sanitary-veterinary authorization, certifying compliance with food transport standards. They must be kept clean according to general hygiene requirements and be fully functional to protect food products from contamination, and must be designed and constructed to allow proper cleaning and/or disinfection. Food business operators, within their enterprises, shall receive and deliver only food products safe for consumption, accompanied by quality certificates and/or sanitary-veterinary certificates issued by producers, while monitoring the entire food chain to ensure compliance with food legislation and a high level of consumer protection.",
@@ -807,7 +829,7 @@
     "members.metaTitle": "Члены совета директоров",
     "news.metaTitle": "Новости - Покровительство мясу",
     "nav.home": "Домашня",
-    "nav.logoText": "Патронат предприятий мясоперерабатывающей промышленности",
+    "nav.logoText": "Патронат Предприятий Перерабатывающий мясной отрасли",
     "nav.about": "О нас",
     "nav.members": "Члены",
     "nav.news": "Новости",
@@ -822,10 +844,10 @@
     "index.about.title": "О нас",
     "index.about.activityTitle": "Наша деятельность",
     "index.about.activityText":
-      "Мы представляем интересы предприятий по производству и переработке мяса в Республике Молдова во взаимоотношениях с государственными органами и другими соответствующими учреждениями. Мы активно участвуем в разработке и совершенствовании законодательной базы в этой области, поддерживаем справедливую и конкурентную деловую среду и содействуем соблюдению стандартов качества и безопасности пищевых продуктов.",
+      "Мы представляем интересы предприятий по производству и переработке мяса в Республике Молдова. Осуществляем диалог между предприятиями и  государственными органами и другими соответствующими учреждениями. Мы активно участвуем в разработке и совершенствовании законодательной базы в этой области, поддерживаем справедливую и конкурентную деловую среду и содействуем соблюдению стандартов качества и безопасности пищевых продуктов.",
     "index.about.priorityTitle": "Наш приоритет — потребитель.",
     "index.about.priorityText":
-      "Ассоциация работодателей намерена разработать ряд мероприятий по защите интересов, которые окажут прямое влияние на конечного потребителя, финансовый рост компаний и расширение торговых отношений с другими странами: в свою очередь, отмена тарифных и нетарифных барьеров приведет к экономическому росту предприятий пищевой промышленности, косвенно увеличивая заработную плату сотрудников и налоговые поступления в бюджет.",
+      "Патронат предприятий мясной отрасли намерена разработать ряд мероприятий по защите интересов предприятий, которые окажут прямое влияние на конечного потребителя, финансовый рост компаний и расширение торговых отношений с другими странами. В свою очередь, отмена тарифных и нетарифных барьеров приведет к экономическому росту предприятий пищевой промышленности, косвенно увеличивая заработную плату сотрудников и налоговые поступления в бюджет государства.",
     "index.about.readMore": "Узнать больше",
     "index.members.title": "Наши участники",
     "index.member.mavita.role": "Кишинев",
@@ -864,15 +886,25 @@
     "index.resources.card1.title": "Свидетельство о регистрации",
     "index.resources.card1.text":
       "Выписка из Агентства государственных услуг (АГС), подтверждающая законность деятельности работодателя как «Ассоциации работодателей».",
-    "index.resources.card2.title": "Исследование рынка 2025 года",
+    "index.resources.card2.title": "(2025) Исследование рынка",
     "index.resources.card2.text":
-      "Исследование сектора свиноводства, производства колбас и свежего мяса в Молдове, 2025 год. Интеллектуальная собственность компании «maib».",
+      "Исследование сектора свиноводства, производства колбас и свежего мяса в Молдове, 2025 год.",
     "index.resources.card3.title": "Закон o патронатах (№ 976)",
     "index.resources.card3.text":
       "Закон регулирует создание и функционирование ассоциаций работодателей в РМ в соответствии с Концепцией развития системы социального диалога.",
     "index.resources.card4.title": "Бюллетень ЕС-ЮНИДО",
     "index.resources.card4.text":
       "Выпуск № 5 информационного бюллетеня проекта ЕС-ЮНИДО «Повышение соответствия стандартам путем наращивания национальных возможностей по мониторингу остаточных веществ».",
+    "index.resources.card5.title":
+      "Исследование мясоперерабатывающей промышленности",
+    "index.resources.card5.text":
+      "Исследование потенциала развития отрасли производства мяса и мясной продукции в Молдове.",
+    "index.resources.card6.title": "(2016) Исследование рынка",
+    "index.resources.card6.text":
+      "Подробный анализ рынка мяса в Республике Молдова за период 2013–2016 годов.",
+    "index.resources.card7.title": "(2019) Влияние НДС на сектор",
+    "index.resources.card7.text":
+      "Анализ сектора производства и переработки мяса, мяса птицы и яиц в Республике Молдова.",
     "index.resources.open": "Открыть",
     "index.contacts.title": "Связаться с нами",
     "index.contacts.officeTitle": "Наша штаб-квартира",
@@ -898,7 +930,7 @@
       "Мы представляем интересы предприятий по производству и переработке мяса в Республике Молдова во взаимоотношениях с государственными органами и другими соответствующими учреждениями через лоббистскую деятельность. Мы активно участвуем в разработке и совершенствовании законодательной базы в этой области, поддерживаем справедливую и конкурентную деловую среду и содействуем соблюдению стандартов качества и безопасности пищевых продуктов. Мы способствуем диалогу между работодателями, государством и социальными партнерами, предоставляем информационную и консультативную поддержку нашим членам и вносим вклад в развитие и модернизацию мясоперерабатывающей отрасли на национальном и международном уровнях.",
     "about.priority": "Наш приоритет — потребитель.",
     "about.priorityText":
-      "Ассоциация работодателей намерена разработать ряд мероприятий по защите интересов, которые окажут непосредственное влияние на конечного потребителя, финансовый рост компаний и расширение торговых связей с другими странами. Отмена тарифных и нетарифных барьеров будет способствовать экономическому росту предприятий пищевой промышленности и повышению заработной платы сотрудников.",
+      "Патронат намерена разработать ряд мероприятий по защите интересов, которые окажут непосредственное влияние на конечного потребителя, финансовый рост компаний и расширение торговых связей с другими странами. Отмена тарифных и нетарифных барьеров будет способствовать экономическому росту предприятий пищевой промышленности и повышению заработной платы сотрудников.",
     "about.mission": "Наша миссия",
     "about.missionText":
       "Мы содействуем диалогу между работодателями, государством и социальными партнерами, предоставляем информационную и консультативную поддержку нашим членам и вносим вклад в развитие и модернизацию мясной отрасли на национальном и международном уровнях.",
@@ -913,7 +945,7 @@
       "Зарегистрированная 17 декабря 2010 года, организация PÎIPC стремится оказывать непосредственное позитивное влияние на конечного потребителя, поддерживать финансовый рост компаний-членов и содействовать расширению торговых связей с другими странами в представляемой ею отрасли.",
     "about.productJourney.title": "Процесс производства",
     "about.productJourney.nextButton": "Далее",
-    "about.productJourney.stage1.title": "Пищевые стандарты",
+    "about.productJourney.stage1.title": "Пищевое Законодательство",
     "about.productJourney.stage1.text":
       "В Республике Молдова деятельность по производству и реализации мясных изделий регулируется законодательной базой, гармонизированной с нормами Европейского союза в области безопасности и качества пищевых продуктов. Операторы пищевой отрасли несут ответственность за всю пищевую цепь — от сырья до готового продукта, предназначенного для конечного потребителя, обеспечивая качество и безопасность продукции в условиях контролируемой гигиены с учетом технологического процесса, состава продукта и условий хранения. Экономические агенты, осуществляющие деятельность по выращиванию животных, переработке мяса и производству мясных изделий, могут работать только после прохождения процедуры авторизации и получения санитарно-ветеринарного разрешения, выданного Национальным агентством по безопасности пищевых продуктов (ANSA).",
     "about.productJourney.stage2.title": "Приемка сырья",
@@ -922,24 +954,24 @@
     "about.productJourney.stage3.title": "Хранение",
     "about.productJourney.stage3.text":
       "Хранение сырья и вспомогательных материалов осуществляется в соответствии с сопроводительными документами и действующими нормативами с соблюдением сроков и условий хранения в контролируемых холодильных помещениях, оснащенных поверенными измерительными приборами.",
-    "about.productJourney.stage4.title": "Переработка сырья",
+    "about.productJourney.stage4.title": "Разделение туш",
     "about.productJourney.stage4.text":
-      "При производстве мясных продуктов используется сырье — мясо в охлажденном и/или замороженном состоянии. Мясо должно поступать от здоровых, взрослых животных, убитых в соответствии с ветеринарно-санитарными нормами по защите животных при убое и переработанных на авторизованных бойнях, сопровождаемых ветеринарно-санитарными сертификатами с нанесением знака здоровья. Оно должно быть свежим, без постороннего запаха, без признаков прогоркания и слизистости. Разделка, обвалка и жиловка (удаление сухожилий, грубых пленок и соединительной ткани) проводятся в производственных помещениях с температурой воздуха не выше 12 °C и относительной влажностью ниже 75% для предотвращения загрязнения и размножения патогенных бактерий. На протяжении всех этих операций температура мяса должна поддерживаться ниже 7 °C. Обвалка осуществляется таким образом, чтобы кости оставались хорошо очищенными, а полученное мясо было высокого качества, без чрезмерного дробления, перекрестного загрязнения и повреждения мышечной структуры.",
-    "about.productJourney.stage5.title": "Производство продукции",
+      "При производстве мясных продуктов используется сырье — мясо в охлажденном и замороженном состоянии. Мясо должно поступать от здоровых, взрослых животных, убитых в соответствии с ветеринарно-санитарными нормами по защите животных при убое и переработанных на авторизованных бойнях, сопровождаемых ветеринарно-санитарными сертификатами с нанесением знака здоровья. Оно должно быть свежим, без постороннего запаха, без признаков прогоркания и слизистости. Разделка, обвалка и жиловка (удаление сухожилий, грубых пленок и соединительной ткани) проводятся в производственных помещениях с температурой воздуха не выше 12 °C и относительной влажностью ниже 75% для предотвращения загрязнения и размножения патогенных бактерий. На протяжении всех этих операций температура мяса должна поддерживаться ниже 7 °C. Обвалка осуществляется таким образом, чтобы кости оставались хорошо очищенными, а полученное мясо было высокого качества, без чрезмерного дробления, перекрестного загрязнения и повреждения мышечной структуры.",
+    "about.productJourney.stage5.title": "Процесс производства",
     "about.productJourney.stage5.text":
       "Мясные продукты изготавливаются на основе рецептур и/или технологических инструкций, разработанных и утвержденных в установленном порядке, с использованием сырья и вспомогательных материалов, соответствующих требованиям нормативных актов по безопасности и качеству пищевых продуктов, общим гигиеническим требованиям и правилам информирования потребителей.",
     "about.productJourney.stage6.title": "Термическая обработка",
     "about.productJourney.stage6.text":
       "Термическая обработка в мясной промышленности является важным фактором и направлена на уничтожение патогенных микроорганизмов, обеспечивая качество и безопасность пищевых продуктов. Применение различных видов термической обработки (варка, сушка, запекание, копчение, охлаждение) улучшает органолептические свойства (вкус, текстуру, аромат), делает продукт пригодным для употребления и увеличивает срок его хранения. Обработка осуществляется в термических камерах непрерывного действия с автоматическим регулированием температуры, относительной влажности дымовой среды и скорости движения воздуха. Контроль температуры в варочных камерах, термических камерах, камерах охлаждения готовой продукции и внутри продукта осуществляется с использованием поверенных термометров.",
-    "about.productJourney.stage7.title": "Сертификат качества",
+    "about.productJourney.stage7.title": "Сертификат качества после упаковки",
     "about.productJourney.stage7.text":
       "При производстве пищевых продуктов операторы обязаны соблюдать требования безопасности и качества на всех этапах пищевой цепи, а также разрабатывать планы самоконтроля безопасности и качества в процессе производства. Периодичность лабораторных испытаний определяется на основе плана самоконтроля с учетом степени скоропортимости продукции, количества выявленных критических контрольных точек и показателей безопасности (микробиологических, загрязнителей, остатков веществ). Каждая партия продукции сопровождается сертификатом качества, подтверждающим соответствие действующим нормативам и содержащим полную информацию о производителе, продукте, дате производства, сроке годности и условиях хранения. Оригинал остается у производителя, получатель получает копию.",
     "about.productJourney.stage8.title": "Упаковка",
     "about.productJourney.stage8.text":
       "Оператор пищевой отрасли несет ответственность за информирование потребителей о реализуемых пищевых продуктах, включая обязательную информацию на маркировке в соответствии с действующим законодательством, предоставляя полные и достоверные сведения: данные производителя, наименование продукта, список ингредиентов, пищевая ценность, дата производства, срок годности и условия хранения. Маркировка и упаковка осуществляются в строгих гигиенических условиях с использованием безопасных, разрешенных материалов, которые не передают продукту вредные вещества и обеспечивают его защиту при транспортировке и хранении, сохраняя качество и безопасность на протяжении всего срока годности. Продукты животного происхождения допускаются к реализации только при наличии идентификационного знака, нанесенного на упаковку или этикетку, а также на сопроводительные документы.",
-    "about.productJourney.stage9.title": "Гигиена персонала",
+    "about.productJourney.stage9.title": "Система внутреннего контроля",
     "about.productJourney.stage9.text":
-      "Качество и безопасность пищевых продуктов животного происхождения также зависят от высокого уровня личной гигиены каждого сотрудника, работающего в зоне обработки продуктов. Персонал обязан иметь медицинскую книжку, проходить медицинский осмотр при приеме на работу и регулярные периодические обследования, а также носить соответствующую чистую одежду. Лицам, страдающим заболеваниями или являющимся носителями инфекций, передающихся через пищевые продукты, а также имеющим такие состояния, как инфицированные раны, кожные инфекции, абсцессы или диарею, запрещается работать с пищевыми продуктами или находиться в зонах их обработки.",
+      "Хорошие гигиенические и производственные практики вместе составляют программу предварительных условий. Программа предварительных условий подразделяется на: программу, задающую структуру предприятия и условия строительства, программу, задающую процесс и методы деятельности. В основе системы управления продовольственной пищевой безопасностью лежит тщательно продуманная и распланированная программа предварительных условий. Конкретная деятельность в рамках программы предварительных условий указана в плане внутреннего контроля. На продовольственном предприятии необходимо создать систему внутреннего контроля, которая состоит из программы предварительных условий, системы отслеживания и отзыва продукции, а также системы обеспечения продовольственной пищевой безопасности, основанной на принципах HACCP.В плане внутреннего контроля описывают деятельность и меры по изготовлению безопасных продуктов питания. Оформленный в письменном виде план внутреннего контроля вместе с повседневными действиями составляет систему внутреннего контроля. Система управления продовольственной пищевой безопасностью состоит из: хороших гигиенических практик, таких как надлежащая уборка и дезинфекция, гигиена работников, подходящие здания и оборудование, борьба с вредителями и др.; хороших производственных практик, таких как точное дозирование ингредиентов, правильная температура обработки, хранение и транспортировка продукции и др.; методов, основанных на системе анализа рисков и критических контрольных точек, или HACCP (англ. Hazard Analysis and Critical Control Points, HACCP); других принципов управления и двустороннего обмена информацией с целью обеспечения системы отслеживания продукции и ее отзыва.",
     "about.productJourney.stage10.title": "Доставка",
     "about.productJourney.stage10.text":
       "Доставка продукции в торговые сети осуществляется специализированным транспортом, оснащенным холодильными или изотермическими установками, обеспечивающими поддержание необходимой температуры на протяжении всего пути. Все транспортные средства имеют ветеринарно-санитарное разрешение, подтверждающее соответствие стандартам перевозки пищевых продуктов. Они должны содержаться в чистоте в соответствии с общими гигиеническими требованиями и быть полностью исправными для защиты продукции от загрязнения, а также иметь конструкцию, позволяющую эффективную очистку и/или дезинфекцию. Операторы пищевой отрасли обязаны принимать и поставлять только безопасную для потребления продукцию, сопровождаемую сертификатами качества и/или ветеринарно-санитарными сертификатами, выданными производителями, а также контролировать всю пищевую цепь для соблюдения законодательства и обеспечения высокого уровня защиты потребителей.",
@@ -1083,7 +1115,7 @@
     "news.article4.date": "Август 2023",
     "news.article4.title": "Цены на продукцию из свинины вырастут",
     "news.article4.summary":
-      "Ассоциация работодателей предприятий мясоперерабатывающей промышленности подчеркивает, что субсидии...",
+      "Патронат предприятий мясоперерабатывающей промышленности подчеркивает, что субсидии...",
     "news.article5.date": "Май 2025",
     "news.article5.title": "Наблюдается ли дефицит и рост цен на свинину?",
     "news.article5.summary":
@@ -1102,7 +1134,7 @@
     "members.footer.caseStudy": "Исследование рынка 2025 года",
     "members.footer.facebook": "Facebook",
     "footer.copyright":
-      "© Ассоциация работодателей предприятий мясоперерабатывающей промышленности, 2026 год.",
+      "© Патронат Предприятий Перерабатывающий мясной отрасли, 2026 год.",
     "footer.about": "О нас",
     "footer.aboutPatronat": "О патронаже",
     "footer.resources": "Ресурсы",
