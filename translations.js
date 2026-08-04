@@ -82,6 +82,9 @@
     "index.resources.card7.title": "(2019) Impactul TVA asupra sectorului",
     "index.resources.card7.text":
       "O analiză a sectorului de producere și procesare a cărnii, cărnii de pasăre și ouă în Republica Moldova.",
+    "index.resources.card8.title": "(2018) Studiul pieței",
+    "index.resources.card8.text":
+      "O analiză detaliată a pieței cărnii din Republica Moldova în perioada anilor 2013-2018.",
     "index.resources.open": "Deschide",
     "index.contacts.title": "Contactează-ne",
     "index.contacts.officeTitle": "Sediul nostru",
@@ -580,6 +583,9 @@
     "index.resources.card6.title": "(2016) Market study",
     "index.resources.card6.text":
       "A detailed analysis of the meat market in the Republic of Moldova during the 2013–2016 period.",
+    "index.resources.card8.title": "(2018) Market study",
+    "index.resources.card8.text":
+      "A detailed analysis of the meat market in the Republic of Moldova during the 2013–2018 period.",
     "index.resources.card7.title": "(2019) Sector's VAT impact study",
     "index.resources.card7.text":
       "An analysis of the meat, poultry, and egg production and processing sector in the Republic of Moldova.",
@@ -905,6 +911,9 @@
     "index.resources.card7.title": "(2019) Влияние НДС на сектор",
     "index.resources.card7.text":
       "Анализ сектора производства и переработки мяса, мяса птицы и яиц в Республике Молдова.",
+    "index.resources.card8.title": "(2018) Исследование рынка",
+    "index.resources.card8.text":
+      "Подробный анализ рынка мяса в Республике Молдова за период 2013–2018 годов.",
     "index.resources.open": "Открыть",
     "index.contacts.title": "Связаться с нами",
     "index.contacts.officeTitle": "Наша штаб-квартира",
