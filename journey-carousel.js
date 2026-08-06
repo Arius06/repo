@@ -130,6 +130,24 @@
     }, delay);
   }
 
+  function updatePagination(panelElement, activeIndex, sourcesLength) {
+    const pagination = panelElement.querySelector(".journey-pagination");
+
+    if (!pagination) {
+      return;
+    }
+
+    pagination.querySelectorAll(".journey-pagination-dot").forEach((dot) => {
+      const dotIndex = Number(dot.dataset.index || "0");
+      const isActive = dotIndex === activeIndex;
+
+      dot.classList.toggle("is-active", isActive);
+      dot.classList.toggle("is-first", dotIndex === 0);
+      dot.classList.toggle("is-last", dotIndex === sourcesLength - 1);
+      dot.setAttribute("aria-current", isActive ? "true" : "false");
+    });
+  }
+
   function createControls(panelElement) {
     const imageContainer = panelElement.querySelector(".journey-image");
 
@@ -172,6 +190,43 @@
     imageContainer.appendChild(controls);
 
     return imageContainer;
+  }
+
+  function createPagination(panelElement, sourcesLength) {
+    const imageContainer = panelElement.querySelector(".journey-image");
+
+    if (
+      !imageContainer ||
+      imageContainer.querySelector(".journey-pagination") ||
+      sourcesLength < 2
+    ) {
+      return;
+    }
+
+    const pagination = document.createElement("div");
+    pagination.className = "journey-pagination";
+    pagination.setAttribute("aria-label", "Image pagination");
+
+    for (let index = 0; index < sourcesLength; index += 1) {
+      const dot = document.createElement("button");
+      dot.type = "button";
+      dot.className = "journey-pagination-dot";
+      dot.dataset.index = String(index);
+      dot.setAttribute(
+        "aria-label",
+        `Go to image ${index + 1} of ${sourcesLength}`,
+      );
+
+      dot.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        goToImage(panelElement, index, { fromUser: true });
+      });
+
+      pagination.appendChild(dot);
+    }
+
+    imageContainer.appendChild(pagination);
   }
 
   function transitionToSource(panelElement, imageElement, nextSource) {
@@ -229,6 +284,33 @@
 
     if (started) {
       imageElement.dataset.carouselIndex = String(nextIndex);
+      updatePagination(panelElement, nextIndex, sources.length);
+      scheduleNextAdvance(panelElement);
+      return;
+    }
+
+    scheduleNextAdvance(panelElement, options.fromUser ? 350 : CYCLE_DELAY);
+  }
+
+  function goToImage(panelElement, targetIndex, options = {}) {
+    const imageElement = panelElement.querySelector(".journey-image img");
+    const sources = stageImages[panelElement.dataset.stage] || [];
+
+    if (!imageElement || targetIndex < 0 || targetIndex >= sources.length) {
+      return;
+    }
+
+    clearCarouselTimer(panelElement);
+
+    const started = transitionToSource(
+      panelElement,
+      imageElement,
+      sources[targetIndex],
+    );
+
+    if (started) {
+      imageElement.dataset.carouselIndex = String(targetIndex);
+      updatePagination(panelElement, targetIndex, sources.length);
       scheduleNextAdvance(panelElement);
       return;
     }
@@ -247,10 +329,17 @@
     }
 
     preloadImages(sources);
+    createPagination(panelElement, sources.length);
 
     if (!imageElement.dataset.carouselIndex) {
       imageElement.dataset.carouselIndex = "0";
     }
+
+    updatePagination(
+      panelElement,
+      Number(imageElement.dataset.carouselIndex || "0"),
+      sources.length,
+    );
 
     if (imageContainer) {
       imageContainer.addEventListener("pointerdown", (event) => {

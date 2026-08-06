@@ -1815,6 +1815,70 @@ section h2::after {
   display: block;
   z-index: 4;
 }
+
+.journey-pagination {
+  position: absolute;
+  left: 50%;
+  bottom: 0.9rem;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(12, 17, 25, 0.28);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  z-index: 4;
+}
+
+.journey-pagination-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 0;
+  border-radius: 999px;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.5);
+  /* cursor: pointer; */
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    width 0.2s ease,
+    opacity 0.2s ease;
+}
+
+/* .journey-pagination-dot.is-first,
+.journey-pagination-dot.is-last {
+  width: 0.7rem;
+  height: 0.7rem;
+  background: rgba(255, 255, 255, 0.72);
+} */
+
+.journey-pagination-dot.is-active {
+  width: 1.35rem;
+  background: #ffffff;
+  transform: scale(1.05);
+}
+
+/* .journey-pagination-dot:hover,
+.journey-pagination-dot:focus-visible {
+  background: rgba(255, 255, 255, 0.9);
+  outline: none;
+} */
+
+.journey-pagination-dot:focus-visible {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
+}
+
+.journey-pagination-dot.is-active.is-first,
+.journey-pagination-dot.is-active.is-last {
+  width: 1.3rem;
+}
+
+.journey-pagination-dot.is-first.is-last {
+  width: 0.9rem;
+  height: 0.9rem;
+}
 .journey-image-control {
   position: absolute;
   top: 50%;
@@ -1949,11 +2013,36 @@ section h2::after {
   .journey-image-controls {
     display: none;
   }
+
+  .journey-pagination {
+    bottom: 0.65rem;
+    gap: 0.4rem;
+    padding: 0.35rem 0.5rem;
+  }
+
+  .journey-pagination-dot {
+    width: 0.46rem;
+    height: 0.46rem;
+  }
+
+  /* .journey-pagination-dot.is-first,
+  .journey-pagination-dot.is-last {
+    width: 0.62rem;
+    height: 0.62rem;
+  } */
+
+  .journey-pagination-dot.is-active {
+    width: 1.1rem;
+  }
 }
 
 @media (hover: none) and (pointer: coarse) {
   .journey-image-controls {
     display: none;
+  }
+
+  .journey-pagination {
+    bottom: 0.65rem;
   }
 }
 
