@@ -2,6 +2,7 @@
   const reduceMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)",
   ).matches;
+  const SWIPE_THRESHOLD = 42;
 
   const stageImages = {
     1: [
@@ -89,6 +90,7 @@
 
   const CYCLE_DELAY = 6800;
   const FADE_MS = 800;
+  const carouselState = new WeakMap();
 
   function preloadImages(imageSources) {
     imageSources.forEach((source) => {
@@ -97,88 +99,212 @@
     });
   }
 
+  function getCarouselState(panelElement) {
+    if (!carouselState.has(panelElement)) {
+      carouselState.set(panelElement, {
+        timerId: null,
+        pointerId: null,
+        startX: 0,
+        startY: 0,
+      });
+    }
+
+    return carouselState.get(panelElement);
+  }
+
+  function clearCarouselTimer(panelElement) {
+    const state = getCarouselState(panelElement);
+
+    if (state.timerId) {
+      window.clearTimeout(state.timerId);
+      state.timerId = null;
+    }
+  }
+
+  function scheduleNextAdvance(panelElement, delay = CYCLE_DELAY) {
+    const state = getCarouselState(panelElement);
+
+    clearCarouselTimer(panelElement);
+    state.timerId = window.setTimeout(() => {
+      advanceImage(panelElement, 1, { fromUser: false });
+    }, delay);
+  }
+
+  function createControls(panelElement) {
+    const imageContainer = panelElement.querySelector(".journey-image");
+
+    if (
+      !imageContainer ||
+      imageContainer.querySelector(".journey-image-controls")
+    ) {
+      return imageContainer;
+    }
+
+    const controls = document.createElement("div");
+    controls.className = "journey-image-controls";
+
+    const previousButton = document.createElement("button");
+    previousButton.type = "button";
+    previousButton.className =
+      "journey-image-control journey-image-control-prev";
+    previousButton.setAttribute("aria-label", "Previous image");
+    previousButton.textContent = "‹";
+
+    const nextButton = document.createElement("button");
+    nextButton.type = "button";
+    nextButton.className = "journey-image-control journey-image-control-next";
+    nextButton.setAttribute("aria-label", "Next image");
+    nextButton.textContent = "›";
+
+    previousButton.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      advanceImage(panelElement, -1, { fromUser: true });
+    });
+
+    nextButton.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      advanceImage(panelElement, 1, { fromUser: true });
+    });
+
+    controls.append(previousButton, nextButton);
+    imageContainer.appendChild(controls);
+
+    return imageContainer;
+  }
+
   function transitionToSource(panelElement, imageElement, nextSource) {
     if (
       !panelElement ||
       !imageElement ||
       imageElement.getAttribute("src") === nextSource ||
-      panelElement.querySelector(".journey-image-overlay")
+      imageElement.dataset.transitioning === "true"
     ) {
-      return;
+      return false;
     }
 
-    const imageContainer = imageElement.closest(".journey-image");
-    if (!imageContainer) {
-      imageElement.src = nextSource;
-      return;
-    }
+    imageElement.dataset.transitioning = "true";
+    imageElement.classList.add("journey-image-fading");
 
-    const overlayImage = document.createElement("img");
-    overlayImage.className = "journey-image-overlay";
-    overlayImage.alt = imageElement.alt;
-    overlayImage.src = nextSource;
-
-    const finalizeSwap = () => {
-      imageElement.src = nextSource;
-      window.setTimeout(() => {
-        overlayImage.remove();
-      }, FADE_MS + 30);
+    const clearTransitionState = () => {
+      imageElement.dataset.transitioning = "false";
+      imageElement.classList.remove("journey-image-fading");
     };
 
-    overlayImage.addEventListener(
-      "load",
-      () => {
-        imageContainer.appendChild(overlayImage);
+    const onLoad = () => {
+      clearTransitionState();
+    };
 
-        window.requestAnimationFrame(() => {
-          overlayImage.classList.add("is-visible");
-        });
+    const onError = () => {
+      clearTransitionState();
+    };
 
-        window.setTimeout(finalizeSwap, FADE_MS);
-      },
-      { once: true },
-    );
+    imageElement.addEventListener("load", onLoad, { once: true });
+    imageElement.addEventListener("error", onError, { once: true });
 
-    overlayImage.addEventListener(
-      "error",
-      () => {
-        overlayImage.remove();
-      },
-      { once: true },
-    );
+    imageElement.src = nextSource;
 
-    if (overlayImage.complete && overlayImage.naturalWidth > 0) {
-      imageContainer.appendChild(overlayImage);
-      window.requestAnimationFrame(() => {
-        overlayImage.classList.add("is-visible");
-      });
-      window.setTimeout(finalizeSwap, FADE_MS);
+    return true;
+  }
+
+  function advanceImage(panelElement, direction, options = {}) {
+    const imageElement = panelElement.querySelector(".journey-image img");
+    const sources = stageImages[panelElement.dataset.stage] || [];
+
+    if (!imageElement || sources.length < 2) {
+      return;
     }
+
+    clearCarouselTimer(panelElement);
+
+    const currentIndex = Number(imageElement.dataset.carouselIndex || "0");
+    const nextIndex =
+      (currentIndex + direction + sources.length) % sources.length;
+    const started = transitionToSource(
+      panelElement,
+      imageElement,
+      sources[nextIndex],
+    );
+
+    if (started) {
+      imageElement.dataset.carouselIndex = String(nextIndex);
+      scheduleNextAdvance(panelElement);
+      return;
+    }
+
+    scheduleNextAdvance(panelElement, options.fromUser ? 350 : CYCLE_DELAY);
   }
 
   function setupCarousel(panelElement) {
     const stage = panelElement.dataset.stage;
     const imageElement = panelElement.querySelector(".journey-image img");
     const sources = stageImages[stage] || [];
+    const imageContainer = createControls(panelElement);
 
     if (!imageElement || sources.length < 2) {
       return;
     }
 
-    imageElement.dataset.carouselIndex = "0";
     preloadImages(sources);
 
-    if (reduceMotion) {
-      return;
+    if (!imageElement.dataset.carouselIndex) {
+      imageElement.dataset.carouselIndex = "0";
     }
 
-    window.setInterval(() => {
-      const currentIndex = Number(imageElement.dataset.carouselIndex || "0");
-      const nextIndex = (currentIndex + 1) % sources.length;
+    if (imageContainer) {
+      imageContainer.addEventListener("pointerdown", (event) => {
+        if (event.pointerType === "mouse" && event.button !== 0) {
+          return;
+        }
 
-      imageElement.dataset.carouselIndex = String(nextIndex);
-      transitionToSource(panelElement, imageElement, sources[nextIndex]);
-    }, CYCLE_DELAY);
+        if (event.target.closest(".journey-image-control")) {
+          return;
+        }
+
+        const state = getCarouselState(panelElement);
+        state.pointerId = event.pointerId;
+        state.startX = event.clientX;
+        state.startY = event.clientY;
+
+        try {
+          imageContainer.setPointerCapture(event.pointerId);
+        } catch {
+          // Some browsers and synthetic events do not support pointer capture here.
+        }
+      });
+
+      imageContainer.addEventListener("pointerup", (event) => {
+        const state = getCarouselState(panelElement);
+
+        if (state.pointerId !== event.pointerId) {
+          return;
+        }
+
+        const deltaX = event.clientX - state.startX;
+        const deltaY = event.clientY - state.startY;
+
+        state.pointerId = null;
+
+        if (
+          Math.abs(deltaX) < SWIPE_THRESHOLD ||
+          Math.abs(deltaX) < Math.abs(deltaY)
+        ) {
+          return;
+        }
+
+        advanceImage(panelElement, deltaX < 0 ? 1 : -1, { fromUser: true });
+      });
+
+      imageContainer.addEventListener("pointercancel", () => {
+        const state = getCarouselState(panelElement);
+        state.pointerId = null;
+      });
+    }
+
+    if (!reduceMotion) {
+      scheduleNextAdvance(panelElement);
+    }
   }
 
   function initJourneyCarousels() {
