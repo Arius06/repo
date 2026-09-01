@@ -10,44 +10,44 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <link
       rel="icon"
       type="image/x-icon"
-      href="logo-companii/website-favicon/favicon.ico"
+      href="../logo-companii/website-favicon/favicon.ico"
     />
     <link
       rel="icon"
       type="image/png"
-      href="logo-companii/website-favicon/favicon-16x16.png"
+      href="../logo-companii/website-favicon/favicon-16x16.png"
     />
     <link
       rel="icon"
       type="image/png"
-      href="logo-companii/website-favicon/favicon-32x32.png"
+      href="../logo-companii/website-favicon/favicon-32x32.png"
     />
     <link
       rel="apple-touch-icon"
-      href="logo-companii/website-favicon/apple-touch-icon.png"
+      href="../logo-companii/website-favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="512x512"
-      href="logo-companii/website-favicon/android-chrome-512x512.png"
+      href="../logo-companii/website-favicon/android-chrome-512x512.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="logo-companii/website-favicon/android-chrome-192x192.png"
+      href="../logo-companii/website-favicon/android-chrome-192x192.png"
     />
   </head>
   <body>
     <nav id="navbar">
       <div class="nav-container">
-        <a href="index.html" class="logo" aria-label="Acasă">
-          <img src="./logo-companii/logo-patronat.png" alt="Logo Patronat" />
+        <a href="../index.html" class="logo" aria-label="Acasă">
+          <img src="../logo-companii/logo-patronat.png" alt="Logo Patronat" />
           <span class="logo-dot"></span>
           <br />
           <p data-i18n="nav.logoText">
@@ -64,13 +64,13 @@
           <span class="nav-toggle-lines"></span>
         </button>
         <ul id="primary-navigation" class="nav-menu">
-          <li><a href="index.html#hero" data-i18n="nav.home">Acasă</a></li>
+          <li><a href="../index.html#hero" data-i18n="nav.home">Acasă</a></li>
           <li><a href="aboutus.html" data-i18n="nav.about">Despre Noi</a></li>
           <li><a href="members.html" data-i18n="nav.members">Membri</a></li>
           <li><a href="news.html" data-i18n="nav.news">Noutăți</a></li>
           <li><a href="resurse.html" data-i18n="nav.resources">Resurse</a></li>
           <li>
-            <a href="index.html#contacts" data-i18n="nav.contact">Contact</a>
+            <a href="../index.html#contacts" data-i18n="nav.contact">Contact</a>
           </li>
           <li class="language-switcher" data-no-translate>
             <button type="button" data-language-switcher data-lang="ro">
@@ -96,7 +96,7 @@
               Descoperă ultimele actualizări despre activitatea patronatului.
             </p>
           </div>
-          <img src="logo-companii/logo-patronat.png" alt="PIIPC Logo" />
+          <img src="../logo-companii/logo-patronat.png" alt="PIIPC Logo" />
         </div>
 
         <div id="newsGrid" class="news-grid-container"></div>
@@ -107,7 +107,7 @@
       <div class="footer-content">
         <div class="footer-section">
           <img
-            src="./logo-companii/logo-patronat.png"
+            src="../logo-companii/logo-patronat.png"
             alt="PIIPC"
             class="footer-brand-logo"
           />
@@ -132,7 +132,7 @@
           <ul>
             <li>
               <a
-                href="resources/extras-patronat.pdf"
+                href="../resources/extras-patronat.pdf"
                 target="_blank"
                 data-i18n="index.footer.extras"
                 >Extras înregistrare</a
@@ -140,7 +140,7 @@
             </li>
             <li>
               <a
-                href="resources/studiu-maib.pdf"
+                href="../resources/studiu-maib.pdf"
                 target="_blank"
                 data-i18n="index.footer.caseStudy"
                 >Studiu de caz 2025</a
@@ -159,9 +159,6 @@
                 >Facebook</a
               >
             </li>
-            <li>
-              <a href="#" data-i18n="footer.otherPlatforms">Alte platforme</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -173,15 +170,15 @@
       </div>
     </footer>
 
-    <script src="translations.js"></script>
-    <script src="i18n.js"></script>
-    <script src="parallax.js"></script>
-    <script src="scroll-reveal.js"></script>
+    <script src="../scripts/translations.js"></script>
+    <script src="../scripts/i18n.js"></script>
+    <script src="../scripts/parallax.js"></script>
+    <script src="../scripts/scroll-reveal.js"></script>
     <script>
       const newsData = [
         {
           id: "article-3",
-          image: "photos/news-thumbnails/euro-ansa-maia.webp",
+          image: "../photos/news-thumbnails/euro-ansa-maia.webp",
           date: "Iunie 2025",
           title: "Experții europeni sprijină ANSA și MAIA",
           summary:
@@ -196,7 +193,7 @@
         },
         {
           id: "article-1",
-          image: "photos/news-thumbnails/preturi-porc.webp",
+          image: "../photos/news-thumbnails/preturi-porc.webp",
           date: "Mai 2025",
           title:
             "Prețurile la carnea de porc cresc în pofida afirmațiilor oficialilor",
@@ -212,7 +209,7 @@
         },
         {
           id: "article-2",
-          image: "photos/news-thumbnails/situatia-epizootica.webp",
+          image: "../photos/news-thumbnails/situatia-epizootica.webp",
           date: "Mai 2025",
           title: "Situația epizootică în Republica Moldova în mai",
           summary:
@@ -227,7 +224,7 @@
         },
         {
           id: "article-5",
-          image: "photos/news-thumbnails/article5.webp",
+          image: "../photos/news-thumbnails/article5.webp",
           date: "Mai 2025",
           title:
             "Există un deficit și o creștere a prețurilor la carnea de porc?",
@@ -243,7 +240,7 @@
         },
         {
           id: "article-6",
-          image: "photos/news-thumbnails/article6.webp",
+          image: "../photos/news-thumbnails/article6.webp",
           date: "Mai 2025",
           title:
             "Prețul cărnii de porc este în creștere, contrar declarațiilor MAIA.",
@@ -259,7 +256,7 @@
         },
         {
           id: "article-4",
-          image: "photos/news-thumbnails/article4.webp",
+          image: "../photos/news-thumbnails/article4.webp",
           date: "August 2023",
           title: "Prețurile produselor din carne de porc vor crește",
           summary:

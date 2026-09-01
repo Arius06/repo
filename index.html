@@ -66,10 +66,16 @@
         </button>
         <ul id="primary-navigation" class="nav-menu">
           <li><a href="#hero" data-i18n="nav.home">Acasă</a></li>
-          <li><a href="aboutus.html" data-i18n="nav.about">Despre Noi</a></li>
-          <li><a href="members.html" data-i18n="nav.members">Membri</a></li>
-          <li><a href="news.html" data-i18n="nav.news">Noutăți</a></li>
-          <li><a href="resurse.html" data-i18n="nav.resources">Resurse</a></li>
+          <li>
+            <a href="pages/aboutus.html" data-i18n="nav.about">Despre Noi</a>
+          </li>
+          <li>
+            <a href="pages/members.html" data-i18n="nav.members">Membri</a>
+          </li>
+          <li><a href="pages/news.html" data-i18n="nav.news">Noutăți</a></li>
+          <li>
+            <a href="pages/resurse.html" data-i18n="nav.resources">Resurse</a>
+          </li>
           <li><a href="#contacts" data-i18n="nav.contact">Contact</a></li>
           <li class="language-switcher" data-no-translate>
             <button type="button" data-language-switcher data-lang="ro">
@@ -156,7 +162,7 @@
                 salariile angajaților și taxele la buget.
               </p>
               <a
-                href="aboutus.html"
+                href="pages/aboutus.html"
                 class="read-more"
                 data-i18n="index.about.readMore"
                 >Află mai mult</a
@@ -344,7 +350,7 @@
     <section id="news" class="news">
       <div class="container">
         <h2 class="fade-in-on-scroll" data-i18n="index.news.title">Noutăți</h2>
-        <a href="news.html" class="news-banner fade-in-on-scroll">
+        <a href="pages/news.html" class="news-banner fade-in-on-scroll">
           <img
             src="photos/482A0288.webp"
             alt="Noutăți Patronat"
@@ -446,7 +452,7 @@
         <a
           class="read-more"
           style="margin-top: 6vh"
-          href="resurse.html"
+          href="pages/resurse.html"
           data-i18n="resources.page.hyperlink"
           >Vezi toate resursele</a
         >
@@ -570,14 +576,16 @@
           <h4 data-i18n="footer.about">Despre noi</h4>
           <ul>
             <li>
-              <a href="aboutus.html" data-i18n="footer.aboutPatronat"
+              <a href="pages/aboutus.html" data-i18n="footer.aboutPatronat"
                 >Despre Patronat</a
               >
             </li>
-            <li><a href="members.html" data-i18n="nav.members">Membri</a></li>
-            <li><a href="news.html" data-i18n="nav.news">Noutăți</a></li>
             <li>
-              <a href="resurse.html" data-i18n="nav.resources">Resurse</a>
+              <a href="pages/members.html" data-i18n="nav.members">Membri</a>
+            </li>
+            <li><a href="pages/news.html" data-i18n="nav.news">Noutăți</a></li>
+            <li>
+              <a href="pages/resurse.html" data-i18n="nav.resources">Resurse</a>
             </li>
           </ul>
         </div>
@@ -627,10 +635,10 @@
       </div>
     </footer>
 
-    <script src="translations.js"></script>
-    <script src="i18n.js"></script>
-    <script src="parallax.js"></script>
-    <script src="scroll-reveal.js"></script>
+    <script src="../scripts/translations.js"></script>
+    <script src="../scripts/i18n.js"></script>
+    <script src="../scripts/parallax.js"></script>
+    <script src="../scripts/scroll-reveal.js"></script>
     <script>
       const navbar = document.getElementById("navbar");
       const navToggle = document.querySelector(".nav-toggle");
@@ -834,7 +842,7 @@
         .forEach((card) => {
           card.addEventListener("click", () => {
             // Navigate to members page
-            window.location.href = "members.html";
+            window.location.href = "pages/members.html";
           });
         });
 
