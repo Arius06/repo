@@ -30,6 +30,30 @@
   --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+html:lang(ru) {
+  --font-primary: "Noto Sans", sans-serif;
+  --font-secondary: "Noto Serif", serif;
+  --font-body-size: 1rem;
+  --font-nav-size: 0.9rem;
+}
+
+html:lang(ru) p {
+  font-size: var(--font-body-size);
+}
+
+html:lang(ru) nav a,
+html:lang(ru) .logo p,
+html:lang(ru) .language-switcher button {
+  font-size: var(--font-nav-size);
+}
+
+@media (max-width: 768px) {
+  html:lang(ru) {
+    --font-body-size: 0.95rem;
+    --font-nav-size: 0.85rem;
+  }
+}
+
 @media (max-width: 1500px) and (min-width: 769px) {
   :root {
     --page-gutter: clamp(3rem, 8vw, 7rem);
@@ -461,6 +485,7 @@ nav a:hover::after {
 
 .hero-content {
   max-width: 46rem;
+  min-width: 0;
   text-align: left;
   position: relative;
   z-index: 1;
@@ -502,11 +527,12 @@ nav a:hover::after {
   color: var(--color-dark);
   font-weight: 600;
   font-size: 4rem;
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 425px) {
   .hero h1 {
-    font-size: 3rem;
+    font-size: clamp(2.1rem, 10vw, 2.55rem);
   }
 
   .hero p {
@@ -533,8 +559,10 @@ nav a:hover::after {
 
   .hero {
     /* min-height: auto; */
-    height: 90%;
+    height: auto;
+    min-height: 100svh;
     padding: 6.75rem 1.25rem 3rem;
+    overflow: visible;
   }
 
   .hero-layout {
@@ -751,18 +779,19 @@ section h2::after {
     rgba(211, 47, 47, 0.1) 0%,
     rgba(211, 47, 47, 0.05) 100%
   );
-  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 4rem;
   opacity: 0;
   animation: fadeInRight 0.8s ease-out 0.2s forwards;
+  border-radius: 15px;
   position: relative;
   overflow: hidden;
 }
 
 .index-about-image img {
+  border-radius: 15px;
   width: 100%;
   height: 100%;
   object-fit: contain;
