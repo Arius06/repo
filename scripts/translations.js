@@ -790,7 +790,7 @@
     "news.article2.title": "Epizootic situation of Moldova in May",
     "news.article2.summary":
       "Between 18.05.2026 and 25.05.2026, three outbreaks of animal diseases were recorded ...",
-    "news.article3.date": "June 2025",
+    "news.article3.date": "June 2026",
     "news.article3.title": "European experts support ANSA & MAIA",
     "news.article3.summary":
       "The National Food Safety Agency (ANSA), in cooperation with the Ministry of ...",
@@ -809,6 +809,10 @@
       "Pig meat prices rise, contrary to the claims of the authorities",
     "news.article6.summary":
       "Prices for purchasing pig meat have risen with approximately 10-12% from the...",
+    "news.article7.date": "September 2026",
+    "news.article7.title": "Livestock industry discusses new support measures",
+    "news.article7.summary":
+      "MAIA has convened the sectoral advisory councils for swine, poultry, fur animals, meat and meat products.",
     "index.footer.extras": "Registration certificate",
     "index.footer.caseStudy": "Market Study 2025",
     "index.footer.facebook": "Facebook",
@@ -1117,7 +1121,7 @@
     "news.article2.title": "Эпизоотическая ситуация в Молдовe в мае",
     "news.article2.summary":
       "В период с 18.05.2026 по 25.05.2026 на территории Республики Молдова зафиксировано три вспышки ...",
-    "news.article3.date": "Июнь 2025",
+    "news.article3.date": "Июнь 2026",
     "news.article3.title": "Европейские эксперты поддерживают ANSA и MAIA",
     "news.article3.summary":
       "23–24 июня 2026 года Национальное агентство по безопасности пищевых продуктов (ANSA) в сотрудничестве ...",
@@ -1133,6 +1137,11 @@
     "news.article6.title": "Цены на свинину растут, вопреки заявлениям MAIA",
     "news.article6.summary":
       "Оптовые цены на свинину выросли примерно на 10–12% с середины апреля...",
+    "news.article7.date": "Сентябрь 2026",
+    "news.article7.title":
+      "Меры поддержки сектора животноводства на рассмотрении",
+    "news.article7.summary":
+      "МАИА созвала секторальные консультативные советы по свинине, птицеводству, пушным животным, мясу и мясным продуктам.",
     "index.footer.extras": "Выдержка из записи",
     "index.footer.caseStudy": "Исследование рынка 2025 года",
     "index.footer.facebook": "Facebook",
