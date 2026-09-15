@@ -103,6 +103,114 @@
       </div>
     </section>
 
+    <div
+      id="pressReleaseModal"
+      class="member-modal press-release-modal"
+      aria-hidden="true"
+    >
+      <div class="member-modal-overlay"></div>
+      <div
+        class="member-modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="pressReleaseModalTitle"
+      >
+        <button
+          type="button"
+          class="modal-close-btn"
+          data-i18n-aria-label="news.pressRelease.closeAria"
+          aria-label="Închide comunicatul de presă"
+        >
+          ✕
+        </button>
+        <div class="modal-header">
+          <h2
+            id="pressReleaseModalTitle"
+            data-i18n="news.pressRelease.modalTitle"
+          >
+            Comunicat de presă
+          </h2>
+        </div>
+        <div class="press-release-body">
+          <p>
+            În calitate de președinte al PIIPC, Eugeniu Salcutan a participat la
+            audierile publice organizate de Comisia pentru economie, buget și
+            finanțe pe marginea Proiectului 326/2026 privind simplificarea
+            legislației fiscale și vamale.
+          </p>
+          <p>
+            Domnul Salcutan a menționat că a simțit o deschidere din partea
+            președintelui Comisiei pentru buget, economie și finanțe, domnul
+            Marcel Spătari, față de comunitatea de business, care a venit cu mai
+            multe constrângeri, dar și propuneri pentru politica bugetar-fiscală
+            a anului 2027.
+          </p>
+          <p>
+            El a vorbit despre evoluția sectorului cărnii — carne de orice
+            specie, produse din carne și lanțul valoric aferent — subliniind
+            atât progresele, cât și regresele înregistrate. De asemenea, a atras
+            atenția asupra impactului economic al regimului TVA diferențiat și a
+            prezentat propunerile sectorului pe marginea proiectului de lege
+            privind simplificarea legislației fiscale și vamale (cu aplicare de
+            la 1 ianuarie 2027).
+          </p>
+          <p>
+            Potrivit domnului Salcutan, proiectul Ministerului Finanțelor
+            propune introducerea a trei cote de TVA distincte pe același lanț
+            valoric: majorarea cotei pentru cereale la 12%, reducerea selectivă
+            la 8% doar pentru carnea de găină, în timp ce carnea de porc și
+            mezelurile rămân la 20%.
+          </p>
+          <p>
+            El a arătat că această construcție fiscală generează cinci riscuri
+            severe pentru economia țării:
+          </p>
+          <ul>
+            <li>Distorsionarea concurenței la raft.</li>
+            <li>Subvenționarea indirectă a importurilor.</li>
+            <li>Penalizarea procesării și a valorii adăugate locale.</li>
+            <li>Decapitalizarea fermelor și a abatoarelor.</li>
+            <li>Lipsa precedentului european.</li>
+          </ul>
+          <p>
+            Domnul Salcutan a subliniat că niciunul dintre cele 27 de state
+            membre ale Uniunii Europene nu folosește modelul hibrid propus în
+            Republica Moldova. În Uniunea Europeană, taxarea se bazează fie pe
+            principiul uniformității pe lanțul valoric (de exemplu, Cehia — 12%,
+            Germania — 7%, România — 11%), fie separă carnea proaspătă de cea
+            procesată, dar nu diferențiază niciodată în funcție de specii de
+            animale concurente. El a menționat și că Directiva 112/2006 prevede
+            clar aplicarea unei cote unice de TVA pe tot lanțul valoric, „de la
+            furcă la furculiță”.
+          </p>
+          <p>Propunerile prezentate de domnul Salcutan au fost următoarele:</p>
+          <h3>Varianta optimă: cotă unică de 12% pe întregul lanț valoric</h3>
+          <p>
+            Aplicarea cotei de 12% de la cereale și furaje până la carnea
+            proaspătă și mezeluri, însoțită de dreptul obligatoriu la
+            restituire.
+          </p>
+          <p>
+            Efect social: reducerea prețului brut la raft cu 6,7% la toate
+            produsele din carne și mezeluri din comerț.
+          </p>
+          <h3>
+            Varianta acceptabilă: menținerea regimului actual de 20% la carne
+          </h3>
+          <p>
+            Cerealele urcă la 12%, conform proiectului, însă furajele, animalele
+            vii, carnea pentru toate speciile și mezelurile rămân la cota
+            standard actuală de 20%.
+          </p>
+          <p>
+            Efect sectorial: eliminarea celor cinci riscuri de piață menționate,
+            asigurarea unui tratament fiscal egal între specii și păstrarea unui
+            regim fiscal predictibil pentru companii.
+          </p>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <div class="footer-content">
         <div class="footer-section">
@@ -176,6 +284,22 @@
     <script src="../scripts/scroll-reveal.js"></script>
     <script>
       const newsData = [
+        {
+          id: "article-8",
+          image: "../photos/news-thumbnails/politica-fiscala.webp",
+          date: "Septembrie 2026",
+          title:
+            "Noua politică fiscală, atacată de industria cărnii: „Subvenționăm importurile din bani publici cu TVA de 8%”",
+          summary:
+            "Industria cărnii avertizează că diferențierea cotelor TVA ar putea favoriza importurile, distorsiona piața și pune presiune pe producătorii locali.",
+          url: "https://bani.md/noua-politica-fiscala-atacata-de-industria-carnii-subventionam-importurile-din-bani-publici-cu-tva-de-8/",
+          i18n: {
+            date: "news.article8.date",
+            title: "news.article8.title",
+            summary: "news.article8.summary",
+            content: "news.article8.content",
+          },
+        },
         {
           id: "article-7",
           image: "../photos/news-thumbnails/minister_intalnire.webp",
@@ -311,6 +435,21 @@
         articleElement.dataset.articleId = article.id;
 
         articleElement.innerHTML = `
+          ${
+            article.id === "article-8"
+              ? `
+            <div
+              class="news-press-banner"
+              role="button"
+              tabindex="0"
+              aria-controls="pressReleaseModal"
+            >
+              <span class="news-press-banner-title">${t("news.pressRelease.title", "Poziția președintelui Patronatului privind dezbaterea politicii fiscale")}</span>
+              <span class="news-press-banner-cta">${t("news.pressRelease.cta", "Citește comunicatul")}</span>
+            </div>
+          `
+              : ""
+          }
           <div class="news-image">
             <img src="${article.image}" alt="${localizedArticleValue(article, "title")}" />
           </div>
@@ -337,6 +476,57 @@
       });
 
       renderNewsGrid();
+
+      const pressReleaseModal = document.getElementById("pressReleaseModal");
+      const pressReleaseOverlay = pressReleaseModal.querySelector(
+        ".member-modal-overlay",
+      );
+      const pressReleaseCloseButton =
+        pressReleaseModal.querySelector(".modal-close-btn");
+
+      function openPressReleaseModal() {
+        pressReleaseModal.classList.add("active");
+        pressReleaseModal.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+        pressReleaseCloseButton.focus();
+      }
+
+      function closePressReleaseModal() {
+        pressReleaseModal.classList.remove("active");
+        pressReleaseModal.setAttribute("aria-hidden", "true");
+        document.body.style.overflow = "";
+      }
+
+      newsGrid.addEventListener("click", (event) => {
+        const banner = event.target.closest(".news-press-banner");
+        if (!banner) {
+          return;
+        }
+
+        event.preventDefault();
+        openPressReleaseModal();
+      });
+
+      newsGrid.addEventListener("keydown", (event) => {
+        const banner = event.target.closest(".news-press-banner");
+        if (!banner || !["Enter", " "].includes(event.key)) {
+          return;
+        }
+
+        event.preventDefault();
+        openPressReleaseModal();
+      });
+
+      pressReleaseCloseButton.addEventListener("click", closePressReleaseModal);
+      pressReleaseOverlay.addEventListener("click", closePressReleaseModal);
+      document.addEventListener("keydown", (event) => {
+        if (
+          event.key === "Escape" &&
+          pressReleaseModal.classList.contains("active")
+        ) {
+          closePressReleaseModal();
+        }
+      });
 
       const navbar = document.getElementById("navbar");
       const navToggle = document.querySelector(".nav-toggle");

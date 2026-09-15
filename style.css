@@ -9,7 +9,7 @@
   --color-slate: #404040;
   --color-cream: #ffffff;
   --color-red: #cd1e25;
-  --color-blue: #d32f2f;
+  --color-red: #d32f2f;
   --color-orange: #d32f2f;
   --color-yellow: #d32f2f;
   --color-border: #e0e0e0;
@@ -107,7 +107,7 @@ p {
 }
 
 a {
-  color: var(--color-blue);
+  color: var(--color-red);
   text-decoration: none;
   transition: var(--transition);
   cursor: pointer;
@@ -166,7 +166,7 @@ nav .nav-container {
   display: inline-block;
   width: 0.4rem;
   height: 0.4rem;
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
   border-radius: 50%;
   animation: pulse 2s ease-in-out infinite;
 }
@@ -257,7 +257,7 @@ nav a::after {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
   transition: width 0.3s ease-out;
 }
 
@@ -285,11 +285,11 @@ nav a:hover::after {
 }
 
 .language-switcher button:hover {
-  color: var(--color-blue);
+  color: var(--color-red);
 }
 
 .language-switcher button.active {
-  color: var(--color-blue);
+  color: var(--color-red);
 }
 
 @media (max-width: 1024px) {
@@ -646,12 +646,12 @@ nav a:hover::after {
   align-items: center;
   gap: 0.75rem;
   padding: 1rem 2.5rem;
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
   color: white;
   border-radius: 40px;
   font-weight: 600;
   font-size: 1rem;
-  border: 2px solid var(--color-blue);
+  border: 2px solid var(--color-red);
   cursor: pointer;
   transition: var(--transition);
   text-decoration: none;
@@ -659,19 +659,19 @@ nav a:hover::after {
 
 .cta-button:hover {
   background-color: transparent;
-  color: var(--color-blue);
+  color: var(--color-red);
   transform: translateY(-3px);
   box-shadow: 0 12px 24px rgba(0, 102, 204, 0.2);
 }
 
 .cta-button.secondary {
   background-color: transparent;
-  color: var(--color-blue);
+  color: var(--color-red);
   margin-left: 1rem;
 }
 
 .cta-button.secondary:hover {
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
   color: white;
 }
 
@@ -981,7 +981,7 @@ section h2::after {
   background: linear-gradient(
     90deg,
     transparent,
-    var(--color-blue),
+    var(--color-red),
     transparent
   );
   animation: shimmer 3s infinite;
@@ -1002,7 +1002,7 @@ section h2::after {
 .stat-number {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 700;
-  color: var(--color-blue);
+  color: var(--color-red);
   margin-bottom: 0.75rem;
   letter-spacing: -0.02em;
 }
@@ -1126,9 +1126,9 @@ section h2::after {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  border: 2px solid var(--color-blue);
+  border: 2px solid var(--color-red);
   background-color: white;
-  color: var(--color-blue);
+  color: var(--color-red);
   font-size: 1.2rem;
   cursor: pointer;
   display: flex;
@@ -1138,7 +1138,7 @@ section h2::after {
 }
 
 .carousel-btn:hover {
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
   color: white;
   transform: scale(1.05);
 }
@@ -1194,7 +1194,7 @@ section h2::after {
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--color-blue);
+  background: var(--color-red);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.4s ease-out;
@@ -1405,6 +1405,37 @@ section h2::after {
   transform: translateY(-6px);
 }
 
+.news-press-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem;
+  background-color: var(--color-red);
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.news-press-banner:hover,
+.news-press-banner:focus-visible {
+  background-color: var(--color-dark);
+}
+
+.news-press-banner-title {
+  font-family: "Noto Serif", serif;
+  font-size: 1rem;
+}
+
+.news-press-banner-cta {
+  align-self: flex-start;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.news-press-banner-cta::after {
+  content: " →";
+}
+
 .news-image {
   width: 100%;
   height: 200px;
@@ -1505,7 +1536,7 @@ section h2::after {
   align-items: center;
   gap: 0.5rem;
   font-weight: 600;
-  color: var(--color-blue);
+  color: var(--color-red);
 }
 
 .read-more::after {
@@ -1577,7 +1608,7 @@ section h2::after {
 }
 
 .resources h2::after {
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
 }
 
 .resources-grid {
@@ -1702,7 +1733,7 @@ section h2::after {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: var(--color-blue);
+  border-color: var(--color-red);
   background-color: white;
   box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
 }
@@ -1714,7 +1745,7 @@ section h2::after {
 
 .submit-btn {
   padding: 1rem 2rem;
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
   color: white;
   border: none;
   border-radius: 8px;
@@ -1726,10 +1757,10 @@ section h2::after {
 
 .submit-btn:hover {
   background-color: var(--color-cream);
-  color: var(--color-blue);
+  color: var(--color-red);
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(0, 102, 204, 0.3);
-  border: 1px solid var(--color-blue);
+  border: 1px solid var(--color-red);
 }
 
 @media (max-width: 768px) {
@@ -1761,7 +1792,7 @@ section h2::after {
 .product-journey-section h2::after {
   width: 60px;
   height: 4px;
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
   border-radius: 2px;
   margin-top: 0.75rem;
 }
@@ -1823,14 +1854,14 @@ section h2::after {
     rgba(211, 47, 47, 0.04) 100%
   );
   color: var(--color-dark);
-  border-right: 3px solid var(--color-blue);
+  border-right: 3px solid var(--color-red);
 }
 
 .journey-number {
   flex-shrink: 0;
   font-size: 1.2rem;
   font-weight: 700;
-  color: var(--color-blue);
+  color: var(--color-red);
   opacity: 0.7;
   transition: var(--transition);
 }
@@ -1901,7 +1932,7 @@ section h2::after {
   padding: 0.25rem 0.7rem;
   border-radius: 20px;
   border: 1px solid rgba(211, 47, 47, 0.25);
-  color: var(--color-blue);
+  color: var(--color-red);
   font: inherit;
   font-weight: 700;
   cursor: pointer;
@@ -1910,7 +1941,7 @@ section h2::after {
 
 .journey-next-button:hover {
   transform: translateY(-2px);
-  background: var(--color-blue);
+  background: var(--color-red);
   color: white;
   box-shadow: 0 10px 20px rgba(0, 102, 204, 0.18);
 }
@@ -2138,7 +2169,7 @@ section h2::after {
   }
 
   .journey-tab.active {
-    border-right: 3px solid var(--color-blue);
+    border-right: 3px solid var(--color-red);
     border-bottom: 1px solid var(--color-border);
     background: rgba(211, 47, 47, 0.08);
   }
@@ -2386,9 +2417,9 @@ footer {
 
 .find-more-btn {
   padding: 0.75rem 1.75rem;
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
   color: white;
-  border: 2px solid var(--color-blue);
+  border: 2px solid var(--color-red);
   border-radius: 50px;
   font-weight: 600;
   font-size: 0.9rem;
@@ -2400,7 +2431,7 @@ footer {
 
 .find-more-btn:hover {
   background-color: transparent;
-  color: var(--color-blue);
+  color: var(--color-red);
 }
 
 .find-more-btn:active {
@@ -2482,7 +2513,7 @@ footer {
 }
 
 .modal-close-btn:hover {
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
   color: white;
 }
 
@@ -2495,7 +2526,7 @@ footer {
 .modal-header {
   text-align: center;
   padding-bottom: 1.5rem;
-  border-bottom: 2px solid var(--color-blue);
+  border-bottom: 2px solid var(--color-red);
 }
 
 .modal-logo {
@@ -2524,7 +2555,7 @@ footer {
 }
 
 .modal-role-tag {
-  color: var(--color-blue);
+  color: var(--color-red);
   font-size: 0.9rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -2579,7 +2610,7 @@ footer {
   color: var(--color-dark);
   font-size: 1rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid var(--color-blue);
+  border-bottom: 2px solid var(--color-red);
   padding-bottom: 0.5rem;
 }
 
@@ -2597,7 +2628,7 @@ footer {
 }
 
 .modal-contact-item a {
-  color: var(--color-blue);
+  color: var(--color-red);
   word-break: break-all;
 }
 
@@ -2622,13 +2653,53 @@ footer {
   content: "✓";
   position: absolute;
   left: 0;
-  color: var(--color-blue);
+  color: var(--color-red);
   font-weight: bold;
 }
 
 .modal-social-links {
   display: flex;
   gap: 1rem;
+}
+
+.press-release-modal .member-modal-content {
+  max-width: 760px;
+}
+
+.press-release-modal .modal-header {
+  text-align: left;
+  padding-right: 3rem;
+}
+
+.press-release-modal .modal-header h2 {
+  margin-bottom: 0;
+}
+
+.press-release-body {
+  color: var(--color-slate);
+  font-size: 1rem;
+  line-height: 1.75;
+  padding-top: 1.5rem;
+}
+
+.press-release-body p {
+  margin: 0 0 1.25rem;
+}
+
+.press-release-body ul {
+  margin: -0.5rem 0 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.press-release-body li {
+  margin-bottom: 0.4rem;
+}
+
+.press-release-body h3 {
+  color: var(--color-dark);
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin: 1.75rem 0 0.75rem;
 }
 
 .social-link {
@@ -2639,7 +2710,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-blue);
+  color: var(--color-red);
   transition: var(--transition);
   border: 2px solid var(--color-border);
   padding: 0.4rem;
@@ -2651,9 +2722,9 @@ footer {
 }
 
 .social-link:hover {
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
   color: white;
-  border-color: var(--color-blue);
+  border-color: var(--color-red);
 }
 
 /* News Page */

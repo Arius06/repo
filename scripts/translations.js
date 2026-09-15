@@ -181,6 +181,14 @@
     "news.subtitle":
       "Descoperă ultimele actualizări despre activitatea patronatului.",
     "news.readMore": "Vezi mai mult",
+    "news.article8.date": "Septembrie 2026",
+    "news.article8.title": "Noua politică fiscală, atacată de industria cărnii",
+    "news.article8.summary":
+      "Industria cărnii avertizează că diferențierea cotelor TVA ar putea ...",
+    "news.pressRelease.title": "Concluzia președintelui Patronatului",
+    "news.pressRelease.cta": "Citește comunicatul de presă",
+    "news.pressRelease.modalTitle": "Comunicat de presă",
+    "news.pressRelease.closeAria": "Închide comunicatul de presă",
     "news.modal.closeAria": "Închide",
     "resources.metaTitle": "Resurse - Patronat Carne",
     "resources.title": "Resurse",
@@ -813,6 +821,14 @@
     "news.article7.title": "Livestock industry discusses new support measures",
     "news.article7.summary":
       "MAIA has convened the sectoral advisory councils for swine, poultry, fur animals, meat and meat products.",
+    "news.article8.date": "September 2026",
+    "news.article8.title": "New fiscal policy challenged by the meat industry",
+    "news.article8.summary":
+      "The meat industry warns that differentiated VAT rates could ...",
+    "news.pressRelease.title": "The association president's take",
+    "news.pressRelease.cta": "Read the press release",
+    "news.pressRelease.modalTitle": "Press release",
+    "news.pressRelease.closeAria": "Close press release",
     "index.footer.extras": "Registration certificate",
     "index.footer.caseStudy": "Market Study 2025",
     "index.footer.facebook": "Facebook",
@@ -1142,6 +1158,15 @@
       "Меры поддержки сектора животноводства на рассмотрении",
     "news.article7.summary":
       "МАИА созвала секторальные консультативные советы по свинине, птицеводству, пушным животным, мясу и мясным продуктам.",
+    "news.article8.date": "Сентябрь 2026",
+    "news.article8.title":
+      "Новая налоговая политика подверглась критике со стороны мясной отрасли",
+    "news.article8.summary":
+      "Мясная отрасль предупреждает, что дифференцированные ставки НДС могут ...",
+    "news.pressRelease.title": "Заключение президента Патроната",
+    "news.pressRelease.cta": "Читать пресс-релиз",
+    "news.pressRelease.modalTitle": "Пресс-релиз",
+    "news.pressRelease.closeAria": "Закрыть пресс-релиз",
     "index.footer.extras": "Выдержка из записи",
     "index.footer.caseStudy": "Исследование рынка 2025 года",
     "index.footer.facebook": "Facebook",
