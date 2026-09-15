@@ -4,3 +4,9 @@ deployment:
     - export DEPLOYPATH=/home/patronat/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R icons $DEPLOYPATH
+    - /bin/cp -R logo-companii $DEPLOYPATH
+    - /bin/cp -R pages $DEPLOYPATH
+    - /bin/cp -R photos $DEPLOYPATH
+    - /bin/cp -R resources $DEPLOYPATH
+    - /bin/cp -R scripts $DEPLOYPATH
